@@ -150,6 +150,27 @@
   .toast.show { opacity: 1; }
   .toast.bad { border-color: var(--red); color: var(--red); }
   .muted { color: var(--faint); }
+
+  /* today */
+  .today { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
+  @media (max-width: 640px) { .today { grid-template-columns: repeat(2, 1fr); } }
+  .tcell { background: var(--bg-2); border: 1px solid var(--line); padding: 10px 12px; }
+  .tnum { font-family: var(--mono); font-weight: 700; font-size: 22px; font-variant-numeric: tabular-nums; margin-top: 2px; }
+  .tnum small { font-size: 13px; color: var(--faint); font-weight: 500; }
+  .tbar { height: 5px; background: var(--bg); margin-top: 8px; position: relative; overflow: hidden; }
+  .tbar i { position: absolute; inset: 0 auto 0 0; background: var(--amber); }
+  .tcell.done .tbar i { background: var(--green); }
+  .tcell.done .tnum { color: var(--green); }
+
+  /* playbook */
+  .plays { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 10px; }
+  .play { background: var(--panel); border: 1px solid var(--line); padding: 12px 14px; display: flex; flex-direction: column; gap: 8px; }
+  .play-head { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+  .play-title { font-weight: 700; font-size: 14px; }
+  .play-when { font-size: 12px; color: var(--dim); }
+  .play-text { font-size: 13.5px; background: var(--bg-2); border-left: 2px solid var(--amber); padding: 8px 10px; white-space: pre-wrap; }
+  .copy { background: transparent; border: 1px solid var(--line-2); font-family: var(--mono); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; padding: 5px 10px; }
+  .copy:hover { border-color: var(--amber); color: var(--amber-2); }
   [hidden] { display: none !important; }
 </style>
 </head>
@@ -189,6 +210,13 @@
     </div>
   </section>
 
+  <!-- Today -->
+  <div class="sec"><h2>Today's orders <small id="todayDate"></small></h2></div>
+  <div class="panel">
+    <div class="today" id="today"></div>
+    <p class="note src" id="todayNote"></p>
+  </div>
+
   <!-- Vehicles -->
   <div class="sec"><h2>The bays <small>tap one to update</small></h2></div>
   <div class="bays" id="bays"></div>
@@ -225,6 +253,11 @@
       <p class="note src" id="rateNote"></p>
     </div>
   </div>
+
+  <!-- Playbook -->
+  <div class="sec"><h2>Playbook <small>texts to send yourself</small></h2></div>
+  <div class="plays" id="plays"></div>
+  <p class="note">Send these one at a time from your own phone, to people you know or who asked to hear from you. Swap in the real name and details first. If anyone asks you to stop, stop.</p>
 
   <!-- Log -->
   <div class="sec"><h2>Activity log <small id="logCount"></small></h2></div>
@@ -526,6 +559,7 @@
     $("hDays").textContent = isCur ? String(daysLeft) : "Closed";
     $("hDay").textContent = isCur && cash < c.goal ? money((c.goal - cash) / daysLeft) : (cash >= c.goal ? "Done" : "—");
 
+    renderToday(c);
     renderBays(list);
     renderFunnel(list);
     renderCalc(list, c);
@@ -642,6 +676,70 @@
     $("rateNote").textContent = parts.join(" · ") + ". " + workdays + " workdays." +
       (anyAssumed ? " Assumed rates switch to your real ones once you log " + MIN_FOR_REAL + "+ at a stage." : "");
   }
+
+  function plan(c) {
+    var R = stageRates(state.entries);
+    var realAvg = R.totals.sale > 0 && R.totals.cash > 0 ? R.totals.cash / R.totals.sale : 0;
+    var per = c.avgDeal > 0 ? c.avgDeal : realAvg;
+    if (!(per > 0)) return null;
+    var workdays = Math.round(daysInMonth(thisMonthKey()) * 22 / 30.4);
+    var sale = c.goal / per, sat = sale / R.rates.sale, set = sat / R.rates.sat, contact = set / R.rates.set, lead = contact / R.rates.contact;
+    return { per: per, workdays: workdays, day: { lead: lead / workdays, contact: contact / workdays, set: set / workdays, sale: sale / workdays } };
+  }
+
+  function renderToday(c) {
+    var t = todayStr();
+    $("todayDate").textContent = new Date().toLocaleString("en-US", { weekday: "short", month: "short", day: "numeric" });
+    var s = sums(state.entries.filter(function (e) { return e.date === t; }), "pipeline");
+    var P = plan(c);
+    var box = $("today"); box.textContent = "";
+    [["lead", "Leads"], ["contact", "Contacts"], ["set", "Appts set"], ["sale", "Sales"]].forEach(function (k) {
+      var got = s[k[0]], target = P ? Math.ceil(P.day[k[0]]) : 0;
+      var done = target > 0 && got >= target;
+      box.appendChild(h("div", { class: "tcell" + (done ? " done" : "") }, [
+        h("div", { class: "lbl", text: k[1] }),
+        h("div", { class: "tnum" }, [num(got), target ? h("small", { text: " / " + num(target) }) : null]),
+        h("div", { class: "tbar" }, [h("i", { style: "width:" + (target ? Math.min(100, got / target * 100) : 0).toFixed(0) + "%" })])
+      ]));
+    });
+    $("todayNote").textContent = P
+      ? "Daily targets = the monthly goal spread over " + P.workdays + " workdays at " + money(P.per) + " per sale. Logged today for The Pipeline."
+      : "Enter what you keep per sale (in Road to the goal) to get daily targets.";
+  }
+
+  var PLAYS = [
+    { t: "Referral ask", w: "To a happy customer, 1–2 weeks after install",
+      x: "Hey [Name], it's [You]. Hope you're loving the water! Quick favor: who do you know that's always buying bottled water or complains about their water? I'd love to do the same free water test for them, and I'll take great care of anyone you send my way." },
+    { t: "Past customer check-in", w: "Every 6–12 months",
+      x: "Hi [Name], [You] here from [Company]. It's been about [time] since your system went in, so I wanted to check: how's everything running? If you're due for a filter change or want a quick re-test, I can swing by this week." },
+    { t: "Appointment confirmation", w: "The day before",
+      x: "Hi [Name], it's [You]. Just confirming your free water test tomorrow at [time]. It takes about [length]. Does that time still work for you?" },
+    { t: "Missed appointment", w: "Same day, a few hours after",
+      x: "Hi [Name], sorry we missed each other today! No worries at all. Would [day] at [time] or [day] at [time] work better to do your water test?" },
+    { t: "After the demo, no sale", w: "2–3 days later",
+      x: "Hi [Name], thanks again for having me over. Any questions come up about what we found in your water? Happy to help either way. No pressure." },
+    { t: "Friends & family", w: "Once, personally",
+      x: "Hey [Name]! I've been doing water testing and filtration with [Company] and I'm getting good at it. If you're ever curious what's actually in your tap water, I'd be glad to test it free. Know anyone else who'd want one?" }
+  ];
+  function renderPlays() {
+    var box = $("plays");
+    PLAYS.forEach(function (p) {
+      box.appendChild(h("div", { class: "play" }, [
+        h("div", { class: "play-head" }, [
+          h("div", {}, [h("div", { class: "play-title", text: p.t }), h("div", { class: "play-when", text: p.w })]),
+          h("button", { class: "copy", type: "button", text: "Copy", onclick: function (ev) {
+            var btn = ev.currentTarget;
+            try {
+              navigator.clipboard.writeText(p.x).then(function () { btn.textContent = "Copied"; setTimeout(function () { btn.textContent = "Copy"; }, 1500); },
+                function () { toast("Copy blocked — press and hold the text to copy.", true); });
+            } catch (e) { toast("Copy blocked — press and hold the text to copy.", true); }
+          } })
+        ]),
+        h("div", { class: "play-text", text: p.x })
+      ]));
+    });
+  }
+  renderPlays();
 
   function renderLog(list) {
     var box = $("log"); box.textContent = "";
