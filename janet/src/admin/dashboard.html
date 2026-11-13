@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>JANET Console</title>
+<style>
+  :root {
+    --bg:#0b0d0f; --panel:#16191d; --panel-2:#1d2126; --line:#2a2f36; --text:#e9ebee; --dim:#9aa2ad; --faint:#6b7380;
+    --accent:#e39a3b; --green:#3ecf6e; --yellow:#e8c547; --red:#e5484d; --blue:#5ba8e0;
+    --mono: ui-monospace, Menlo, Consolas, monospace; --sans: -apple-system, "Segoe UI", Inter, Roboto, sans-serif;
+  }
+  * { box-sizing:border-box; }
+  html,body { margin:0; background:var(--bg); color:var(--text); font:15px/1.45 var(--sans); -webkit-font-smoothing:antialiased; }
+  button,input,select,textarea { font:inherit; color:inherit; }
+  button { cursor:pointer; background:var(--panel-2); border:1px solid var(--line); border-radius:8px; padding:7px 12px; }
+  button.primary { background:var(--accent); color:#1a1206; border-color:var(--accent); font-weight:600; }
+  button.danger { border-color:var(--red); color:var(--red); background:transparent; }
+  button:disabled { opacity:.5; cursor:default; }
+  input,select,textarea { background:var(--bg); border:1px solid var(--line); border-radius:8px; padding:8px 10px; width:100%; }
+  .wrap { max-width:1080px; margin:0 auto; padding:16px 16px 80px; }
+  header { display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:12px; }
+  h1 { font-size:22px; margin:0; letter-spacing:.04em; } h1 span { color:var(--accent); }
+  h2 { font-size:15px; margin:18px 0 8px; color:var(--dim); text-transform:uppercase; letter-spacing:.08em; }
+  nav { display:flex; gap:6px; overflow-x:auto; padding-bottom:6px; margin-bottom:10px; scrollbar-width:none; }
+  nav button { white-space:nowrap; background:transparent; }
+  nav button.on { background:var(--panel-2); border-color:var(--accent); color:var(--accent); }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:10px; }
+  .card { background:var(--panel); border:1px solid var(--line); border-radius:12px; padding:12px 14px; }
+  .stat .n { font:700 26px var(--mono); } .stat .l { color:var(--dim); font-size:13px; }
+  .list { display:flex; flex-direction:column; gap:8px; }
+  .row { background:var(--panel); border:1px solid var(--line); border-radius:12px; padding:10px 14px; display:flex; gap:10px; align-items:flex-start; justify-content:space-between; flex-wrap:wrap; }
+  .row .main { flex:1 1 260px; min-width:0; }
+  .row .t { font-weight:600; overflow-wrap:anywhere; } .row .s { color:var(--dim); font-size:13px; overflow-wrap:anywhere; }
+  .row .acts { display:flex; gap:6px; flex-wrap:wrap; }
+  .pill { display:inline-block; font:600 11px var(--mono); text-transform:uppercase; letter-spacing:.06em; padding:2px 7px; border-radius:99px; border:1px solid var(--line); color:var(--dim); margin-right:4px; }
+  .ok { color:var(--green); border-color:var(--green); } .warn { color:var(--yellow); border-color:var(--yellow); } .bad { color:var(--red); border-color:var(--red); } .info { color:var(--blue); border-color:var(--blue); }
+  .muted { color:var(--faint); font-size:13px; }
+  .msg { padding:8px 12px; border-radius:10px; margin:4px 0; max-width:85%; overflow-wrap:anywhere; white-space:pre-wrap; }
+  .msg.user { background:#22303d; margin-left:auto; } .msg.assistant { background:var(--panel-2); } .msg.tool { background:transparent; border:1px dashed var(--line); font:12px var(--mono); color:var(--dim); max-width:100%; }
+  .form { display:grid; gap:8px; grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); align-items:end; }
+  .form label { display:flex; flex-direction:column; gap:4px; font-size:13px; color:var(--dim); }
+  .form label.chk { flex-direction:row; align-items:center; gap:8px; } .form label.chk input { width:auto; }
+  #login { max-width:340px; margin:18vh auto; } #login .card { display:grid; gap:10px; }
+  #toast { position:fixed; left:50%; bottom:20px; transform:translateX(-50%); background:var(--panel-2); border:1px solid var(--line); border-radius:10px; padding:10px 16px; display:none; max-width:90vw; }
+  table { width:100%; border-collapse:collapse; font-size:13px; } td,th { text-align:left; padding:6px 8px; border-bottom:1px solid var(--line); vertical-align:top; overflow-wrap:anywhere; }
+  .scroll { overflow-x:auto; }
+  @media (prefers-color-scheme: light) { :root:not([data-theme="dark"]) { --bg:#f5f6f8; --panel:#fff; --panel-2:#eef0f3; --line:#d9dde3; --text:#15181c; --dim:#4c5563; --faint:#7a8291; } .msg.user { background:#dbe8f5 !important; } }
+</style>
+</head>
+<body>
+<div id="login" hidden>
+  <div class="card">
+    <h1>JAN<span>E</span>T</h1>
+    <div class="muted">Private console. Owner only.</div>
+    <input id="pw" type="password" placeholder="Password" autocomplete="current-password">
+    <button class="primary" id="loginBtn">Sign in</button>
+    <div id="loginErr" class="muted"></div>
+  </div>
+</div>
+
+<div class="wrap" id="app" hidden>
+  <header>
+    <h1>JAN<span>E</span>T <span class="muted" style="font-size:13px;color:var(--dim)">Chief of Staff</span></h1>
+    <button id="logout">Sign out</button>
+  </header>
+  <nav id="tabs"></nav>
+  <main id="view"></main>
+</div>
+<div id="toast"></div>
+
+<script>
+const TABS = [["overview","Overview"],["calls","Calls"],["conversations","Conversations"],["tasks","Tasks"],["callbacks","Callbacks"],["tickets","Dev tickets"],["memory","Memory"],["jobs","Scheduled"],["integrations","Integrations"],["settings","Settings"],["audit","Audit log"]];
+const $ = (s, el=document) => el.querySelector(s);
+const esc = (v) => String(v ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const when = (d) => d ? new Date(d).toLocaleString([], {weekday:"short", month:"short", day:"numeric", hour:"numeric", minute:"2-digit"}) : "—";
+const tone = (s) => ({completed:"ok",succeeded:"ok",connected:"ok",verified:"ok",done:"ok",in_progress:"info",dialing:"info",running:"info",scheduled:"info",queued:"info",ringing:"info",submitted:"info",retry_scheduled:"warn",pending:"warn",blocked:"warn",voicemail:"warn",fix_proposed:"warn",created:"warn",no_answer:"bad",failed:"bad",dead:"bad",busy:"bad",error:"bad",rejected_unauthorized:"bad",cancelled:"",canceled:"",configured:"ok",set:"ok",enabled:"ok","not configured":"bad",missing:"bad",off:"warn","not connected":"warn",disconnected:"warn"}[s] ?? "");
+const pill = (s) => `<span class="pill ${tone(s)}">${esc(String(s).replace(/_/g," "))}</span>`;
+
+function toast(msg) { const t=$("#toast"); t.textContent=msg; t.style.display="block"; clearTimeout(toast.t); toast.t=setTimeout(()=>t.style.display="none",3500); }
+
+async function api(path, opts={}) {
+  const headers = { "x-janet-csrf":"1", ...(opts.body ? {"content-type":"application/json"} : {}), ...(opts.headers||{}) };
+  const r = await fetch(path, { ...opts, headers, body: opts.body ? JSON.stringify(opts.body) : undefined, credentials:"same-origin" });
+  if (r.status === 401) { showLogin(); throw new Error("login required"); }
+  const j = await r.json().catch(()=>({}));
+  if (!r.ok) { toast(j.error || `Error ${r.status}`); throw new Error(j.error); }
+  return j;
+}
+
+function showLogin() { $("#login").hidden=false; $("#app").hidden=true; }
+$("#loginBtn").onclick = async () => {
+  const r = await fetch("/admin/login", { method:"POST", headers:{"content-type":"application/json"}, body: JSON.stringify({password: $("#pw").value}) });
+  const j = await r.json().catch(()=>({}));
+  if (!r.ok) { $("#loginErr").textContent = j.error || "Sign-in failed"; return; }
+  $("#pw").value=""; $("#login").hidden=true; $("#app").hidden=false; route();
+};
+$("#pw").addEventListener("keydown", e => e.key==="Enter" && $("#loginBtn").click());
+$("#logout").onclick = async () => { await fetch("/admin/logout",{method:"POST"}); showLogin(); };
+
+$("#tabs").innerHTML = TABS.map(([k,l]) => `<button data-k="${k}">${l}</button>`).join("");
+$("#tabs").onclick = e => { const k=e.target.dataset.k; if (k) location.hash=k; };
+window.addEventListener("hashchange", route);
+
+async function route() {
+  const k = (location.hash.slice(1) || "overview");
+  document.querySelectorAll("#tabs button").forEach(b => b.classList.toggle("on", b.dataset.k===k.split("/")[0]));
+  const v = $("#view");
+  try { v.innerHTML = await (VIEWS[k.split("/")[0]] || VIEWS.overview)(k.split("/")[1]); bind(v); }
+  catch (e) { if (e.message!=="login required") v.innerHTML = `<div class="card bad">${esc(e.message)}</div>`; }
+}
+
+const ACTIONS = {
+  async cancelCb(id) { if (!confirm("Cancel this callback?")) return; await api(`/admin/api/callbacks/${id}/cancel`, {method:"POST"}); toast("Callback cancelled"); route(); },
+  async taskStatus(id, status) {
+    let body = { status };
+    if (status === "completed") { const ev = prompt("What shows it's done? (required)"); if (!ev) return; body.completion_evidence = ev; }
+    await api(`/admin/api/tasks/${id}`, {method:"PATCH", body}); toast("Task updated"); route();
+  },
+  async delMem(id) { if (!confirm("Permanently erase this memory?")) return; await api(`/admin/api/memories/${id}`, {method:"DELETE"}); toast("Memory erased"); route(); },
+  async editMem(id, cur) { const c = prompt("Corrected memory:", cur); if (!c) return; await api(`/admin/api/memories/${id}`, {method:"PATCH", body:{content:c}}); toast("Memory corrected"); route(); },
+  async ticketStatus(id, status) { await api(`/admin/api/tickets/${id}`, {method:"PATCH", body:{status}}); toast("Ticket updated"); route(); },
+  async gDisconnect() { if (!confirm("Disconnect Google Calendar?")) return; await api("/admin/api/integrations/google/disconnect", {method:"POST"}); route(); },
+};
+
+function bind(root) {
+  root.querySelectorAll("[data-act]").forEach(b => b.onclick = () => ACTIONS[b.dataset.act](...JSON.parse(b.dataset.args || "[]")));
+  root.querySelectorAll("form[data-submit]").forEach(f => f.onsubmit = async (e) => { e.preventDefault(); await SUBMITS[f.dataset.submit](new FormData(f)); });
+}
+const args = (...a) => esc(JSON.stringify(a));
+
+const SUBMITS = {
+  async newTask(fd) { await api("/admin/api/tasks", {method:"POST", body:{ title: fd.get("title"), priority: fd.get("priority"), owner: fd.get("owner") || undefined, due_local: fd.get("due") || undefined }}); toast("Task created"); route(); },
+  async newCb(fd) { const cb = await api("/admin/api/callbacks", {method:"POST", body:{ reason: fd.get("reason"), delay_minutes: Number(fd.get("mins")) }}); toast(`Callback scheduled for ${when(cb.scheduled_for)}`); route(); },
+  async newMem(fd) { await api("/admin/api/memories", {method:"POST", body:{ kind: fd.get("kind"), subject: fd.get("subject"), content: fd.get("content") }}); toast("Saved"); route(); },
+  async settings(fd) {
+    const b = {};
+    for (const k of ["calls_paused","morning_briefing_enabled","evening_briefing_enabled","transcripts_enabled"]) b[k] = fd.get(k) === "on";
+    for (const k of ["timezone","quiet_hours_start","quiet_hours_end","morning_briefing_time","evening_briefing_time"]) b[k] = fd.get(k);
+    for (const k of ["callback_retry_minutes","callback_max_attempts","transcript_retention_days"]) b[k] = Number(fd.get(k));
+    b.briefing_days = fd.getAll("days").map(Number);
+    await api("/admin/api/settings", {method:"PATCH", body:b}); toast("Settings saved"); route();
+  },
+};
+
+function cbRow(c) {
+  const live = ["scheduled","retry_scheduled"].includes(c.status);
+  return `<div class="row"><div class="main"><div class="t">${esc(c.reason)}</div>
+    <div class="s">${pill(c.status)} ${when(c.next_attempt_at || c.scheduled_for)} · attempt ${c.attempts}/${c.max_attempts}${c.override_quiet_hours?" · quiet-hours override":""}</div>
+    ${c.last_error ? `<div class="s">Last: ${esc(c.last_error)}</div>`:""}</div>
+    <div class="acts">${live?`<button class="danger" data-act="cancelCb" data-args="${args(c.id)}">Cancel</button>`:""}</div></div>`;
+}
+
+const VIEWS = {
+  async overview() {
+    const o = await api("/admin/api/overview"); const c = o.counts;
+    const cfg = Object.entries(o.config).map(([k,v]) => `<span class="pill ${v?"ok":"bad"}">${esc(k)}</span>`).join(" ");
+    return `
+      ${o.settings.calls_paused ? `<div class="card" style="border-color:var(--yellow);margin-bottom:10px">Outbound calls are <b>paused</b>. Callbacks and briefings will wait.</div>`:""}
+      <div class="grid">
+        ${[["open_tasks","Open tasks"],["overdue_tasks","Overdue"],["upcoming_callbacks","Callbacks scheduled"],["calls_7d","Calls (7d)"],["failed_calls_7d","Missed/failed (7d)"],["open_tickets","Open dev tickets"],["dead_jobs","Failed jobs"]].map(([k,l]) => `<div class="card stat"><div class="n">${esc(c[k])}</div><div class="l">${l}</div></div>`).join("")}
+      </div>
+      <h2>Configuration</h2><div class="card">${cfg}</div>
+      <h2>Next callbacks</h2><div class="list">${o.callbacks.map(cbRow).join("") || `<div class="muted">None scheduled.</div>`}</div>
+      <h2>Recent calls</h2><div class="list">${o.calls.map(x => `<div class="row"><div class="main"><div class="t">${esc(x.direction)} · ${esc(x.purpose)}</div><div class="s">${pill(x.status)} ${when(x.created_at)}${x.duration_seconds?` · ${x.duration_seconds}s`:""}${x.error?` · ${esc(x.error)}`:""}</div></div></div>`).join("") || `<div class="muted">No calls yet.</div>`}</div>`;
+  },
+  async calls() {
+    const rows = await api("/admin/api/calls");
+    return `<div class="list">${rows.map(x => `<div class="row"><div class="main">
+      <div class="t">${esc(x.title || (x.direction + " " + x.purpose))}</div>
+      <div class="s">${pill(x.status)} ${esc(x.direction)} · ${esc(x.purpose)} · ${when(x.created_at)}${x.duration_seconds?` · ${x.duration_seconds}s`:""}${x.from_last4 && x.direction==="inbound"?` · from …${esc(x.from_last4)}`:""}${x.answered_by?` · answered by ${esc(x.answered_by)}`:""}</div>
+      ${x.error?`<div class="s" style="color:var(--red)">${esc(x.error)}</div>`:""}</div>
+      <div class="acts">${x.conversation_id?`<button onclick="location.hash='conversations/${esc(x.conversation_id)}'">Transcript</button>`:""}</div></div>`).join("") || `<div class="muted">No calls yet.</div>`}</div>`;
+  },
+  async conversations(id) {
+    if (id) {
+      const c = await api(`/admin/api/conversations/${encodeURIComponent(id)}`);
+      return `<button onclick="location.hash='conversations'">← All conversations</button>
+        <h2>${esc(c.title || "Conversation")} ${pill(c.summary_status)}</h2>
+        <div class="card"><div>${esc(c.summary || "No summary yet.")}</div>
+        ${(c.structured?.decisions||[]).length?`<p><b>Decisions:</b> ${c.structured.decisions.map(esc).join("; ")}</p>`:""}
+        ${(c.structured?.follow_ups||[]).length?`<p><b>Follow-ups:</b> ${c.structured.follow_ups.map(esc).join("; ")}</p>`:""}
+        <div class="muted">${when(c.started_at)} → ${when(c.ended_at)}</div></div>
+        <h2>Transcript</h2><div class="card">${c.transcript.map(m => `<div class="msg ${esc(m.role)}">${m.role==="tool"?"⚙ ":""}${esc(m.content)}</div>`).join("") || `<div class="muted">No transcript stored.</div>`}</div>`;
+    }
+    const rows = await api("/admin/api/conversations");
+    return `<div class="list">${rows.map(c => `<div class="row"><div class="main"><div class="t">${esc(c.title || "Untitled call")}</div><div class="s">${pill(c.summary_status)} ${when(c.started_at)} · ${esc((c.topics||[]).join(", "))}</div><div class="s">${esc((c.summary||"").slice(0,220))}</div></div><div class="acts"><button onclick="location.hash='conversations/${esc(c.id)}'">Open</button></div></div>`).join("") || `<div class="muted">No conversations yet.</div>`}</div>`;
+  },
+  async tasks() {
+    const rows = await api("/admin/api/tasks");
+    const st = ["pending","in_progress","blocked","completed","failed","cancelled"];
+    return `<form class="card form" data-submit="newTask">
+        <label>New task<input name="title" required maxlength="200" placeholder="What needs doing"></label>
+        <label>Priority<select name="priority"><option>normal</option><option>high</option><option>urgent</option><option>low</option></select></label>
+        <label>Owner<input name="owner" placeholder="me"></label>
+        <label>Due (local)<input name="due" type="datetime-local"></label>
+        <button class="primary">Add</button></form>
+      <h2>Tasks</h2><div class="list">${rows.map(t => `<div class="row"><div class="main">
+        <div class="t">#${t.ref} ${esc(t.title)}</div>
+        <div class="s">${pill(t.status)} ${pill(t.priority)} owner ${esc(t.owner)}${t.due_at?` · due ${when(t.due_at)}`:""}</div>
+        ${t.description?`<div class="s">${esc(t.description)}</div>`:""}
+        ${t.completion_evidence?`<div class="s">Evidence: ${esc(t.completion_evidence)}</div>`:""}</div>
+        <div class="acts"><select onchange="ACTIONS.taskStatus('${esc(t.id)}', this.value)">${st.map(s => `<option ${s===t.status?"selected":""}>${s}</option>`).join("")}</select></div></div>`).join("") || `<div class="muted">No tasks yet.</div>`}</div>`;
+  },
+  async callbacks() {
+    const rows = await api("/admin/api/callbacks");
+    return `<form class="card form" data-submit="newCb">
+        <label>Test callback: reason<input name="reason" required minlength="3" placeholder="Test call from the console"></label>
+        <label>In minutes<input name="mins" type="number" min="1" value="1"></label>
+        <button class="primary">Schedule call</button></form>
+      <h2>Callbacks</h2><div class="list">${rows.map(cbRow).join("") || `<div class="muted">No callbacks yet.</div>`}</div>`;
+  },
+  async tickets() {
+    const rows = await api("/admin/api/tickets");
+    const st = ["created","submitted","in_progress","fix_proposed","verified","closed","rejected"];
+    return `<div class="muted" style="margin-bottom:8px">Created = written down only. Fix proposed ≠ verified.</div><div class="list">${rows.map(t => `<div class="row"><div class="main">
+      <div class="t">Ticket ${t.ref}: ${esc(t.title)}</div>
+      <div class="s">${pill(t.status)} ${pill(t.priority)} ${esc(t.component)} · ${when(t.created_at)}${t.follow_up_at?` · follow up ${when(t.follow_up_at)}`:""}</div>
+      <div class="s">${esc(t.problem)}</div>
+      ${t.reproduction?`<div class="s"><b>Repro:</b> ${esc(t.reproduction)}</div>`:""}
+      ${(t.acceptance_criteria||[]).length?`<div class="s"><b>Done when:</b> ${t.acceptance_criteria.map(esc).join("; ")}</div>`:""}</div>
+      <div class="acts"><select onchange="ACTIONS.ticketStatus('${esc(t.id)}', this.value)">${st.map(s => `<option ${s===t.status?"selected":""}>${s}</option>`).join("")}</select></div></div>`).join("") || `<div class="muted">No tickets yet.</div>`}</div>`;
+  },
+  async memory() {
+    const rows = await api("/admin/api/memories");
+    const kinds = ["preference","project","decision","fact","milestone","person","commitment","deadline","meeting"];
+    return `<form class="card form" data-submit="newMem">
+        <label>Kind<select name="kind">${kinds.map(k=>`<option>${k}</option>`).join("")}</select></label>
+        <label>Subject<input name="subject" maxlength="200"></label>
+        <label style="grid-column:1/-1">Content<textarea name="content" required rows="2"></textarea></label>
+        <button class="primary">Remember</button></form>
+      <h2>What JANET remembers</h2><div class="list">${rows.map(m => `<div class="row"><div class="main"><div class="t">${pill(m.kind)} ${esc(m.subject)}</div><div class="s">${esc(m.content)}</div><div class="muted">${esc(m.source)} · ${when(m.updated_at)}</div></div>
+        <div class="acts"><button data-act="editMem" data-args="${args(m.id, m.content)}">Correct</button><button class="danger" data-act="delMem" data-args="${args(m.id)}">Erase</button></div></div>`).join("") || `<div class="muted">Nothing yet.</div>`}</div>`;
+  },
+  async jobs() {
+    const rows = await api("/admin/api/jobs");
+    return `<div class="card scroll"><table><tr><th>Status</th><th>Kind</th><th>Runs at</th><th>Attempts</th><th>Key / last error</th></tr>
+      ${rows.map(j => `<tr><td>${pill(j.status)}</td><td>${esc(j.kind)}</td><td>${when(j.run_at)}</td><td>${j.attempts}/${j.max_attempts}</td><td>${esc(j.idempotency_key)}${j.last_error?`<div class="muted">${esc(j.last_error)}</div>`:""}</td></tr>`).join("")}</table></div>`;
+  },
+  async integrations() {
+    const i = await api("/admin/api/integrations"); const g = i.google_calendar;
+    const line = (name, ok, detail, extra="") => `<div class="row"><div class="main"><div class="t">${name}</div><div class="s">${detail}</div></div><div class="acts">${extra}</div></div>`;
+    return `<div class="list">
+      ${line("Twilio phone", i.config.twilio, i.config.twilio ? pill("configured") + " Verified only by a real call." : pill("not configured") + " Set TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN, TWILIO_PHONE_NUMBER.")}
+      ${line("OpenAI Realtime voice", i.config.openai, i.config.openai ? pill("configured") : pill("not configured") + " Set OPENAI_API_KEY.")}
+      ${line("Owner phone", i.config.ownerPhone, i.config.ownerPhone ? pill("set") : pill("missing") + " Set JANET_OWNER_PHONE (E.164).")}
+      ${line("Google Calendar", g.status==="connected", `${pill(g.status)} ${g.account_email?esc(g.account_email):""} ${g.last_error?`<span style="color:var(--red)">${esc(g.last_error)}</span>`:""} ${!g.configured?"Set GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET, JANET_ENCRYPTION_KEY.":""}`,
+        g.configured ? (g.status==="connected" ? `<button class="danger" data-act="gDisconnect">Disconnect</button>` : `<button class="primary" onclick="location.href='/admin/google/connect'">Connect</button>`) : "")}
+      ${line("Rep Site (read-only)", i.rep_site.enabled, i.rep_site.enabled ? pill("enabled") + " Reads training, Field Intelligence, Objection Trainer and University health." : pill("off") + " Set REP_SITE_READ_ENABLED=true when DATABASE_URL points at Rep Site's Supabase.")}
+      ${line("Claude Code runner", false, pill("not connected") + " Dev tickets are recorded; nothing is executed automatically.")}
+    </div>`;
+  },
+  async settings() {
+    const s = await api("/admin/api/settings");
+    const days = ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"];
+    const chk = (k, l) => `<label class="chk"><input type="checkbox" name="${k}" ${s[k]?"checked":""}> ${l}</label>`;
+    const inp = (k, l, t="text") => `<label>${l}<input name="${k}" type="${t}" value="${esc(s[k])}"></label>`;
+    return `<form class="card form" data-submit="settings">
+      ${chk("calls_paused","Pause all outbound calls")}
+      ${inp("timezone","Timezone")}
+      ${inp("quiet_hours_start","Quiet hours start","time")}${inp("quiet_hours_end","Quiet hours end","time")}
+      ${chk("morning_briefing_enabled","Morning briefing")}${inp("morning_briefing_time","Morning time","time")}
+      ${chk("evening_briefing_enabled","Evening briefing")}${inp("evening_briefing_time","Evening time","time")}
+      <label style="grid-column:1/-1">Briefing days<span>${days.map((d,i)=>`<label class="chk" style="display:inline-flex;margin-right:10px"><input type="checkbox" name="days" value="${i+1}" ${s.briefing_days.includes(i+1)?"checked":""}> ${d}</label>`).join("")}</span></label>
+      ${inp("callback_retry_minutes","Retry missed callback after (min)","number")}${inp("callback_max_attempts","Max attempts","number")}
+      ${chk("transcripts_enabled","Store text transcripts (audio is never stored)")}${inp("transcript_retention_days","Keep transcripts (days)","number")}
+      <button class="primary">Save</button></form>`;
+  },
+  async audit() {
+    const rows = await api("/admin/api/audit");
+    return `<div class="card scroll"><table><tr><th>When</th><th>Actor</th><th>Action</th><th>Detail</th></tr>
+      ${rows.map(a => `<tr><td>${when(a.at)}</td><td>${esc(a.actor)}</td><td>${esc(a.action)}</td><td class="muted">${esc(JSON.stringify(a.detail)).slice(0,300)}</td></tr>`).join("")}</table></div>`;
+  },
+};
+
+(async () => {
+  const r = await fetch("/admin/api/overview", { headers: {"x-janet-csrf":"1"} });
+  if (r.status === 401 || r.status === 503) showLogin(); else { $("#app").hidden=false; route(); }
+})();
+</script>
+</body>
+</html>

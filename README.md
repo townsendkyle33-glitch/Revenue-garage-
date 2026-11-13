@@ -27,6 +27,10 @@ Command center for the Revenue Garage businesses. One goal: **$100,000 a month i
 - **Live page on claude.ai**: entries are saved to your account and sync across devices. Only you (and anyone you make an Editor) can see or change them.
 - **Opened as a plain file / other hosting**: entries are saved in that browser only.
 
+## JANET
+
+`janet/` is JANET, the phone-based AI chief of staff: call her, give her tasks, and get callbacks that remember the conversation. It's a separate always-on Node service that shares Rep Site's Supabase database. See [`janet/README.md`](janet/README.md) for status, setup and costs.
+
 ## Not built yet
 
 - The AI agents themselves (lead finding, follow-up, booking). The next step is the first Pipeline agent.
