@@ -2,7 +2,7 @@
 
 **Handle:** @WastedDailyclip (X, max 15 chars) · use `wasteddailyclip` everywhere else
 **Platforms:** X, Instagram (Professional/Creator), TikTok, YouTube Shorts, Threads
-**Scheduler:** Buffer · **Clipping:** OpusClip (pending) · **Editor:** CapCut
+**Scheduler:** Buffer · **Clipping:** OpusClip (API connected Nov 17) · **Editor:** CapCut
 **Time zone:** US Eastern (ET). Launch night timed to NZ/AU unlock.
 **Approval:** auto-post for routine clips. Owner approval only for: rumors, paid/sponsored, plan upgrades or purchases, name/bio changes.
 
