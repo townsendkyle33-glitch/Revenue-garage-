@@ -28,7 +28,7 @@ def main():
     a = sp.add_parser("approve"); a.add_argument("clip_ids", type=int, nargs="+")
     o = sp.add_parser("opus-import"); o.add_argument("project_id"); o.add_argument("--source", required=True)
     o.add_argument("--credit", required=True); o.add_argument("--category", default="hype"); o.add_argument("--approve", action="store_true")
-    q = sp.add_parser("queue"); q.add_argument("--limit", type=int)
+    q = sp.add_parser("queue"); q.add_argument("--limit", type=int); q.add_argument("--within-hours", type=float)
     sp.add_parser("metrics"); sp.add_parser("report"); sp.add_parser("status")
     m = sp.add_parser("money"); m.add_argument("kind", choices=["revenue", "cost"]); m.add_argument("stream")
     m.add_argument("amount", type=float); m.add_argument("--note"); m.add_argument("--verified", action="store_true")
@@ -56,7 +56,7 @@ def main():
         from . import opus
         print(opus.import_project(con, args.project_id, args.source, args.credit, category=args.category, approve=args.approve))
     elif args.cmd == "queue":
-        print(pipeline.queue(con, limit=args.limit))
+        print(pipeline.queue(con, limit=args.limit, within_hours=args.within_hours))
     elif args.cmd == "metrics":
         pipeline.collect_metrics(con)
     elif args.cmd == "money":

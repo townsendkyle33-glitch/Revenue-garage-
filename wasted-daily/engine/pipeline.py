@@ -89,7 +89,7 @@ def approve(con, clip_ids):
     db.log(con, "approval", f"Approved clips {clip_ids}")
 
 
-def queue(con, platforms=("x", "instagram", "tiktok"), limit=None):
+def queue(con, platforms=("x", "instagram", "tiktok"), limit=None, within_hours=None):
     """Send approved clips to Buffer, obeying PUBLISH_MODE."""
     if config.PUBLISH_MODE == "off":
         db.log(con, "publish", "PUBLISH_MODE=off; nothing sent", level="warn")
@@ -101,6 +101,10 @@ def queue(con, platforms=("x", "instagram", "tiktok"), limit=None):
         return []
     clips = clips[:limit] if limit else clips
     slots = next_slots(con, len(clips))
+    if within_hours:   # signed media URLs expire; only use slots inside the window
+        cutoff = datetime.now(ZoneInfo("UTC")) + timedelta(hours=within_hours)
+        keep = [(c, s) for c, s in zip(clips, slots) if datetime.fromisoformat(s.replace("Z", "+00:00")) <= cutoff]
+        clips, slots = [c for c, _ in keep], [s for _, s in keep]
     done = []
     for clip, due in zip(clips, slots):
         copy = json.loads(clip["copy_json"])
