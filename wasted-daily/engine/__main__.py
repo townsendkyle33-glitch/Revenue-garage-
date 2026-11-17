@@ -26,7 +26,10 @@ def main():
     p = sp.add_parser("process"); p.add_argument("source_id", type=int)
     sp.add_parser("run-inbox")
     a = sp.add_parser("approve"); a.add_argument("clip_ids", type=int, nargs="+")
-    sp.add_parser("queue"); sp.add_parser("metrics"); sp.add_parser("report"); sp.add_parser("status")
+    o = sp.add_parser("opus-import"); o.add_argument("project_id"); o.add_argument("--source", required=True)
+    o.add_argument("--credit", required=True); o.add_argument("--category", default="hype"); o.add_argument("--approve", action="store_true")
+    q = sp.add_parser("queue"); q.add_argument("--limit", type=int)
+    sp.add_parser("metrics"); sp.add_parser("report"); sp.add_parser("status")
     m = sp.add_parser("money"); m.add_argument("kind", choices=["revenue", "cost"]); m.add_argument("stream")
     m.add_argument("amount", type=float); m.add_argument("--note"); m.add_argument("--verified", action="store_true")
     args = ap.parse_args()
@@ -49,8 +52,11 @@ def main():
             v.rename(v.with_suffix(".mp4.done"))
     elif args.cmd == "approve":
         pipeline.approve(con, args.clip_ids)
+    elif args.cmd == "opus-import":
+        from . import opus
+        print(opus.import_project(con, args.project_id, args.source, args.credit, category=args.category, approve=args.approve))
     elif args.cmd == "queue":
-        print(pipeline.queue(con))
+        print(pipeline.queue(con, limit=args.limit))
     elif args.cmd == "metrics":
         pipeline.collect_metrics(con)
     elif args.cmd == "money":

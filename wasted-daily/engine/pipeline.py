@@ -89,20 +89,23 @@ def approve(con, clip_ids):
     db.log(con, "approval", f"Approved clips {clip_ids}")
 
 
-def queue(con, platforms=("x", "instagram", "tiktok")):
+def queue(con, platforms=("x", "instagram", "tiktok"), limit=None):
     """Send approved clips to Buffer, obeying PUBLISH_MODE."""
     if config.PUBLISH_MODE == "off":
         db.log(con, "publish", "PUBLISH_MODE=off; nothing sent", level="warn")
         return []
-    if not config.PUBLIC_MEDIA_BASE_URL:
-        db.log(con, "publish", "Blocked: no public media hosting configured (PUBLIC_MEDIA_BASE_URL)", level="error")
+    clips = [c for c in con.execute("SELECT * FROM clips WHERE status='approved' ORDER BY score DESC")
+             if (c["path"] or "").startswith("http") or config.PUBLIC_MEDIA_BASE_URL]
+    if not clips:
+        db.log(con, "publish", "Nothing to queue (no approved clips with a public video URL)", level="warn")
         return []
-    clips = con.execute("SELECT * FROM clips WHERE status='approved' ORDER BY score DESC").fetchall()
+    clips = clips[:limit] if limit else clips
     slots = next_slots(con, len(clips))
     done = []
     for clip, due in zip(clips, slots):
         copy = json.loads(clip["copy_json"])
-        url = f"{config.PUBLIC_MEDIA_BASE_URL.rstrip('/')}/{Path(clip['path']).name}"
+        url = clip["path"] if clip["path"].startswith("http") else \
+            f"{config.PUBLIC_MEDIA_BASE_URL.rstrip('/')}/{Path(clip['path']).name}"
         for plat in platforms:
             if plat not in config.CHANNELS:
                 continue

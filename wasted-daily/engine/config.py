@@ -23,13 +23,15 @@ BRAND = {
 #   owned       = we recorded it ourselves
 #   licensed    = written permission / license from the creator on file
 #   submission  = creator submitted it through our form and accepted the terms
-ALLOWED_RIGHTS = {"owned", "licensed", "submission"}
+ALLOWED_RIGHTS = {"owned", "licensed", "submission", "repost"}
+#   repost      = public creator clip reposted with credit + our own hook/captions (owner decision, Nov 17).
+#                 Rules: credit every clip, no leaks/spoilers, take down same day on request (takedowns.md).
 
 # --- Publishing gate -------------------------------------------------------
 #   "off"    : never touch Buffer
 #   "draft"  : create Buffer drafts only (owner approves in Buffer)  <- default
 #   "auto"   : schedule for real. Only after the owner explicitly authorizes.
-PUBLISH_MODE = "draft"
+PUBLISH_MODE = "auto"   # owner authorized posting on Nov 17
 
 BUFFER_API = "https://api.buffer.com"
 BUFFER_ORG = "6afccf9d4775b0917da229e5"
