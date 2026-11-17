@@ -1,0 +1,131 @@
+{
+ "generated_at": "2026-11-17T22:42:38+00:00",
+ "publish_mode": "draft",
+ "media_hosting": false,
+ "overview": {
+  "total_views": 0,
+  "published": 0,
+  "followers_gained": 0
+ },
+ "channels": [
+  {
+   "id": "6afcd488ece6dfde5fffac62",
+   "name": "WastedDailyClip",
+   "service": "twitter",
+   "isDisconnected": false,
+   "isLocked": false
+  },
+  {
+   "id": "6afcd42aece6dfde5fffa8a5",
+   "name": "wasted.dailyclipss",
+   "service": "instagram",
+   "isDisconnected": false,
+   "isLocked": false
+  },
+  {
+   "id": "6afcd2e5ece6dfde5fff99f6",
+   "name": "wasteddailyclips8",
+   "service": "tiktok",
+   "isDisconnected": false,
+   "isLocked": false
+  }
+ ],
+ "factory": {
+  "sources": [
+   {
+    "id": 1,
+    "title": "TEST synthetic footage (not real gameplay)",
+    "creator": null,
+    "rights": "owned",
+    "status": "processed",
+    "duration": 75.0,
+    "created_at": "2026-11-17T22:40:47+00:00"
+   }
+  ],
+  "clips": [
+   {
+    "id": 2,
+    "source_id": 1,
+    "start": 9.0,
+    "end": 25.0,
+    "score": 3.53,
+    "reasons": "[\"audio spike (1.1\\u03c3)\", \"hype reaction in speech\"]",
+    "category": "funny",
+    "hook": "This is why I don't trust NPCs",
+    "status": "awaiting_approval",
+    "created_at": "2026-11-17T22:41:29+00:00"
+   },
+   {
+    "id": 1,
+    "source_id": 1,
+    "start": 39.0,
+    "end": 55.0,
+    "score": 3.79,
+    "reasons": "[\"audio spike (0.9\\u03c3)\", \"hype reaction in speech\"]",
+    "category": "cars",
+    "hook": "Watch the drift \ud83d\udc40",
+    "status": "awaiting_approval",
+    "created_at": "2026-11-17T22:41:16+00:00"
+   }
+  ],
+  "counts": {
+   "awaiting_approval": 2
+  }
+ },
+ "growth": {
+  "top": [],
+  "recommendations": [
+   "Not enough published posts with metrics yet (need 5+). Keep posting at the daily mix; no conclusions before 24h reads."
+  ]
+ },
+ "money": {
+  "month": "2026-11",
+  "revenue_by_stream": {},
+  "revenue": 0,
+  "costs": 0.0,
+  "net": 0.0,
+  "target": 10000,
+  "targets": {
+   "platform": 3000,
+   "sponsorship": 3000,
+   "affiliate": 1000,
+   "services": 3000
+  },
+  "progress": 0.0
+ },
+ "automation": {
+  "events": [
+   {
+    "at": "2026-11-17T22:41:29+00:00",
+    "level": "info",
+    "agent": "render",
+    "message": "Rendered 2 clip(s) from source #1"
+   },
+   {
+    "at": "2026-11-17T22:41:01+00:00",
+    "level": "info",
+    "agent": "detect",
+    "message": "Found 2 highlight(s) in source #1"
+   },
+   {
+    "at": "2026-11-17T22:40:53+00:00",
+    "level": "info",
+    "agent": "detect",
+    "message": "Transcribing + scoring source #1"
+   },
+   {
+    "at": "2026-11-17T22:40:47+00:00",
+    "level": "info",
+    "agent": "detect",
+    "message": "Transcribing + scoring source #1"
+   },
+   {
+    "at": "2026-11-17T22:40:47+00:00",
+    "level": "info",
+    "agent": "ingest",
+    "message": "Source #1 added (owned): test_gameplay.mp4"
+   }
+  ],
+  "errors": []
+ }
+}

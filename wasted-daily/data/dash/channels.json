@@ -1,0 +1,32 @@
+[
+ {
+  "platform": "twitter",
+  "handle": "WastedDailyClip",
+  "state": "connected"
+ },
+ {
+  "platform": "instagram",
+  "handle": "wasted.dailyclipss",
+  "state": "connected"
+ },
+ {
+  "platform": "tiktok",
+  "handle": "wasteddailyclips8",
+  "state": "connected"
+ },
+ {
+  "platform": "youtube",
+  "handle": "\u2014",
+  "state": "not connected"
+ },
+ {
+  "platform": "facebook",
+  "handle": "\u2014",
+  "state": "not connected"
+ },
+ {
+  "platform": "threads",
+  "handle": "\u2014",
+  "state": "not connected"
+ }
+]

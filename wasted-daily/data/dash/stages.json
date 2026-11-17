@@ -1,0 +1,30 @@
+[
+ {
+  "stage": "incoming",
+  "clips": 0
+ },
+ {
+  "stage": "detected",
+  "clips": 0
+ },
+ {
+  "stage": "awaiting_approval",
+  "clips": 2
+ },
+ {
+  "stage": "approved",
+  "clips": 0
+ },
+ {
+  "stage": "scheduled",
+  "clips": 0
+ },
+ {
+  "stage": "published",
+  "clips": 0
+ },
+ {
+  "stage": "failed",
+  "clips": 0
+ }
+]

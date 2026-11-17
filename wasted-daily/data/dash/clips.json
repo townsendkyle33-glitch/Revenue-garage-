@@ -1,0 +1,20 @@
+[
+ {
+  "clip": 2,
+  "hook": "This is why I don't trust NPCs",
+  "category": "funny",
+  "score": 3.53,
+  "length_sec": 16.0,
+  "why": "audio spike (1.1\u03c3), hype reaction in speech",
+  "status": "awaiting_approval"
+ },
+ {
+  "clip": 1,
+  "hook": "Watch the drift \ud83d\udc40",
+  "category": "cars",
+  "score": 3.79,
+  "length_sec": 16.0,
+  "why": "audio spike (0.9\u03c3), hype reaction in speech",
+  "status": "awaiting_approval"
+ }
+]

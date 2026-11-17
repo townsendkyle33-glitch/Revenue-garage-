@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+wasted-daily/footage/
+wasted-daily/media/raw/*
+wasted-daily/media/edits/*
+!wasted-daily/media/raw/.gitkeep
+!wasted-daily/media/edits/.gitkeep
+wasted-daily/data/*.db-journal

@@ -1,0 +1,42 @@
+[
+ {
+  "metric": "views",
+  "value": 0
+ },
+ {
+  "metric": "published",
+  "value": 0
+ },
+ {
+  "metric": "followers_gained",
+  "value": 0
+ },
+ {
+  "metric": "revenue_month",
+  "value": 0
+ },
+ {
+  "metric": "costs_month",
+  "value": 0.0
+ },
+ {
+  "metric": "net_month",
+  "value": 0.0
+ },
+ {
+  "metric": "rev_platform",
+  "value": 0
+ },
+ {
+  "metric": "rev_sponsorship",
+  "value": 0
+ },
+ {
+  "metric": "rev_affiliate",
+  "value": 0
+ },
+ {
+  "metric": "rev_services",
+  "value": 0
+ }
+]
