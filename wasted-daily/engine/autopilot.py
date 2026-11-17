@@ -20,7 +20,7 @@ def main(pairs):
             except Exception as e:
                 db.log(con, "autopilot", f"Status check failed for {pid}: {e}", level="error"); continue
             if stage == "COMPLETE":
-                made = opus.import_project(con, pid, src, f"Source: youtu.be/{yid}", approve=True, min_score=80)
+                made = opus.import_project(con, pid, src, f"Source: youtu.be/{yid}", approve=False, min_score=80)
                 pipeline.queue(con, within_hours=20)
                 todo.pop(pid)
             elif stage and ("FAIL" in stage or "ERROR" in stage):

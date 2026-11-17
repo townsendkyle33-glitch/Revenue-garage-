@@ -40,6 +40,12 @@ def connect():
     con = sqlite3.connect(config.DB_PATH)
     con.row_factory = sqlite3.Row
     con.executescript(SCHEMA)
+    # migrations
+    for table, col in (("sources", "ext_project"), ("clips", "ext_id")):
+        cols = {r[1] for r in con.execute(f"PRAGMA table_info({table})")}
+        if col not in cols:
+            con.execute(f"ALTER TABLE {table} ADD COLUMN {col} TEXT")
+    con.commit()
     return con
 
 

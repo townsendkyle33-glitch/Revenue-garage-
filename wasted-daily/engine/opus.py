@@ -15,7 +15,8 @@ def submit(video_url, start=0, end=None, keywords=("GTA 6", "reaction", "hype"))
     if end:
         pref["range"] = {"startSec": start, "endSec": end}
     r = requests.post(f"{API}/clip-projects", headers=HDR, timeout=60,
-                      json={"videoUrl": video_url, "curationPref": pref, "importPref": {"sourceLang": "en"}})
+                      json={"videoUrl": video_url, "curationPref": pref, "importPref": {"sourceLang": "en"},
+                            "renderPref": {"enableWatermark": False}})
     r.raise_for_status()
     return r.json()
 
@@ -67,10 +68,10 @@ def import_project(con, pid, source_url, credit, rights="repost", category="hype
     p = project(pid)
     title = (p.get("sourceInfo") or {}).get("title") or p.get("title")
     cur = con.execute(
-        "INSERT INTO sources(path,title,creator,creator_handle,rights,rights_proof,duration,status,created_at)"
-        " VALUES(?,?,?,?,?,?,?,?,?)",
+        "INSERT INTO sources(path,title,creator,creator_handle,rights,rights_proof,duration,status,created_at,ext_project)"
+        " VALUES(?,?,?,?,?,?,?,?,?,?)",
         (source_url, title, credit, credit, rights, source_url,
-         ((p.get("sourceInfo") or {}).get("durationMs") or 0) / 1000, "processed", db.now()))
+         ((p.get("sourceInfo") or {}).get("durationMs") or 0) / 1000, "processed", db.now(), pid))
     sid = cur.lastrowid
     made = []
     pool = [c for c in clips(pid)
@@ -86,13 +87,43 @@ def import_project(con, pid, source_url, credit, rights="repost", category="hype
         clip = {"category": category, "hook": hook}
         copy = copywriter.write(clip, credit)
         cur = con.execute(
-            "INSERT INTO clips(source_id,start,end,score,reasons,category,transcript,hook,path,copy_json,status,created_at)"
-            " VALUES(?,?,?,?,?,?,?,?,?,?,?,?)",
+            "INSERT INTO clips(source_id,start,end,score,reasons,category,transcript,hook,path,copy_json,status,created_at,ext_id)"
+            " VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?)",
             (sid, rng[0] / 1000, rng[1] / 1000, float(score or 0),
              json.dumps(["OpusClip AI pick"] + (c.get("keywords") or [])[:3]), category,
              (c.get("description") or "")[:500], hook, urls.get(c["id"]), json.dumps(copy),
-             ("approved" if approve else "awaiting_approval") if urls.get(c["id"]) else "failed", db.now()))
+             ("approved" if approve else "awaiting_approval") if urls.get(c["id"]) else "failed", db.now(), c["id"]))
         made.append(cur.lastrowid)
     con.commit()
     db.log(con, "opus", f"Imported {len(made)} clip(s) from OpusClip project {pid}", source=source_url)
     return made
+
+
+def refresh_urls(con):
+    """Signed export URLs last ~24h. Re-export every approved, not-yet-scheduled OpusClip clip."""
+    rows = con.execute("SELECT id, ext_id FROM clips WHERE status='approved' AND ext_id IS NOT NULL").fetchall()
+    if not rows:
+        return 0
+    urls = export_urls([r["ext_id"] for r in rows], name="wd-refresh")
+    for r in rows:
+        if urls.get(r["ext_id"]):
+            con.execute("UPDATE clips SET path=? WHERE id=?", (urls[r["ext_id"]], r["id"]))
+    con.commit()
+    db.log(con, "opus", f"Refreshed export URLs for {len(urls)}/{len(rows)} approved clip(s)")
+    return len(urls)
+
+
+def submit_and_record(con, youtube_ids, minutes=20):
+    """Submit new videos (skips ones already used). Returns {project_id: youtube_id}."""
+    used = {r["rights_proof"] for r in con.execute("SELECT rights_proof FROM sources")}
+    out = {}
+    for y in youtube_ids:
+        if f"https://youtu.be/{y}" in used:
+            continue
+        try:
+            p = submit(f"https://www.youtube.com/watch?v={y}", 0, minutes * 60)
+            out[p["projectId"]] = y
+            db.log(con, "opus", f"Submitted {y} as {p['projectId']}: {(p.get('sourceInfo') or {}).get('title')}")
+        except Exception as e:
+            db.log(con, "opus", f"Submit failed for {y}: {e}", level="warn")
+    return out
