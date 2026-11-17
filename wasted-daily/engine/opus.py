@@ -61,7 +61,8 @@ def export_urls(clip_ids, name="wasted-daily-export", wait_sec=600):
 
 
 def import_project(con, pid, source_url, credit, rights="repost", category="hype", approve=False,
-                   top=6, min_score=70, banned=("leak", "obs ", "stream setup", "audio settings", "setup")):
+                   top=6, min_score=70, banned=("leak", "obs ", "stream setup", "audio settings", "setup", "spoiler", "rumor", "insider"),
+                   require=("gta", "lucia", "jason", "trailer", "leonida", "vice", "rockstar", "launch")):
     """Register an OpusClip project as a source and its clips as ready-to-post clips."""
     p = project(pid)
     title = (p.get("sourceInfo") or {}).get("title") or p.get("title")
@@ -74,7 +75,8 @@ def import_project(con, pid, source_url, credit, rights="repost", category="hype
     made = []
     pool = [c for c in clips(pid)
             if (c.get("score") or 0) >= min_score
-            and not any(b in (c.get("title") or "").lower() for b in banned)]
+            and not any(b in (c.get("title") or "").lower() for b in banned)
+            and (not require or any(k in ((c.get("title") or "") + " " + (c.get("description") or "")).lower() for k in require))]
     pool = sorted(pool, key=lambda c: -(c.get("score") or 0))[:top]
     urls = export_urls([c["id"] for c in pool], name=f"wd-{pid}") if pool else {}
     for c in pool:
