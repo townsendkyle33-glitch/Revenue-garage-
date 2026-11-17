@@ -65,3 +65,12 @@ Hype but clean. Short punchy hook, sentence case, max one emoji (🌴 ⏳ 👀 �
 ```
 **Countdown:** `[X] days.` / `[Short line about launch].`
 **After launch:** `Day [X] in Leonida: [best discovery].`
+
+## Connected Buffer channels (org 6afccf9d4775b0917da229e5)
+| Platform | Handle | Buffer channel id |
+|---|---|---|
+| X | @WastedDailyClip | 6afcd488ece6dfde5fffac62 |
+| Instagram | @wasted.dailyclipss | 6afcd42aece6dfde5fffa8a5 |
+| TikTok | @wasteddailyclips8 | 6afcd2e5ece6dfde5fff99f6 |
+| YouTube Shorts | not connected (free plan 3-channel limit) | — |
+| Threads | not connected | — |
