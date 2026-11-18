@@ -33,6 +33,10 @@ def main():
     h = sp.add_parser("hook"); h.add_argument("clip_id", type=int); h.add_argument("text")
     rj = sp.add_parser("reject"); rj.add_argument("clip_ids", type=int, nargs="+")
     un = sp.add_parser("unschedule"); un.add_argument("clip_id", type=int)
+    os_ = sp.add_parser("opus-submit", help="submit YouTube ids to OpusClip and import clips for review")
+    os_.add_argument("ids", nargs="+"); os_.add_argument("--start-min", type=int, default=0)
+    os_.add_argument("--minutes", type=int, default=20); os_.add_argument("--gameplay", action="store_true",
+                     help="GTA 6 gameplay streams: steer clipping to gameplay moments, not story")
     dl = sp.add_parser("daily"); dl.add_argument("--videos", nargs="*", default=[], help="new YouTube ids to clip")
     sp.add_parser("metrics"); sp.add_parser("report"); sp.add_parser("status")
     m = sp.add_parser("money"); m.add_argument("kind", choices=["revenue", "cost"]); m.add_argument("stream")
@@ -83,6 +87,12 @@ def main():
             con.execute("DELETE FROM posts WHERE id=?", (r["id"],))
         con.execute("UPDATE clips SET status='rejected' WHERE id=?", (args.clip_id,))
         con.commit(); db.log(con, "editor", f"Unscheduled and rejected clip {args.clip_id}")
+    elif args.cmd == "opus-submit":
+        from . import opus, autopilot
+        new = opus.submit_and_record(con, args.ids, minutes=args.minutes, start_min=args.start_min,
+                                     keywords=opus.LAUNCH_KEYWORDS if args.gameplay else None)
+        if new:
+            autopilot.main([f"{p}={y}" for p, y in new.items()])
     elif args.cmd == "daily":
         from . import opus, autopilot
         opus.refresh_urls(con)                       # old approved clips get fresh 24h links

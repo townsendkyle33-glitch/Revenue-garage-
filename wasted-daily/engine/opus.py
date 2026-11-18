@@ -113,7 +113,10 @@ def refresh_urls(con):
     return len(urls)
 
 
-def submit_and_record(con, youtube_ids, minutes=20):
+LAUNCH_KEYWORDS = ("GTA 6", "reaction", "funny", "driving", "police chase", "NPC", "graphics", "Vice City", "car", "crash")
+
+
+def submit_and_record(con, youtube_ids, minutes=20, start_min=0, keywords=None):
     """Submit new videos (skips ones already used). Returns {project_id: youtube_id}."""
     used = {r["rights_proof"] for r in con.execute("SELECT rights_proof FROM sources")}
     out = {}
@@ -121,7 +124,8 @@ def submit_and_record(con, youtube_ids, minutes=20):
         if f"https://youtu.be/{y}" in used:
             continue
         try:
-            p = submit(f"https://www.youtube.com/watch?v={y}", 0, minutes * 60)
+            p = submit(f"https://www.youtube.com/watch?v={y}", start_min * 60, (start_min + minutes) * 60,
+                       keywords=keywords or ("GTA 6", "reaction", "hype"))
             out[p["projectId"]] = y
             db.log(con, "opus", f"Submitted {y} as {p['projectId']}: {(p.get('sourceInfo') or {}).get('title')}")
         except Exception as e:
