@@ -6,3 +6,4 @@ wasted-daily/media/edits/*
 !wasted-daily/media/raw/.gitkeep
 !wasted-daily/media/edits/.gitkeep
 wasted-daily/data/*.db-journal
+night-stories/out/*/
