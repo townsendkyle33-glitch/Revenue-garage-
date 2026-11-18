@@ -145,7 +145,12 @@ def schedule_youtube(ext_id, copy, due_utc):
             "postDetail": {"title": copy["title"][:100], "mediaType": "video",
                            "custom": {"description": copy["text"], "privacy": "public"}},
             "publishAt": due_utc.replace("Z", ".000Z") if due_utc.endswith("Z") and "." not in due_utc else due_utc}
-    r = requests.post(f"{API}/publish-schedules", headers=HDR, json=body, timeout=60)
+    import time
+    for _ in range(4):
+        r = requests.post(f"{API}/publish-schedules", headers=HDR, json=body, timeout=60)
+        if r.status_code != 429:
+            break
+        time.sleep(int((r.json().get("error") or {}).get("retryAfter", 60)) + 5)
     if r.status_code >= 400:
         raise RuntimeError(f"{r.status_code} {r.text[:300]}")
     d = r.json()
