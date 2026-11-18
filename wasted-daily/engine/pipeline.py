@@ -66,16 +66,17 @@ def process(con, source_id):
 
 def next_slots(con, n):
     tz = ZoneInfo(config.TIMEZONE)
-    taken = {r["due_at"] for r in con.execute("SELECT due_at FROM posts WHERE due_at IS NOT NULL")}
+    taken = {r["due_at"].replace(".000Z", "Z")[:16] for r in con.execute(
+        "SELECT due_at FROM posts WHERE due_at IS NOT NULL AND status NOT IN ('failed','removed','error')")}
     out, day = [], datetime.now(tz).date()
     while len(out) < n:
         for hhmm in config.DAILY_SLOTS_ET:
             h, m = map(int, hhmm.split(":"))
             t = datetime(day.year, day.month, day.day, h, m, tzinfo=tz)
             iso = t.astimezone(ZoneInfo("UTC")).isoformat().replace("+00:00", "Z")
-            if t > datetime.now(tz) + timedelta(minutes=20) and iso not in taken:
+            if t > datetime.now(tz) + timedelta(minutes=20) and iso[:16] not in taken:
                 out.append(iso)
-                taken.add(iso)
+                taken.add(iso[:16])
                 if len(out) == n:
                     break
         day += timedelta(days=1)
@@ -94,7 +95,7 @@ def queue(con, platforms=("x", "instagram", "tiktok"), limit=None, within_hours=
     if config.PUBLISH_MODE == "off":
         db.log(con, "publish", "PUBLISH_MODE=off; nothing sent", level="warn")
         return []
-    clips = [c for c in con.execute("SELECT * FROM clips WHERE status='approved' ORDER BY score DESC")
+    clips = [c for c in con.execute("SELECT * FROM clips WHERE status='approved' ORDER BY (category='gta6') DESC, score DESC")
              if (c["path"] or "").startswith("http") or config.PUBLIC_MEDIA_BASE_URL]
     if not clips:
         db.log(con, "publish", "Nothing to queue (no approved clips with a public video URL)", level="warn")
