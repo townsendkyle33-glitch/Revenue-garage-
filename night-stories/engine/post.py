@@ -29,7 +29,8 @@ def schedule(story_path, due_utc):
     url = host.host(video)
     out = []
     for plat, cid in CHANNELS.items():
-        meta = {"tiktok": {"title": story["title"][:90], "isAiGenerated": True}} if plat == "tiktok" else {}
+        title = f"Part {story['part']}: {story['title']}" if story.get("part") else story["title"]
+        meta = {"tiktok": {"title": title[:90], "isAiGenerated": True}} if plat == "tiktok" else {}
         q = """mutation($i:CreatePostInput!){createPost(input:$i){ __typename
                  ... on PostActionSuccess { post { id status dueAt } } ... on MutationError { message } }}"""
         r = gql(q, {"i": {"channelId": cid, "text": story["caption"], "assets": [{"video": {"url": url}}],

@@ -90,16 +90,19 @@ def ass_ts(t):
     return f"{int(t // 3600)}:{int(t % 3600 // 60):02d}:{t % 60:05.2f}"
 
 
-def build_ass(path, title, ws, total):
+def build_ass(path, title, ws, total, tag=None):
     head = [
         "[Script Info]", "ScriptType: v4.00+", f"PlayResX: {W}", f"PlayResY: {H}", "", "[V4+ Styles]",
         "Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, "
         "Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding",
         "Style: Title,Anton,96,&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,0,0,0,0,100,100,2,0,1,6,3,8,70,70,260,1",
+        "Style: Tag,Anton,46,&H004040FF,&H004040FF,&H00000000,&H90000000,0,0,0,0,100,100,8,0,1,4,0,8,70,70,190,1",
         "Style: Cap,Anton,92,&H00FFFFFF,&H004040FF,&H00000000,&H90000000,0,0,0,0,100,100,1,0,1,7,3,2,70,70,520,1",
         "", "[Events]", "Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text",
         f"Dialogue: 0,{ass_ts(0)},{ass_ts(3.2)},Title,,0,0,0,,{{\\fad(200,400)}}{title.upper()}",
     ]
+    if tag:
+        head.append(f"Dialogue: 0,{ass_ts(0)},{ass_ts(3.2)},Tag,,0,0,0,,{{\\fad(200,400)}}{tag.upper()}")
     chunks = [ws[i:i + 3] for i in range(0, len(ws), 3)]
     for ch in chunks:
         for j, w in enumerate(ch):
@@ -165,7 +168,8 @@ def render(story_path, provider="placeholder"):
     # 4) captions from our own narration
     ws = words(narr)
     ass = work / "captions.ass"
-    build_ass(ass, story["title"], ws, total)
+    tag = f"{story['series']}  |  Part {story['part']}" if story.get("part") else None
+    build_ass(ass, story["title"], ws, total, tag)
 
     # 5) ambient drone under the voice, final mux
     final = ROOT / "out" / f"{slug}.mp4"
