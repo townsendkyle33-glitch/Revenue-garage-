@@ -1,23 +1,39 @@
 {
   "title": "The town that never locks its doors",
-  "style": "cinematic dark horror photograph, foggy small American town at night, muted cold colors, film grain, 35mm, no text",
+  "style": "cinematic horror film still, dramatic moody lighting with the subject clearly visible and centered, foggy small American town, cold blue and amber tones, film grain, 35mm, highly detailed, no text, no watermark",
   "caption": "Nobody in Harlow Creek locks their doors. Here's why. 🕯️\n\nOriginal story. Follow for a new one every night.\n\n#scarystories #horrortok #creepy #storytime #mystery",
   "scenes": [
-    {"narration": "Nobody in Harlow Creek locks their doors. Not because it's safe. Because of what happened to the last family who did.",
-     "image": "empty main street of a tiny town at night, every house with its front door slightly open, porch lights on"},
-    {"narration": "The Mercers moved in from the city in the fall of 1987. First night, Tom Mercer walked through the house and turned every deadbolt.",
-     "image": "a man's hand turning a brass deadbolt on an old wooden front door, dim hallway"},
-    {"narration": "The next morning, the neighbors found something strange. Every door in the Mercer house was standing wide open.",
-     "image": "old two-story farmhouse at dawn, all doors and windows open, mist rolling across the lawn"},
-    {"narration": "Tom swore he locked them. So the second night, he checked them twice. And he set up a camera in the hallway.",
-     "image": "vintage 1980s camcorder on a tripod pointed down a dark hallway toward a front door"},
-    {"narration": "The tape shows the house quiet for three hours. Then, at 3:12 in the morning, the deadbolt starts to turn. Slowly. From the outside.",
-     "image": "grainy security camera still of a front door at night, timestamp 3:12 AM, the lock turning"},
-    {"narration": "The door opens. Nothing walks in. But every light in the house goes out, one room at a time, moving toward the bedrooms.",
-     "image": "dark upstairs hallway, a single bedroom door at the end, faint cold light under it"},
-    {"narration": "The Mercers were never seen again. Their car was in the driveway. Their coffee was still warm.",
-     "image": "kitchen table at morning with two steaming coffee mugs, chairs pushed back, nobody there"},
-    {"narration": "So in Harlow Creek, people leave their doors unlocked. Whatever comes at 3:12... they'd rather it didn't have to knock.",
-     "image": "row of small houses at night with doors ajar, a tall shadow at the end of the street"}
+    {
+      "narration": "Nobody in Harlow Creek locks their doors. Not because it's safe. Because of what happened to the last family who did.",
+      "image": "empty main street of a tiny town at night, every house with its front door slightly open, porch lights on"
+    },
+    {
+      "narration": "The Mercers moved in from the city in the fall of 1987. First night, Tom Mercer walked through the house and turned every deadbolt.",
+      "image": "a man's hand turning a brass deadbolt on an old wooden front door, dim hallway"
+    },
+    {
+      "narration": "The next morning, the neighbors found something strange. Every door in the Mercer house was standing wide open.",
+      "image": "old two-story farmhouse at dawn, all doors and windows open, mist rolling across the lawn"
+    },
+    {
+      "narration": "Tom swore he locked them. So the second night, he checked them twice. And he set up a camera in the hallway.",
+      "image": "vintage 1980s camcorder on a tripod pointed down a dark hallway toward a front door"
+    },
+    {
+      "narration": "The tape shows the house quiet for three hours. Then, at 3:12 in the morning, the deadbolt starts to turn. Slowly. From the outside.",
+      "image": "grainy security camera still of a front door at night, timestamp 3:12 AM, the lock turning"
+    },
+    {
+      "narration": "The door opens. Nothing walks in. But every light in the house goes out, one room at a time, moving toward the bedrooms.",
+      "image": "dark upstairs hallway, a single bedroom door at the end, faint cold light under it"
+    },
+    {
+      "narration": "The Mercers were never seen again. Their car was in the driveway. Their coffee was still warm.",
+      "image": "kitchen table at morning with two steaming coffee mugs, chairs pushed back, nobody there"
+    },
+    {
+      "narration": "So in Harlow Creek, people leave their doors unlocked. Whatever comes at 3:12... they'd rather it didn't have to knock.",
+      "image": "row of small houses at night with doors ajar, a tall shadow at the end of the street"
+    }
   ]
 }

@@ -42,14 +42,30 @@ def image_placeholder(prompt, out, seed):
 
 
 def image_fal(prompt, out, seed, model="fal-ai/flux/schnell"):
+    import time
+    for attempt in range(4):
+        try:
+            return _image_fal_once(prompt, out, seed + attempt * 7, model)
+        except Exception as e:
+            if attempt == 3:
+                raise
+            print(f"fal retry {attempt + 1}: {e}", flush=True)
+            time.sleep(5 * (attempt + 1))
+
+
+def _image_fal_once(prompt, out, seed, model):
     import requests
     r = requests.post(f"https://fal.run/{model}", timeout=180,
                       headers={"Authorization": "Key proxy-injected", "Content-Type": "application/json"},
-                      json={"prompt": prompt, "image_size": "portrait_16_9", "num_images": 1, "seed": seed,
-                            "enable_safety_checker": True})
+                      json={"prompt": prompt, "image_size": {"width": 1088, "height": 1920}, "num_images": 1,
+                            "seed": seed, "enable_safety_checker": True, "sync_mode": True})
     r.raise_for_status()
     url = r.json()["images"][0]["url"]
-    Path(out).write_bytes(requests.get(url, timeout=120).content)
+    if url.startswith("data:"):                       # sync_mode returns the image inline (no CDN fetch)
+        import base64
+        Path(out).write_bytes(base64.b64decode(url.split(",", 1)[1]))
+    else:
+        Path(out).write_bytes(requests.get(url, timeout=120).content)
 
 
 def words(audio_path):
@@ -59,7 +75,15 @@ def words(audio_path):
     if sr != 16000:
         a = np.interp(np.linspace(0, len(a), int(len(a) * 16000 / sr), endpoint=False), np.arange(len(a)), a).astype(np.float32)
     segs, _ = WhisperModel("base.en", device="cpu", compute_type="int8").transcribe(a, word_timestamps=True)
-    return [{"start": w.start, "end": w.end, "word": w.word.strip()} for s in segs for w in (s.words or [])]
+    out = []
+    for w in (w for s in segs for w in (s.words or [])):
+        t = w.word.strip()
+        if out and t[:1] in ".:,'%" and out[-1]["word"][-1:].isdigit():   # "3" ".12" -> "3:12"
+            out[-1]["word"] += (":" + t[1:]) if t[:1] in ".:" else t
+            out[-1]["end"] = w.end
+        else:
+            out.append({"start": w.start, "end": w.end, "word": t})
+    return out
 
 
 def ass_ts(t):
@@ -122,7 +146,7 @@ def render(story_path, provider="placeholder"):
         subprocess.run(["ffmpeg", "-v", "error", "-y", "-loop", "1", "-i", str(img), "-vf",
                         f"scale={int(W*1.25)}:{int(H*1.25)}:force_original_aspect_ratio=increase,crop={int(W*1.25)}:{int(H*1.25)},"
                         f"zoompan=z='{z}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d={frames}:s={W}x{H}:fps={FPS},"
-                        "eq=brightness=-0.04:saturation=0.85,format=yuv420p",
+                        "eq=contrast=1.06:saturation=0.9,format=yuv420p",
                         "-frames:v", str(frames), "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", str(o)], check=True)
         seg.append((o, d))
     # crossfade chain
