@@ -33,10 +33,15 @@ def schedule(story_path, due_utc):
         meta = {"tiktok": {"title": title[:90], "isAiGenerated": True}} if plat == "tiktok" else {}
         q = """mutation($i:CreatePostInput!){createPost(input:$i){ __typename
                  ... on PostActionSuccess { post { id status dueAt } } ... on MutationError { message } }}"""
-        r = gql(q, {"i": {"channelId": cid, "text": story["caption"], "assets": [{"video": {"url": url}}],
-                          "mode": "customScheduled", "dueAt": due_utc, "schedulingType": "automatic",
-                          "needsApproval": False, "saveToDraft": False, "source": "night-stories-engine",
-                          "metadata": meta}})["createPost"]
+        import time
+        for attempt in range(5):   # a freshly pushed file can take a minute before GitHub serves it
+            r = gql(q, {"i": {"channelId": cid, "text": story["caption"], "assets": [{"video": {"url": url}}],
+                              "mode": "customScheduled", "dueAt": due_utc, "schedulingType": "automatic",
+                              "needsApproval": False, "saveToDraft": False, "source": "night-stories-engine",
+                              "metadata": meta}})["createPost"]
+            if "post" in r or "could not be read" not in str(r.get("message", "")):
+                break
+            time.sleep(30 * (attempt + 1))
         if "post" not in r:
             raise RuntimeError(r)
         rec = {"story": Path(story_path).stem, "platform": plat, "buffer_post_id": r["post"]["id"],
