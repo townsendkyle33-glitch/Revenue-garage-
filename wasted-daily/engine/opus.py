@@ -44,6 +44,8 @@ def clips(pid):
 def export_urls(clip_ids, name="wasted-daily-export", wait_sec=600):
     """Render + export clips through a collection. Returns {clip_id: signed URL (valid ~24h)}."""
     import time
+    from datetime import datetime
+    name = f"{name}-{datetime.utcnow().strftime('%Y%m%d%H%M%S')}"     # OpusClip rejects reused names
     r = requests.post(f"{API}/collections", headers=HDR, json={"collectionName": name}, timeout=60)
     r.raise_for_status()
     cid = r.json()["data"]["collectionId"]
