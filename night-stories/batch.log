@@ -121,3 +121,5 @@
 05:39:43 RENDERED 004-harlow-creek-backwards 83.0s
 05:39:48 HOSTED 004-harlow-creek-backwards
 05:39:49 SCHEDULED 004-harlow-creek-backwards for 2026-11-20 9:30 PM ET
+08:02:28 HOSTED 005-harlow-creek-alder-lane
+08:02:29 FAIL 005-harlow-creek-alder-lane: {'__typename': 'InvalidInputError', 'message': 'Invalid post: Video could not be read from its URL.'}
