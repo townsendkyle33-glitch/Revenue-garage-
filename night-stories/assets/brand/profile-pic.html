@@ -1,0 +1,35 @@
+<!doctype html><html><head><link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Oswald:wght@600&display=block" rel="stylesheet">
+<style>html,body{margin:0;background:#000}
+.c{width:1080px;height:1080px;position:relative;overflow:hidden;background:radial-gradient(circle at 50% 42%,#1a2433 0%,#0a0e16 55%,#030406 100%)}
+.grain{position:absolute;inset:0;opacity:.18;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence baseFrequency='.9' numOctaves='2'/></filter><rect width='200' height='200' filter='url(%23n)' opacity='.6'/></svg>")}
+svg{position:absolute;inset:0}
+.t{position:absolute;left:0;right:0;top:812px;text-align:center;font-family:'Special Elite',monospace;font-size:78px;letter-spacing:10px;color:#e9e1cf;text-shadow:0 0 18px rgba(255,240,210,.25)}
+</style></head><body><div class="c">
+<svg viewBox="0 0 1080 1080">
+ <defs>
+  <radialGradient id="moon" cx="50%" cy="45%" r="60%"><stop offset="0" stop-color="#fbf6e8"/><stop offset=".7" stop-color="#ddd3bb"/><stop offset="1" stop-color="#b9ad92"/></radialGradient>
+  <linearGradient id="folder" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8a6a3c"/><stop offset="1" stop-color="#4a3820"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="22"/></filter>
+ </defs>
+ <!-- folder -->
+ <path d="M190 330 h230 l40 50 h430 a20 20 0 0 1 20 20 v360 a20 20 0 0 1 -20 20 h-700 a20 20 0 0 1 -20 -20 v-410 a20 20 0 0 1 20 -20z" fill="url(#folder)" opacity=".9"/>
+ <path d="M170 420 h740 v340 a20 20 0 0 1 -20 20 h-700 a20 20 0 0 1 -20 -20z" fill="#2c2114" opacity=".55"/>
+ <!-- moon clock glow -->
+ <circle cx="540" cy="455" r="215" fill="#f3e9cf" opacity=".35" filter="url(#glow)"/>
+ <circle cx="540" cy="455" r="190" fill="url(#moon)"/>
+ <circle cx="540" cy="455" r="190" fill="none" stroke="#3b2f22" stroke-width="6" opacity=".5"/>
+ <!-- ticks -->
+ <g stroke="#2b2219" stroke-width="10" stroke-linecap="round">
+  <line x1="540" y1="285" x2="540" y2="320"/><line x1="710" y1="455" x2="675" y2="455"/>
+  <line x1="540" y1="625" x2="540" y2="590"/><line x1="370" y1="455" x2="405" y2="455"/>
+ </g>
+ <!-- hands at midnight -->
+ <line x1="540" y1="455" x2="540" y2="330" stroke="#1d1712" stroke-width="16" stroke-linecap="round"/>
+ <line x1="540" y1="455" x2="540" y2="365" stroke="#9e1b1b" stroke-width="22" stroke-linecap="round"/>
+ <circle cx="540" cy="455" r="18" fill="#9e1b1b"/>
+ <!-- crater shading -->
+ <circle cx="625" cy="540" r="26" fill="#000" opacity=".06"/><circle cx="460" cy="370" r="18" fill="#000" opacity=".06"/>
+</svg>
+<div class="grain"></div>
+<div class="t">MIDNIGHT FILES</div>
+</div></body></html>
