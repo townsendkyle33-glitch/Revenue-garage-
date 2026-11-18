@@ -39,7 +39,8 @@ CHANNELS = {
     "x":         {"id": "6afcd488ece6dfde5fffac62", "service": "twitter",   "handle": "@WastedDailyClip"},
     "instagram": {"id": "6afcd42aece6dfde5fffa8a5", "service": "instagram", "handle": "@wasted.dailyclipss"},
     "tiktok":    {"id": "6afcd2e5ece6dfde5fff99f6", "service": "tiktok",    "handle": "@wasteddailyclips8"},
-    # youtube / facebook / threads: not connected yet (Buffer free plan = 3 channels)
+    # youtube: posted through OpusClip social posting (account WastedDailyClips), see opus.schedule_youtube
+    # facebook / threads: not connected
 }
 
 # Media must be at a public, permanent HTTPS URL for Buffer to fetch it.

@@ -123,9 +123,20 @@ def queue(con, platforms=("x", "instagram", "tiktok"), limit=None, within_hours=
                 con.execute("INSERT INTO posts(clip_id,platform,status,due_at,error,created_at) VALUES(?,?,?,?,?,?)",
                             (clip["id"], plat, "failed", due, str(e)[:500], db.now()))
                 db.log(con, "publish", f"Buffer post failed for clip {clip['id']} on {plat}: {e}", level="error")
+        if clip["ext_id"] and config.PUBLISH_MODE == "auto":     # YouTube Shorts via OpusClip
+            try:
+                from . import opus
+                sid = opus.schedule_youtube(clip["ext_id"], copy["youtube"], due)
+                con.execute("INSERT INTO posts(clip_id,platform,buffer_post_id,status,due_at,created_at)"
+                            " VALUES(?,?,?,?,?,?)", (clip["id"], "youtube", f"opus:{sid}", "scheduled", due, db.now()))
+                done.append(sid)
+            except Exception as e:
+                con.execute("INSERT INTO posts(clip_id,platform,status,due_at,error,created_at) VALUES(?,?,?,?,?,?)",
+                            (clip["id"], "youtube", "failed", due, str(e)[:500], db.now()))
+                db.log(con, "publish", f"YouTube (OpusClip) post failed for clip {clip['id']}: {e}", level="error")
         con.execute("UPDATE clips SET status='scheduled' WHERE id=?", (clip["id"],))
     con.commit()
-    db.log(con, "publish", f"Queued {len(done)} Buffer post(s) in mode={config.PUBLISH_MODE}")
+    db.log(con, "publish", f"Queued {len(done)} post(s) in mode={config.PUBLISH_MODE}")
     return done
 
 

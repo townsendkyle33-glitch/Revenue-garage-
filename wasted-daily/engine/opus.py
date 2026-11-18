@@ -133,3 +133,21 @@ def submit_and_record(con, youtube_ids, minutes=20, start_min=0, keywords=None):
         except Exception as e:
             db.log(con, "opus", f"Submit failed for {y}: {e}", level="warn")
     return out
+
+
+YOUTUBE_ACCOUNT = "6afddc279997edc2b76df934"     # WastedDailyClips (connected in OpusClip)
+
+
+def schedule_youtube(ext_id, copy, due_utc):
+    """Schedule an OpusClip clip as a YouTube Short via OpusClip social posting."""
+    project_id, clip_id = ext_id.split(".", 1)
+    body = {"projectId": project_id, "clipId": clip_id, "postAccountId": YOUTUBE_ACCOUNT,
+            "postDetail": {"title": copy["title"][:100], "mediaType": "video",
+                           "custom": {"description": copy["text"], "privacy": "public"}},
+            "publishAt": due_utc.replace("Z", ".000Z") if due_utc.endswith("Z") and "." not in due_utc else due_utc}
+    r = requests.post(f"{API}/publish-schedules", headers=HDR, json=body, timeout=60)
+    if r.status_code >= 400:
+        raise RuntimeError(f"{r.status_code} {r.text[:300]}")
+    d = r.json()
+    d = d.get("data", d)
+    return d.get("scheduleId") or d.get("id") or str(d)[:80]
