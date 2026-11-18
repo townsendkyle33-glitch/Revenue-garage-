@@ -173,6 +173,7 @@ def render(story_path, provider="placeholder"):
 
     # 5) ambient drone under the voice, final mux
     final = ROOT / "out" / f"{slug}.mp4"
+    tmp_final = ROOT / "out" / f"{slug}.partial.mp4"   # renamed only when complete
     subprocess.run([
         "ffmpeg", "-v", "error", "-y", "-i", str(video), "-i", str(narr),
         "-f", "lavfi", "-t", f"{total:.2f}", "-i", "anoisesrc=c=brown:a=0.05",
@@ -183,7 +184,8 @@ def render(story_path, provider="placeholder"):
         "[n][s]amix=inputs=2:normalize=0,afade=t=in:d=2[bed];"
         "[1:a]aresample=48000,loudnorm=I=-15:TP=-1.5[vo];[vo][bed]amix=inputs=2:duration=first:normalize=0[a]",
         "-map", "[v]", "-map", "[a]", "-t", f"{total:.2f}", "-c:v", "libx264", "-preset", "medium", "-crf", "24",
-        "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", str(final)], check=True)
+        "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", str(tmp_final)], check=True)
+    tmp_final.replace(final)
     return final, total
 
 

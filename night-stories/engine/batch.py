@@ -28,6 +28,16 @@ def done_set(path):
     return {json.loads(l)["story"] for l in path.read_text().splitlines() if l.strip()}
 
 
+def playable(mp4):
+    import subprocess
+    r = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(mp4)],
+                       capture_output=True, text=True)
+    try:
+        return float(r.stdout.strip()) > 30
+    except ValueError:
+        return False
+
+
 def due_utc(air):
     d = date.fromisoformat(air) + timedelta(days=1)          # 9:30 PM ET == 02:30 UTC next day (EST)
     return f"{d.isoformat()}T02:30:00Z"
@@ -52,12 +62,18 @@ def main():
         try:
             mp4 = ROOT / "out" / f"{slug}.mp4"
             if slug not in hosted:
+                if mp4.exists() and not playable(mp4):
+                    log(f"CORRUPT {slug}: removing partial render")
+                    mp4.unlink()
                 if not mp4.exists():
                     _, secs = story.render(f, "fal")
                     if secs <= 61:
                         log(f"SHORT {slug}: {secs:.1f}s (needs a longer script)")
                         continue
                     log(f"RENDERED {slug} {secs:.1f}s")
+                if not playable(mp4):
+                    log(f"FAIL {slug}: rendered file is not playable")
+                    continue
                 url = host.host(mp4)
                 with HOSTED.open("a") as h:
                     h.write(json.dumps({"story": slug, "url": url, "air": d["air"]}) + "\n")
