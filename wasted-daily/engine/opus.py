@@ -123,10 +123,11 @@ def submit_and_record(con, youtube_ids, minutes=20, start_min=0, keywords=None):
     used = {r["rights_proof"] for r in con.execute("SELECT rights_proof FROM sources")}
     out = {}
     for y in youtube_ids:
-        if f"https://youtu.be/{y}" in used:
+        if f"https://youtu.be/{y}" in used or y in used:
             continue
         try:
-            p = submit(f"https://www.youtube.com/watch?v={y}", start_min * 60, (start_min + minutes) * 60,
+            url = y if y.startswith("http") else f"https://www.youtube.com/watch?v={y}"   # Twitch VOD URLs allowed
+            p = submit(url, start_min * 60, (start_min + minutes) * 60,
                        keywords=keywords or ("GTA 6", "reaction", "hype"))
             out[p["projectId"]] = y
             db.log(con, "opus", f"Submitted {y} as {p['projectId']}: {(p.get('sourceInfo') or {}).get('title')}")

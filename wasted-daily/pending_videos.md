@@ -1,4 +1,15 @@
-# Videos waiting for OpusClip credits
+# Videos waiting to be clipped
+
+## PRIORITY: Lacy (owner request, Nov 18)
+Lacy's GTA 6 marathon (with Ron, JasonTheWeen, Marlon, Clix; Miami house) started ~4 PM ET Nov 18, planned 24/7
+until the game is beaten. Clip it as soon as a finished recording exists:
+- Twitch: twitch.tv/lacy/videos (VODs appear as twitch.tv/videos/<id>); trackers: vodarchive.com/vods/lacy,
+  streamrecorder.io/twitch/lacy. Lacy also posts on YouTube — search "Lacy GTA 6" for full VOD uploads.
+- Submit Twitch VOD URLs with `python3 -m engine opus-submit` adapted for full URLs (see opus.submit), --gameplay,
+  skip the first 60 min, then take 20-min windows from later hours (e.g. hours 3, 6, 10) for variety.
+- Credit: "🎥 Lacy (twitch.tv/lacy)". Review hard: no story spoilers, no slurs/NSFW moments.
+- Do NOT repost other clipper channels' Lacy shorts (only clip from his own VOD/uploads).
+
 
 Submit with:
 `python3 -m engine opus-submit <ids> --gameplay --start-min 60 --minutes 20`

@@ -8,11 +8,13 @@ from . import db, opus, pipeline
 
 def main(pairs):
     con = db.connect()
-    todo = dict(p.split("=") for p in pairs)
+    todo = dict(p.split("=", 1) for p in pairs)
     done = {r["rights_proof"] for r in con.execute("SELECT rights_proof FROM sources")}
     while todo:
         for pid, yid in list(todo.items()):
-            src = f"https://youtu.be/{yid}"
+            src = yid if yid.startswith("http") else f"https://youtu.be/{yid}"
+            credit = ("Lacy (twitch.tv/lacy)" if "twitch.tv" in yid and "lacy" in yid.lower() else
+                      f"Source: {src.replace('https://', '')}")
             if src in done:
                 todo.pop(pid); continue
             try:
@@ -20,7 +22,7 @@ def main(pairs):
             except Exception as e:
                 db.log(con, "autopilot", f"Status check failed for {pid}: {e}", level="error"); continue
             if stage == "COMPLETE":
-                made = opus.import_project(con, pid, src, f"Source: youtu.be/{yid}", approve=False, min_score=80)
+                made = opus.import_project(con, pid, src, credit, approve=False, min_score=80)
                 pipeline.queue(con, within_hours=20)
                 todo.pop(pid)
             elif stage and ("FAIL" in stage or "ERROR" in stage):
