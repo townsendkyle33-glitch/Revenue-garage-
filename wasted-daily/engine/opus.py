@@ -63,7 +63,7 @@ def export_urls(clip_ids, name="wasted-daily-export", wait_sec=600):
 
 def import_project(con, pid, source_url, credit, rights="repost", category="hype", approve=False,
                    top=6, min_score=70, banned=("leak", "obs ", "stream setup", "audio settings", "setup", "spoiler", "rumor", "insider"),
-                   require=("gta", "lucia", "jason", "trailer", "leonida", "vice", "rockstar", "launch")):
+                   require=("gta", "lucia", "jason", "trailer", "leonida", "vice", "rockstar", "launch", " rp", "roleplay", "cop", "police", "chase", "car", "crash", "npc", "heist", "ragdoll", "los santos", "stream", "xqc")):
     """Register an OpusClip project as a source and its clips as ready-to-post clips."""
     p = project(pid)
     title = (p.get("sourceInfo") or {}).get("title") or p.get("title")
