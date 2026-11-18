@@ -182,7 +182,7 @@ def render(story_path, provider="placeholder"):
         "[2:a]lowpass=f=300,volume=0.6[n];[3:a]volume=0.05,tremolo=f=0.2:d=0.6[s];"
         "[n][s]amix=inputs=2:normalize=0,afade=t=in:d=2[bed];"
         "[1:a]aresample=48000,loudnorm=I=-15:TP=-1.5[vo];[vo][bed]amix=inputs=2:duration=first:normalize=0[a]",
-        "-map", "[v]", "-map", "[a]", "-t", f"{total:.2f}", "-c:v", "libx264", "-preset", "veryfast", "-crf", "20",
+        "-map", "[v]", "-map", "[a]", "-t", f"{total:.2f}", "-c:v", "libx264", "-preset", "medium", "-crf", "24",
         "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", str(final)], check=True)
     return final, total
 

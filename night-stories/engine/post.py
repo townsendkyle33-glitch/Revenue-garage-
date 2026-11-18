@@ -26,7 +26,7 @@ def gql(q, v):
 def schedule(story_path, due_utc):
     story = json.loads(Path(story_path).read_text())
     video = Path(story_path).resolve().parent.parent / "out" / f"{Path(story_path).stem}.mp4"
-    url = host.host(video)
+    url = host.RAW + video.name if (host.MEDIA_REPO / "videos" / video.name).exists() else host.host(video)
     out = []
     for plat, cid in CHANNELS.items():
         title = f"Part {story['part']}: {story['title']}" if story.get("part") else story["title"]
