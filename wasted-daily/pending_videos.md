@@ -20,3 +20,8 @@ Submit with:
 
 ## Still pending from Nov 18 (OpusClip 402)
 - Gnhl1E8S3Hc, P1Qow0W2nhU — xQc GTA RP compilations
+
+## Added Nov 18 afternoon (waiting: OpusClip says not enough credits even for 5 min)
+- ZPcw5Yl_lFk — GTA 6 IS HERE! My First Time Playing GTA 6 (finished upload)
+- FVgyZu9q0nc — XQC PLAYS THE FIRST MISSION IN GTA 6 (review hard for story spoilers)
+- kV75bMVZGZU, mHzJQfp_Bcs, 8RbKX7GhROk were still LIVE at 15:20 UTC Nov 18; submit once they end
