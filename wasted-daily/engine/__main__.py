@@ -37,6 +37,7 @@ def main():
     os_.add_argument("ids", nargs="+"); os_.add_argument("--start-min", type=int, default=0)
     os_.add_argument("--minutes", type=int, default=20); os_.add_argument("--gameplay", action="store_true",
                      help="GTA 6 gameplay streams: steer clipping to gameplay moments, not story")
+    sp.add_parser("promote-gta6", help="give upcoming slots to approved GTA 6 gameplay clips")
     dl = sp.add_parser("daily"); dl.add_argument("--videos", nargs="*", default=[], help="new YouTube ids to clip")
     sp.add_parser("metrics"); sp.add_parser("report"); sp.add_parser("status")
     m = sp.add_parser("money"); m.add_argument("kind", choices=["revenue", "cost"]); m.add_argument("stream")
@@ -93,6 +94,8 @@ def main():
                                      keywords=opus.LAUNCH_KEYWORDS if args.gameplay else None)
         if new:
             autopilot.main([f"{p}={y}" for p, y in new.items()])
+    elif args.cmd == "promote-gta6":
+        print(pipeline.promote_gta6(con))
     elif args.cmd == "daily":
         from . import opus, autopilot
         opus.refresh_urls(con)                       # old approved clips get fresh 24h links

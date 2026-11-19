@@ -167,3 +167,39 @@ def collect_metrics(con):
     con.commit()
     db.log(con, "metrics", f"Pulled metrics for {n} post(s)")
     return n
+
+
+def release_slot(con, clip_id):
+    """Pull a clip's future posts off every platform and put the clip back in the approved queue."""
+    import requests
+    from . import opus
+    for r in con.execute("SELECT id, buffer_post_id FROM posts WHERE clip_id=? AND status='scheduled'", (clip_id,)).fetchall():
+        pid = r["buffer_post_id"] or ""
+        try:
+            if pid.startswith("opus:"):
+                requests.delete(f"{opus.API}/publish-schedules/{pid[5:]}", headers=opus.HDR, timeout=60)
+            elif pid:
+                buffer.gql("mutation($i:DeletePostInput!){deletePost(input:$i){__typename}}", {"i": {"id": pid}})
+        except Exception as e:
+            db.log(con, "publish", f"Could not remove post {pid} for clip {clip_id}: {e}", level="warn")
+        con.execute("UPDATE posts SET status='removed' WHERE id=?", (r["id"],))
+    con.execute("UPDATE clips SET status='approved' WHERE id=?", (clip_id,))
+    con.commit()
+
+
+def promote_gta6(con, within_hours=20):
+    """Give upcoming slots held by non-GTA-6 clips to approved GTA 6 clips, then re-queue."""
+    waiting = con.execute("SELECT COUNT(*) FROM clips WHERE status='approved' AND category='gta6' "
+                          "AND path LIKE 'http%'").fetchone()[0]
+    free_now = len(next_slots(con, 6))   # slots already free get filled by queue() anyway
+    cutoff = (datetime.now(ZoneInfo("UTC")) + timedelta(hours=within_hours)).strftime("%Y-%m-%dT%H:%M")
+    soon = (datetime.now(ZoneInfo("UTC")) + timedelta(minutes=30)).strftime("%Y-%m-%dT%H:%M")
+    held = con.execute("""SELECT k.id, MIN(p.due_at) due FROM posts p JOIN clips k ON k.id=p.clip_id
+                          WHERE p.status='scheduled' AND k.category!='gta6' GROUP BY k.id
+                          HAVING due > ? AND due <= ? ORDER BY due""", (soon, cutoff)).fetchall()
+    moved = []
+    for h in held[:max(0, waiting)]:
+        release_slot(con, h["id"])
+        moved.append(h["id"])
+    db.log(con, "publish", f"GTA 6 first: released slots from clips {moved} for {waiting} waiting GTA 6 clip(s)")
+    return queue(con, within_hours=within_hours)
