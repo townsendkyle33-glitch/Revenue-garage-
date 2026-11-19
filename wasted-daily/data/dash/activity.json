@@ -1,60 +1,282 @@
 [
  {
-  "at": "2026-11-17T22:41:29+00:00",
+  "at": "2026-11-19T15:10:56+00:00",
   "kind": "info",
-  "agent": "render",
-  "message": "Rendered 2 clip(s) from source #1"
+  "agent": "metrics",
+  "message": "Pulled metrics for 27 post(s)"
  },
  {
-  "at": "2026-11-17T22:41:01+00:00",
+  "at": "2026-11-19T15:10:55+00:00",
   "kind": "info",
-  "agent": "detect",
-  "message": "Found 2 highlight(s) in source #1"
+  "agent": "publish",
+  "message": "Queued 12 post(s) in mode=auto"
  },
  {
-  "at": "2026-11-17T22:40:53+00:00",
+  "at": "2026-11-19T15:10:43+00:00",
   "kind": "info",
-  "agent": "detect",
-  "message": "Transcribing + scoring source #1"
+  "agent": "opus",
+  "message": "Refreshed export URLs for 49/49 approved clip(s)"
  },
  {
-  "at": "2026-11-17T22:40:47+00:00",
+  "at": "2026-11-19T01:22:28+00:00",
   "kind": "info",
-  "agent": "detect",
-  "message": "Transcribing + scoring source #1"
+  "agent": "publish",
+  "message": "Queued 8 post(s) in mode=auto"
  },
  {
-  "at": "2026-11-17T22:40:47+00:00",
+  "at": "2026-11-19T01:22:00+00:00",
   "kind": "info",
-  "agent": "ingest",
-  "message": "Source #1 added (owned): test_gameplay.mp4"
+  "agent": "publish",
+  "message": "GTA 6 first: released slots from clips [48, 61] for 12 waiting GTA 6 clip(s)"
  },
  {
-  "at": "2026-11-17T22:42:38+00:00",
+  "at": "2026-11-19T01:21:57+00:00",
+  "kind": "info",
+  "agent": "approval",
+  "message": "Approved clips [107, 108, 112, 115, 116, 117, 118, 119, 121, 129, 133, 135]"
+ },
+ {
+  "at": "2026-11-19T01:21:57+00:00",
+  "kind": "info",
+  "agent": "editor",
+  "message": "Clip 117 hook -> Skydiving between Vice City skyscrapers \ud83d\udc40"
+ },
+ {
+  "at": "2026-11-19T01:21:57+00:00",
+  "kind": "info",
+  "agent": "editor",
+  "message": "Clip 108 hook -> Peanut vs the GTA 6 frame rate \ud83d\udc80"
+ },
+ {
+  "at": "2026-11-19T01:21:57+00:00",
+  "kind": "info",
+  "agent": "editor",
+  "message": "Clip 107 hook -> Ronaldo's first reaction to GTA 6 on PS5 Pro \ud83d\udc40"
+ },
+ {
+  "at": "2026-11-19T01:21:56+00:00",
+  "kind": "info",
+  "agent": "editor",
+  "message": "Clip 116 hook -> Perfect docking after a tiger scare \ud83d\udc40"
+ },
+ {
+  "at": "2026-11-19T01:21:56+00:00",
+  "kind": "info",
+  "agent": "editor",
+  "message": "Clip 121 hook -> This bridge drive went completely off the rails \ud83d\udc80"
+ },
+ {
+  "at": "2026-11-19T01:21:56+00:00",
+  "kind": "info",
+  "agent": "editor",
+  "message": "Clip 135 hook -> Crocodile chaos, then the police boat shows up \ud83d\udc80"
+ },
+ {
+  "at": "2026-11-19T01:21:56+00:00",
+  "kind": "info",
+  "agent": "editor",
+  "message": "Clip 133 hook -> First police chase in GTA 6 goes sideways \ud83d\udc80"
+ },
+ {
+  "at": "2026-11-19T01:21:56+00:00",
+  "kind": "info",
+  "agent": "editor",
+  "message": "Clip 115 hook -> The cops couldn't catch them \ud83d\udc80"
+ },
+ {
+  "at": "2026-11-19T01:21:55+00:00",
+  "kind": "info",
+  "agent": "editor",
+  "message": "Clip 112 hook -> The Hot Milk Police are real \ud83d\udc80"
+ },
+ {
+  "at": "2026-11-19T01:21:55+00:00",
+  "kind": "info",
+  "agent": "editor",
+  "message": "Clip 119 hook -> Hit by an SUV. Then a crocodile \ud83d\udc80"
+ },
+ {
+  "at": "2026-11-19T01:21:55+00:00",
+  "kind": "info",
+  "agent": "editor",
+  "message": "Clip 118 hook -> GTA 6 physics are already broken \ud83d\udc80"
+ },
+ {
+  "at": "2026-11-19T01:21:55+00:00",
+  "kind": "info",
+  "agent": "editor",
+  "message": "Clip 129 hook -> Two stars and one bad idea: escape by water \ud83d\udc80"
+ },
+ {
+  "at": "2026-11-19T01:21:55+00:00",
+  "kind": "info",
+  "agent": "editor",
+  "message": "Rejected clips [109, 110, 111, 113, 114, 120, 122, 123, 124, 125, 126, 127, 128, 130, 131, 132, 134]"
+ },
+ {
+  "at": "2026-11-19T01:21:35+00:00",
+  "kind": "info",
+  "agent": "publish",
+  "message": "Queued 0 post(s) in mode=auto"
+ },
+ {
+  "at": "2026-11-19T01:21:35+00:00",
+  "kind": "info",
+  "agent": "opus",
+  "message": "Imported 1 clip(s) from OpusClip project P31119014SwT"
+ },
+ {
+  "at": "2026-11-19T01:21:33+00:00",
+  "kind": "info",
+  "agent": "publish",
+  "message": "Queued 0 post(s) in mode=auto"
+ },
+ {
+  "at": "2026-11-19T01:21:33+00:00",
+  "kind": "info",
+  "agent": "opus",
+  "message": "Imported 6 clip(s) from OpusClip project P31119014ReO"
+ },
+ {
+  "at": "2026-11-19T01:20:29+00:00",
+  "kind": "info",
+  "agent": "publish",
+  "message": "Queued 0 post(s) in mode=auto"
+ },
+ {
+  "at": "2026-11-19T01:20:29+00:00",
+  "kind": "info",
+  "agent": "opus",
+  "message": "Imported 6 clip(s) from OpusClip project P31119014Tcm"
+ },
+ {
+  "at": "2026-11-19T01:17:20+00:00",
+  "kind": "info",
+  "agent": "publish",
+  "message": "Queued 0 post(s) in mode=auto"
+ },
+ {
+  "at": "2026-11-19T01:17:20+00:00",
+  "kind": "info",
+  "agent": "opus",
+  "message": "Imported 6 clip(s) from OpusClip project P31119014Qq3"
+ },
+ {
+  "at": "2026-11-19T01:13:10+00:00",
+  "kind": "info",
+  "agent": "publish",
+  "message": "Queued 0 post(s) in mode=auto"
+ },
+ {
+  "at": "2026-11-19T01:13:10+00:00",
+  "kind": "info",
+  "agent": "opus",
+  "message": "Imported 5 clip(s) from OpusClip project P31119014PBH"
+ },
+ {
+  "at": "2026-11-19T01:12:04+00:00",
+  "kind": "info",
+  "agent": "publish",
+  "message": "Queued 0 post(s) in mode=auto"
+ },
+ {
+  "at": "2026-11-19T01:12:04+00:00",
+  "kind": "info",
+  "agent": "opus",
+  "message": "Imported 5 clip(s) from OpusClip project P31119014OkJ"
+ },
+ {
+  "at": "2026-11-19T01:05:23+00:00",
+  "kind": "info",
+  "agent": "publish",
+  "message": "Queued 12 post(s) in mode=auto"
+ },
+ {
+  "at": "2026-11-19T01:04:49+00:00",
+  "kind": "info",
+  "agent": "publish",
+  "message": "GTA 6 first: released slots from clips [48] for 1 waiting GTA 6 clip(s)"
+ },
+ {
+  "at": "2026-11-19T01:04:30+00:00",
+  "kind": "info",
+  "agent": "opus",
+  "message": "Submitted ZPcw5Yl_lFk as P31119014Tcm: GTA 6 IS HERE! My First Time Playing GTA 6!"
+ },
+ {
+  "at": "2026-11-19T01:04:29+00:00",
+  "kind": "info",
+  "agent": "opus",
+  "message": "Submitted zzWop_h_P-4 as P31119014SwT: GTA 6 is Actually Ridiculous..."
+ },
+ {
+  "at": "2026-11-19T01:04:28+00:00",
+  "kind": "info",
+  "agent": "opus",
+  "message": "Submitted JhZ0d4hK_3Q as P31119014ReO: I PLAYED GTA 6 FOR THE FIRST TIME"
+ },
+ {
+  "at": "2026-11-19T01:04:27+00:00",
+  "kind": "info",
+  "agent": "opus",
+  "message": "Submitted nD2xgBJxnJM as P31119014Qq3: GTA 6 FIRST BUGS & GLITCHES Compilation (Funniest Moments)"
+ },
+ {
+  "at": "2026-11-19T01:04:26+00:00",
+  "kind": "info",
+  "agent": "opus",
+  "message": "Submitted iGpl8L3XIF8 as P31119014PBH: TheBurntPeanut FIRST TIME ON GTA 6 (TRY NOT TO LAUGH) FUNNY MOMENTS ON GTA VI!"
+ },
+ {
+  "at": "2026-11-19T01:04:24+00:00",
+  "kind": "info",
+  "agent": "opus",
+  "message": "Submitted ilURXQ-4VPg as P31119014OkJ: Streamers REACT to GTA 6 w/ Disappointment, First Impressions & Funny Moments"
+ },
+ {
+  "at": "2026-11-18T18:15:28+00:00",
+  "kind": "info",
+  "agent": "publish",
+  "message": "Queued 4 post(s) in mode=auto"
+ },
+ {
+  "at": "2026-11-19T15:10:56+00:00",
   "kind": "recommendation",
   "agent": "growth",
-  "message": "Not enough published posts with metrics yet (need 5+). Keep posting at the daily mix; no conclusions before 24h reads."
+  "message": "Double down on 'rp' (median 396 views vs overall 109)."
  },
  {
-  "at": "2026-11-17T22:42:38+00:00",
+  "at": "2026-11-19T15:10:56+00:00",
+  "kind": "recommendation",
+  "agent": "growth",
+  "message": "Cut or rework 'gta6' (median 0 views)."
+ },
+ {
+  "at": "2026-11-19T15:10:56+00:00",
+  "kind": "recommendation",
+  "agent": "growth",
+  "message": "Retention: \u226415s clips keep 58% watched vs 18% for longer clips. Trim harder."
+ },
+ {
+  "at": "2026-11-19T15:10:56+00:00",
+  "kind": "recommendation",
+  "agent": "growth",
+  "message": "Best posting hour so far: 11:00 ET. Test moving a weak slot there."
+ },
+ {
+  "at": "2026-11-19T15:10:56+00:00",
   "kind": "blocker",
   "agent": "setup",
   "message": "No public video hosting yet, so Buffer can't fetch clips. Needs a storage choice (see ARCHITECTURE.md)."
  },
  {
-  "at": "2026-11-17T22:42:38+00:00",
-  "kind": "blocker",
-  "agent": "setup",
-  "message": "Publishing is in 'draft' mode: clips go to Buffer as drafts until you authorize auto-posting."
- },
- {
-  "at": "2026-11-17T22:42:38+00:00",
+  "at": "2026-11-19T15:10:56+00:00",
   "kind": "blocker",
   "agent": "setup",
   "message": "No owned or licensed GTA footage yet. Record gameplay or sign up creators before real clips can be made."
  },
  {
-  "at": "2026-11-17T22:42:38+00:00",
+  "at": "2026-11-19T15:10:56+00:00",
   "kind": "blocker",
   "agent": "setup",
   "message": "YouTube, Facebook and Threads not connected (Buffer free plan allows 3 channels)."

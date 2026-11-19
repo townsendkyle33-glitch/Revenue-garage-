@@ -1,20 +1,452 @@
 [
  {
-  "clip": 2,
-  "hook": "This is why I don't trust NPCs",
-  "category": "funny",
-  "score": 3.53,
-  "length_sec": 16.0,
-  "why": "audio spike (1.1\u03c3), hype reaction in speech",
-  "status": "awaiting_approval"
+  "clip": 135,
+  "hook": "Crocodile chaos, then the police boat shows up \ud83d\udc80",
+  "category": "gta6",
+  "score": 84.0,
+  "length_sec": 57.8,
+  "why": "OpusClip AI pick",
+  "status": "approved"
  },
  {
-  "clip": 1,
-  "hook": "Watch the drift \ud83d\udc40",
-  "category": "cars",
-  "score": 3.79,
+  "clip": 134,
+  "hook": "Lucia in Prison: Exploring the Jail and Meeting Everyone",
+  "category": "hype",
+  "score": 87.0,
+  "length_sec": 47.4,
+  "why": "OpusClip AI pick",
+  "status": "rejected"
+ },
+ {
+  "clip": 133,
+  "hook": "First police chase in GTA 6 goes sideways \ud83d\udc80",
+  "category": "gta6",
+  "score": 90.0,
+  "length_sec": 46.2,
+  "why": "OpusClip AI pick",
+  "status": "approved"
+ },
+ {
+  "clip": 132,
+  "hook": "GTA 6 Is Finally Here! The Countdown to Gameplay",
+  "category": "hype",
+  "score": 92.0,
+  "length_sec": 52.3,
+  "why": "OpusClip AI pick",
+  "status": "rejected"
+ },
+ {
+  "clip": 131,
+  "hook": "GTA 6 Trailer Reaction: We\u2019re Finally Playing It!",
+  "category": "hype",
+  "score": 94.0,
+  "length_sec": 21.7,
+  "why": "OpusClip AI pick",
+  "status": "rejected"
+ },
+ {
+  "clip": 130,
+  "hook": "GTA 6 Robbery Goes Wrong as Lucia Faces the Police!",
+  "category": "hype",
+  "score": 97.0,
+  "length_sec": 51.1,
+  "why": "OpusClip AI pick",
+  "status": "rejected"
+ },
+ {
+  "clip": 129,
+  "hook": "Two stars and one bad idea: escape by water \ud83d\udc80",
+  "category": "gta6",
+  "score": 99.0,
+  "length_sec": 40.7,
+  "why": "OpusClip AI pick",
+  "status": "scheduled"
+ },
+ {
+  "clip": 128,
+  "hook": "Jason and Lucia\u2019s Chaotic GTA 6 Game Night",
+  "category": "hype",
+  "score": 84.0,
+  "length_sec": 51.8,
+  "why": "OpusClip AI pick",
+  "status": "rejected"
+ },
+ {
+  "clip": 127,
+  "hook": "Stream Panic: No Signal, Elgato, and a Close Call",
+  "category": "hype",
+  "score": 87.0,
+  "length_sec": 47.6,
+  "why": "OpusClip AI pick",
+  "status": "rejected"
+ },
+ {
+  "clip": 126,
+  "hook": "GTA 6 Hype Will Fade\u2014But I\u2019m Here for the Long Run",
+  "category": "hype",
+  "score": 88.0,
+  "length_sec": 50.1,
+  "why": "OpusClip AI pick",
+  "status": "rejected"
+ },
+ {
+  "clip": 125,
+  "hook": "GTA 6 Launch Countdown: My First Stream Begins!",
+  "category": "hype",
+  "score": 91.0,
+  "length_sec": 41.0,
+  "why": "OpusClip AI pick",
+  "status": "rejected"
+ },
+ {
+  "clip": 124,
+  "hook": "50 Gifted Memberships?! This Streamer Is a Legend",
+  "category": "hype",
+  "score": 94.0,
+  "length_sec": 29.5,
+  "why": "OpusClip AI pick",
+  "status": "rejected"
+ },
+ {
+  "clip": 123,
+  "hook": "GTA 6 Launch Stream: Playable in Just 13 Minutes?",
+  "category": "hype",
+  "score": 97.0,
+  "length_sec": 23.9,
+  "why": "OpusClip AI pick",
+  "status": "rejected"
+ },
+ {
+  "clip": 122,
+  "hook": "From Underwater Escape to a Police-Filled Street",
+  "category": "hype",
+  "score": 83.0,
+  "length_sec": 15.6,
+  "why": "OpusClip AI pick",
+  "status": "rejected"
+ },
+ {
+  "clip": 121,
+  "hook": "This bridge drive went completely off the rails \ud83d\udc80",
+  "category": "gta6",
+  "score": 84.0,
+  "length_sec": 29.8,
+  "why": "OpusClip AI pick",
+  "status": "approved"
+ },
+ {
+  "clip": 120,
+  "hook": "Injured Player Runs Into a Warehouse\u2014Then Gets Arrested",
+  "category": "hype",
+  "score": 85.0,
+  "length_sec": 16.6,
+  "why": "OpusClip AI pick",
+  "status": "rejected"
+ },
+ {
+  "clip": 119,
+  "hook": "Hit by an SUV. Then a crocodile \ud83d\udc80",
+  "category": "gta6",
+  "score": 89.0,
+  "length_sec": 28.0,
+  "why": "OpusClip AI pick",
+  "status": "approved"
+ },
+ {
+  "clip": 118,
+  "hook": "GTA 6 physics are already broken \ud83d\udc80",
+  "category": "gta6",
+  "score": 96.0,
+  "length_sec": 31.2,
+  "why": "OpusClip AI pick",
+  "status": "scheduled"
+ },
+ {
+  "clip": 117,
+  "hook": "Skydiving between Vice City skyscrapers \ud83d\udc40",
+  "category": "gta6",
+  "score": 99.0,
   "length_sec": 16.0,
-  "why": "audio spike (0.9\u03c3), hype reaction in speech",
-  "status": "awaiting_approval"
+  "why": "OpusClip AI pick",
+  "status": "scheduled"
+ },
+ {
+  "clip": 116,
+  "hook": "Perfect docking after a tiger scare \ud83d\udc40",
+  "category": "gta6",
+  "score": 82.0,
+  "length_sec": 51.6,
+  "why": "OpusClip AI pick",
+  "status": "approved"
+ },
+ {
+  "clip": 115,
+  "hook": "The cops couldn't catch them \ud83d\udc80",
+  "category": "gta6",
+  "score": 85.0,
+  "length_sec": 14.7,
+  "why": "OpusClip AI pick",
+  "status": "approved"
+ },
+ {
+  "clip": 114,
+  "hook": "The Great Hot Milk Heist: She Had to Go Back",
+  "category": "hype",
+  "score": 89.0,
+  "length_sec": 27.3,
+  "why": "OpusClip AI pick",
+  "status": "rejected"
+ },
+ {
+  "clip": 113,
+  "hook": "GTA Mission Chaos: Gunshots, Getaway Cars, and Bad Decisions",
+  "category": "hype",
+  "score": 92.0,
+  "length_sec": 57.4,
+  "why": "OpusClip AI pick",
+  "status": "rejected"
+ },
+ {
+  "clip": 112,
+  "hook": "The Hot Milk Police are real \ud83d\udc80",
+  "category": "gta6",
+  "score": 94.0,
+  "length_sec": 28.7,
+  "why": "OpusClip AI pick",
+  "status": "approved"
+ },
+ {
+  "clip": 111,
+  "hook": "GTA 6 Graphics: Knut Says the Hype Isn\u2019t Justified",
+  "category": "hype",
+  "score": 84.0,
+  "length_sec": 35.4,
+  "why": "OpusClip AI pick",
+  "status": "rejected"
+ },
+ {
+  "clip": 110,
+  "hook": "xQc Calls Out GTA VI\u2019s PS5 Performance After 90 Minutes",
+  "category": "hype",
+  "score": 85.0,
+  "length_sec": 30.2,
+  "why": "OpusClip AI pick",
+  "status": "rejected"
+ },
+ {
+  "clip": 109,
+  "hook": "VCPD Recruitment: No Checks, Just Guns and \u201cFun\u201d",
+  "category": "hype",
+  "score": 90.0,
+  "length_sec": 6.5,
+  "why": "OpusClip AI pick",
+  "status": "rejected"
+ },
+ {
+  "clip": 108,
+  "hook": "Peanut vs the GTA 6 frame rate \ud83d\udc80",
+  "category": "gta6",
+  "score": 94.0,
+  "length_sec": 36.1,
+  "why": "OpusClip AI pick",
+  "status": "scheduled"
+ },
+ {
+  "clip": 107,
+  "hook": "Ronaldo's first reaction to GTA 6 on PS5 Pro \ud83d\udc40",
+  "category": "gta6",
+  "score": 99.0,
+  "length_sec": 5.7,
+  "why": "OpusClip AI pick",
+  "status": "scheduled"
+ },
+ {
+  "clip": 106,
+  "hook": "xQc vs every stop sign in GTA 6 \ud83d\udc80",
+  "category": "gta6",
+  "score": 87.0,
+  "length_sec": 18.5,
+  "why": "OpusClip AI pick",
+  "status": "scheduled"
+ },
+ {
+  "clip": 105,
+  "hook": "Cash in the Trailer\u2026 But Something Is Crawling Out",
+  "category": "hype",
+  "score": 92.0,
+  "length_sec": 30.6,
+  "why": "OpusClip AI pick",
+  "status": "rejected"
+ },
+ {
+  "clip": 104,
+  "hook": "xQc's first time driving a boat in GTA 6 \ud83d\udc80",
+  "category": "gta6",
+  "score": 97.0,
+  "length_sec": 32.8,
+  "why": "OpusClip AI pick",
+  "status": "scheduled"
+ },
+ {
+  "clip": 103,
+  "hook": "xQc catching every detail in the launch trailer \ud83d\udc40",
+  "category": "hype",
+  "score": 79.0,
+  "length_sec": 22.1,
+  "why": "OpusClip AI pick",
+  "status": "approved"
+ },
+ {
+  "clip": 102,
+  "hook": "Peaceful GTA Players Fight Back Against a Hostile Lobby",
+  "category": "hype",
+  "score": 84.0,
+  "length_sec": 46.9,
+  "why": "OpusClip AI pick",
+  "status": "rejected"
+ },
+ {
+  "clip": 101,
+  "hook": "GTA Online\u2019s Flying Car, Jetpack Escape, and Explosive FAIL",
+  "category": "hype",
+  "score": 88.0,
+  "length_sec": 31.3,
+  "why": "OpusClip AI pick",
+  "status": "rejected"
+ },
+ {
+  "clip": 100,
+  "hook": "He picked a fight with the wrong crew \ud83d\ude81",
+  "category": "funny",
+  "score": 91.0,
+  "length_sec": 15.9,
+  "why": "OpusClip AI pick",
+  "status": "approved"
+ },
+ {
+  "clip": 99,
+  "hook": "GTA Player Sends the Most Unhinged Gangster Voice Message",
+  "category": "hype",
+  "score": 93.0,
+  "length_sec": 17.7,
+  "why": "OpusClip AI pick",
+  "status": "rejected"
+ },
+ {
+  "clip": 98,
+  "hook": "GTA Online Griefer Loses the Sale\u2014Then Gets Hunted Down",
+  "category": "hype",
+  "score": 96.0,
+  "length_sec": 28.5,
+  "why": "OpusClip AI pick",
+  "status": "rejected"
+ },
+ {
+  "clip": 97,
+  "hook": "The car meet ended up in the canal \ud83d\udc80",
+  "category": "funny",
+  "score": 99.0,
+  "length_sec": 30.8,
+  "why": "OpusClip AI pick",
+  "status": "approved"
+ },
+ {
+  "clip": 96,
+  "hook": "Slammed car vs one curb \ud83d\udc80",
+  "category": "cars",
+  "score": 85.0,
+  "length_sec": 29.6,
+  "why": "OpusClip AI pick",
+  "status": "approved"
+ },
+ {
+  "clip": 95,
+  "hook": "Rate this C6 build 1-10 \ud83d\udc40",
+  "category": "cars",
+  "score": 86.0,
+  "length_sec": 39.8,
+  "why": "OpusClip AI pick",
+  "status": "approved"
+ },
+ {
+  "clip": 94,
+  "hook": "This Minecraft Add-On Map Starts Right at City Spawn!",
+  "category": "hype",
+  "score": 88.0,
+  "length_sec": 15.9,
+  "why": "OpusClip AI pick",
+  "status": "rejected"
+ },
+ {
+  "clip": 93,
+  "hook": "24 Players, Zero Lag? This City Server Is Insane",
+  "category": "hype",
+  "score": 89.0,
+  "length_sec": 36.2,
+  "why": "OpusClip AI pick",
+  "status": "rejected"
+ },
+ {
+  "clip": 92,
+  "hook": "Clear-hood BRZ steals the whole meet \ud83d\udc40",
+  "category": "cars",
+  "score": 92.0,
+  "length_sec": 56.6,
+  "why": "OpusClip AI pick",
+  "status": "approved"
+ },
+ {
+  "clip": 91,
+  "hook": "RX-7 down. Nobody knows how \ud83d\udc80",
+  "category": "cars",
+  "score": 96.0,
+  "length_sec": 55.9,
+  "why": "OpusClip AI pick",
+  "status": "approved"
+ },
+ {
+  "clip": 90,
+  "hook": "Can You Solve This Memory Card Hack?",
+  "category": "hype",
+  "score": 85.0,
+  "length_sec": 33.0,
+  "why": "OpusClip AI pick",
+  "status": "rejected"
+ },
+ {
+  "clip": 89,
+  "hook": "Poki in the Car: A Chaotic Police Chase",
+  "category": "hype",
+  "score": 89.0,
+  "length_sec": 17.6,
+  "why": "OpusClip AI pick",
+  "status": "rejected"
+ },
+ {
+  "clip": 88,
+  "hook": "Chaotic Bike Chase Turns Into an Action Showdown",
+  "category": "hype",
+  "score": 90.0,
+  "length_sec": 31.2,
+  "why": "OpusClip AI pick",
+  "status": "rejected"
+ },
+ {
+  "clip": 87,
+  "hook": "Underground Police Encounter: Are We Ready for the Challenge?",
+  "category": "hype",
+  "score": 92.0,
+  "length_sec": 40.7,
+  "why": "OpusClip AI pick",
+  "status": "rejected"
+ },
+ {
+  "clip": 86,
+  "hook": "Hostage negotiation derailed by a donut \ud83d\udc80",
+  "category": "rp",
+  "score": 94.0,
+  "length_sec": 22.0,
+  "why": "OpusClip AI pick",
+  "status": "approved"
  }
 ]

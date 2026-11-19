@@ -9,19 +9,19 @@
  },
  {
   "stage": "awaiting_approval",
-  "clips": 2
+  "clips": 0
  },
  {
   "stage": "approved",
-  "clips": 0
+  "clips": 46
  },
  {
   "stage": "scheduled",
-  "clips": 0
+  "clips": 14
  },
  {
   "stage": "published",
-  "clips": 0
+  "clips": 27
  },
  {
   "stage": "failed",
