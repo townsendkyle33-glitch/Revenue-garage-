@@ -38,7 +38,7 @@ def main():
     os_.add_argument("--minutes", type=int, default=20); os_.add_argument("--gameplay", action="store_true",
                      help="GTA 6 gameplay streams: steer clipping to gameplay moments, not story")
     tw = sp.add_parser("twitch", help="find streamers' latest GTA 6 Twitch VODs and send them to OpusClip")
-    tw.add_argument("--days", type=int, default=4); tw.add_argument("--max", type=int, default=6)
+    tw.add_argument("--days", type=int, default=3); tw.add_argument("--max", type=int, default=12)
     tw.add_argument("--dry-run", action="store_true"); tw.add_argument("--start-min", type=int, default=60)
     sp.add_parser("promote-gta6", help="give upcoming slots to approved GTA 6 gameplay clips")
     dl = sp.add_parser("daily"); dl.add_argument("--videos", nargs="*", default=[], help="new YouTube ids to clip")
@@ -100,20 +100,21 @@ def main():
     elif args.cmd == "twitch":
         from . import opus, autopilot, twitch
         used = {r["rights_proof"] for r in con.execute("SELECT rights_proof FROM sources")}
-        vods = [v for v in twitch.gta_vods(days=args.days) if v["url"] not in used][:args.max]
+        vods = [v for v in twitch.gta_clips(days=args.days) if v["url"] not in used][:args.max]
         for v in vods:
             print(f"{v['name']}: {v['title'][:70]} ({v['duration']}) {v['url']}")
         if not args.dry_run and vods:
             import re
             new = {}
-            for v in vods:     # skip the stream intro on long VODs; short ones start at 0
-                h = int((re.search(r"(\d+)h", v["duration"]) or [0, 0])[1])
-                new.update(opus.submit_and_record(con, [v["url"]], minutes=40,
-                                                  start_min=args.start_min if h >= 2 else 0,
-                                                  keywords=opus.LAUNCH_KEYWORDS))
+            for v in vods:     # Twitch clips: whole clip, no range
+                try:
+                    p = opus.submit(v["url"], keywords=opus.LAUNCH_KEYWORDS)
+                    new[p["projectId"]] = v["url"]
+                except Exception as e:
+                    db.log(con, "opus", f"Twitch clip submit failed {v['url']}: {e}", level="warn")
             credit = {v["url"]: f"{v['name']} (twitch.tv/{v['login']})" for v in vods}
             if new:
-                autopilot.main([f"{p}={u}|{credit[u]}" for p, u in new.items()])
+                autopilot.main([f"{p}={u}|{credit[u]}" for p, u in new.items()], min_score=0, top=2, require=())
     elif args.cmd == "promote-gta6":
         print(pipeline.promote_gta6(con))
     elif args.cmd == "daily":

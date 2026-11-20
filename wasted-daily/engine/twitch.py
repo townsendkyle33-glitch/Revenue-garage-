@@ -57,3 +57,21 @@ def gta_vods(logins=STREAMERS, days=4, per_user=3):
             if n >= per_user:
                 break
     return out
+
+
+def gta_clips(logins=STREAMERS, days=3, per_user=4, min_views=2000):
+    """Most-viewed recent Twitch clips per streamer from the GTA VI category.
+    Clips are short, single moments that viewers already found funny: the owner's exact style.
+    (Full marathon VODs run 24h+, over OpusClip's 10h limit.)"""
+    game = _get("games", name="Grand Theft Auto VI")
+    gid = game[0]["id"] if game else None
+    users = _get("users", login=list(logins))
+    start = (datetime.now(timezone.utc) - timedelta(days=days)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    out = []
+    for u in users:
+        got = [c for c in _get("clips", broadcaster_id=u["id"], started_at=start, first=50)
+               if (not gid or c["game_id"] == gid) and c["view_count"] >= min_views]
+        for c in sorted(got, key=lambda c: -c["view_count"])[:per_user]:
+            out.append({"login": u["login"], "name": u["display_name"], "url": c["url"], "title": c["title"],
+                        "duration": f"{int(c['duration'])}s", "views": c["view_count"], "created": c["created_at"]})
+    return out

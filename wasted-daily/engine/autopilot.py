@@ -6,7 +6,7 @@ import time
 from . import db, opus, pipeline
 
 
-def main(pairs):
+def main(pairs, min_score=80, top=6, require=None):
     con = db.connect()
     todo = dict(p.split("=", 1) for p in pairs)
     done = {r["rights_proof"] for r in con.execute("SELECT rights_proof FROM sources")}
@@ -23,7 +23,8 @@ def main(pairs):
             except Exception as e:
                 db.log(con, "autopilot", f"Status check failed for {pid}: {e}", level="error"); continue
             if stage == "COMPLETE":
-                made = opus.import_project(con, pid, src, credit, approve=False, min_score=80)
+                kw = {} if require is None else {"require": require}
+                made = opus.import_project(con, pid, src, credit, approve=False, min_score=min_score, top=top, **kw)
                 pipeline.queue(con, within_hours=20)
                 todo.pop(pid)
             elif stage and ("FAIL" in stage or "ERROR" in stage or stage == "STALLED"):
