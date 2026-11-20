@@ -2,6 +2,7 @@
 import hashlib
 
 HOOKS = {
+    "streamer": ["He was not ready for GTA 6 😭"],
     "hype": ["GTA 6 is almost here", "The wait is basically over", "Leonida in a few hours"],
     "funny": ["He did NOT see that coming 💀", "This is why I don't trust NPCs", "Wait for it…",
               "The physics in this game 😭", "Worst getaway ever", "Bro had ONE job"],
@@ -14,6 +15,7 @@ HOOKS = {
 }
 
 TAGS = {
+    "streamer": ["gta6", "gta6clips", "twitchclips", "kickclips", "streamerclips"],
     "hype": ["gta6", "gta", "gtavi", "gaming", "gtaclips"],
     "funny": ["gta", "gtafunny", "gtaclips", "gaming", "funnymoments"],
     "rp": ["gtarp", "gta", "roleplay", "gtaclips", "fivem"],

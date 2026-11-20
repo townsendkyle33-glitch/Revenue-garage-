@@ -95,7 +95,7 @@ def queue(con, platforms=("x", "instagram", "tiktok"), limit=None, within_hours=
     if config.PUBLISH_MODE == "off":
         db.log(con, "publish", "PUBLISH_MODE=off; nothing sent", level="warn")
         return []
-    clips = [c for c in con.execute("SELECT * FROM clips WHERE status='approved' ORDER BY (category='gta6') DESC, score DESC")
+    clips = [c for c in con.execute("SELECT * FROM clips WHERE status='approved' ORDER BY (category IN ('streamer','gta6')) DESC, score DESC")
              if (c["path"] or "").startswith("http") or config.PUBLIC_MEDIA_BASE_URL]
     if not clips:
         db.log(con, "publish", "Nothing to queue (no approved clips with a public video URL)", level="warn")
@@ -189,13 +189,13 @@ def release_slot(con, clip_id):
 
 def promote_gta6(con, within_hours=20):
     """Give upcoming slots held by non-GTA-6 clips to approved GTA 6 clips, then re-queue."""
-    waiting = con.execute("SELECT COUNT(*) FROM clips WHERE status='approved' AND category='gta6' "
+    waiting = con.execute("SELECT COUNT(*) FROM clips WHERE status='approved' AND category IN ('streamer','gta6') "
                           "AND path LIKE 'http%'").fetchone()[0]
     free_now = len(next_slots(con, 6))   # slots already free get filled by queue() anyway
     cutoff = (datetime.now(ZoneInfo("UTC")) + timedelta(hours=within_hours)).strftime("%Y-%m-%dT%H:%M")
     soon = (datetime.now(ZoneInfo("UTC")) + timedelta(minutes=30)).strftime("%Y-%m-%dT%H:%M")
     held = con.execute("""SELECT k.id, MIN(p.due_at) due FROM posts p JOIN clips k ON k.id=p.clip_id
-                          WHERE p.status='scheduled' AND k.category!='gta6' GROUP BY k.id
+                          WHERE p.status='scheduled' AND k.category NOT IN ('streamer','gta6') GROUP BY k.id
                           HAVING due > ? AND due <= ? ORDER BY due""", (soon, cutoff)).fetchall()
     moved = []
     for h in held[:max(0, waiting)]:
