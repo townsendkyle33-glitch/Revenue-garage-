@@ -106,9 +106,23 @@ def queue(con, platforms=("x", "instagram", "tiktok"), limit=None, within_hours=
         cutoff = datetime.now(ZoneInfo("UTC")) + timedelta(hours=within_hours)
         keep = [(c, s) for c, s in zip(clips, slots) if datetime.fromisoformat(s.replace("Z", "+00:00")) <= cutoff]
         clips, slots = [c for c, _ in keep], [s for _, s in keep]
+    # OpusClip signed links die ~24h after export, and a clip may have been approved days ago.
+    # Always export fresh links for exactly the clips being scheduled now (Nov 20 failure fix).
+    fresh = {}
+    ext = [c["ext_id"] for c in clips if c["ext_id"]]
+    if ext:
+        from . import opus
+        fresh = opus.export_urls(ext, name="wd-queue")
+        for c in clips:
+            if fresh.get(c["ext_id"]):
+                con.execute("UPDATE clips SET path=? WHERE id=?", (fresh[c["ext_id"]], c["id"]))
     done = []
     for clip, due in zip(clips, slots):
         copy = json.loads(clip["copy_json"])
+        if clip["ext_id"] and not fresh.get(clip["ext_id"]):
+            db.log(con, "publish", f"Skipped clip {clip['id']}: could not get a fresh media link", level="warn")
+            continue
+        clip = dict(clip, path=fresh.get(clip["ext_id"]) or clip["path"])
         url = clip["path"] if clip["path"].startswith("http") else \
             f"{config.PUBLIC_MEDIA_BASE_URL.rstrip('/')}/{Path(clip['path']).name}"
         for plat in platforms:
