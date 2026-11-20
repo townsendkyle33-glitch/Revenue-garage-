@@ -12,8 +12,9 @@ def main(pairs):
     done = {r["rights_proof"] for r in con.execute("SELECT rights_proof FROM sources")}
     while todo:
         for pid, yid in list(todo.items()):
+            yid, _, given = yid.partition("|")          # optional "|Credit Name (twitch.tv/login)"
             src = yid if yid.startswith("http") else f"https://youtu.be/{yid}"
-            credit = ("Lacy (twitch.tv/lacy)" if "twitch.tv" in yid and "lacy" in yid.lower() else
+            credit = given or ("Lacy (twitch.tv/lacy)" if "twitch.tv" in yid and "lacy" in yid.lower() else
                       f"Source: {src.replace('https://', '')}")
             if src in done:
                 todo.pop(pid); continue
@@ -25,7 +26,7 @@ def main(pairs):
                 made = opus.import_project(con, pid, src, credit, approve=False, min_score=80)
                 pipeline.queue(con, within_hours=20)
                 todo.pop(pid)
-            elif stage and ("FAIL" in stage or "ERROR" in stage):
+            elif stage and ("FAIL" in stage or "ERROR" in stage or stage == "STALLED"):
                 db.log(con, "autopilot", f"OpusClip project {pid} failed ({stage})", level="error")
                 todo.pop(pid)
         print(time.strftime("%H:%M:%S"), "waiting on", list(todo), flush=True)
