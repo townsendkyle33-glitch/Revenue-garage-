@@ -1,282 +1,282 @@
 [
  {
-  "at": "2026-11-19T15:10:56+00:00",
+  "at": "2026-11-20T13:17:59+00:00",
   "kind": "info",
   "agent": "metrics",
-  "message": "Pulled metrics for 27 post(s)"
+  "message": "Pulled metrics for 42 post(s)"
  },
  {
-  "at": "2026-11-19T15:10:55+00:00",
-  "kind": "info",
-  "agent": "publish",
-  "message": "Queued 12 post(s) in mode=auto"
- },
- {
-  "at": "2026-11-19T15:10:43+00:00",
-  "kind": "info",
-  "agent": "opus",
-  "message": "Refreshed export URLs for 49/49 approved clip(s)"
- },
- {
-  "at": "2026-11-19T01:22:28+00:00",
+  "at": "2026-11-20T13:17:59+00:00",
   "kind": "info",
   "agent": "publish",
   "message": "Queued 8 post(s) in mode=auto"
  },
  {
-  "at": "2026-11-19T01:22:00+00:00",
+  "at": "2026-11-20T13:17:52+00:00",
   "kind": "info",
-  "agent": "publish",
-  "message": "GTA 6 first: released slots from clips [48, 61] for 12 waiting GTA 6 clip(s)"
+  "agent": "opus",
+  "message": "Refreshed export URLs for 9/9 approved clip(s)"
  },
  {
-  "at": "2026-11-19T01:21:57+00:00",
+  "at": "2026-11-20T04:21:32+00:00",
+  "kind": "info",
+  "agent": "editor",
+  "message": "Clip 170 hook -> xQc's GTA 6 launch reaction pulled 100K viewers \ud83d\ude2d"
+ },
+ {
+  "at": "2026-11-20T04:21:32+00:00",
+  "kind": "info",
+  "agent": "editor",
+  "message": "Clip 168 hook -> Jynxzi's car survived the crash\u2026 he barely did \ud83d\ude2d"
+ },
+ {
+  "at": "2026-11-20T04:21:32+00:00",
+  "kind": "info",
+  "agent": "editor",
+  "message": "Clip 167 hook -> One wrong button turned his escape into a police chase \ud83d\ude2d"
+ },
+ {
+  "at": "2026-11-20T04:21:31+00:00",
+  "kind": "info",
+  "agent": "editor",
+  "message": "Clip 166 hook -> Asmongold's getaway almost took out a random bystander \ud83d\ude2d"
+ },
+ {
+  "at": "2026-11-20T04:21:31+00:00",
+  "kind": "info",
+  "agent": "editor",
+  "message": "Clip 165 hook -> His $42 snack stop turned into a robbery \ud83d\ude2d"
+ },
+ {
+  "at": "2026-11-20T03:24:08+00:00",
+  "kind": "info",
+  "agent": "publish",
+  "message": "Queued 0 post(s) in mode=auto"
+ },
+ {
+  "at": "2026-11-20T03:24:08+00:00",
+  "kind": "info",
+  "agent": "opus",
+  "message": "Imported 2 clip(s) from OpusClip project P3112003KEVk"
+ },
+ {
+  "at": "2026-11-20T03:24:06+00:00",
+  "kind": "info",
+  "agent": "publish",
+  "message": "Queued 16 post(s) in mode=auto"
+ },
+ {
+  "at": "2026-11-20T03:23:53+00:00",
+  "kind": "info",
+  "agent": "opus",
+  "message": "Imported 4 clip(s) from OpusClip project P3112003KD9n"
+ },
+ {
+  "at": "2026-11-20T03:20:28+00:00",
+  "kind": "info",
+  "agent": "opus",
+  "message": "Submitted G3VjdnkiD0s as P3112003KKAg: Adin Ross Opens GTA 6 #gta6"
+ },
+ {
+  "at": "2026-11-20T03:20:20+00:00",
+  "kind": "info",
+  "agent": "opus",
+  "message": "Submitted nj9EoJ7W3C0 as P3112003KEVk: BEST GTA 6 Streamer Moments So Far... (xQc, Lacy & More) #GTA6 #GTA5"
+ },
+ {
+  "at": "2026-11-20T03:20:14+00:00",
+  "kind": "info",
+  "agent": "opus",
+  "message": "Submitted fhw_k890INs as P3112003KD9n: Streamers Funniest GTA 6 Moments Compilation #9 \ud83d\ude02 (xQc, Asmongold, TheBurntPeanut)"
+ },
+ {
+  "at": "2026-11-20T03:19:49+00:00",
+  "kind": "info",
+  "agent": "editor",
+  "message": "Clip 155 hook -> Kai Cenat got lost in the GTA 6 map in 5 minutes \ud83d\ude2d"
+ },
+ {
+  "at": "2026-11-20T03:19:49+00:00",
+  "kind": "info",
+  "agent": "editor",
+  "message": "Clip 144 hook -> Every NPC in GTA 6 is out to get him \ud83d\ude2d"
+ },
+ {
+  "at": "2026-11-20T03:19:49+00:00",
+  "kind": "info",
+  "agent": "editor",
+  "message": "Clip 143 hook -> His routine traffic stop turned into pure chaos \ud83d\ude2d"
+ },
+ {
+  "at": "2026-11-20T03:19:49+00:00",
+  "kind": "info",
+  "agent": "editor",
+  "message": "Clip 142 hook -> He lost the cops by hitting a drive-thru \ud83d\ude2d"
+ },
+ {
+  "at": "2026-11-20T03:19:48+00:00",
+  "kind": "info",
+  "agent": "editor",
+  "message": "Clip 140 hook -> He saw the blimp glitch and lost it \ud83d\ude2d"
+ },
+ {
+  "at": "2026-11-20T03:19:48+00:00",
+  "kind": "info",
+  "agent": "editor",
+  "message": "Clip 116 hook -> Peanut nailed the docking right after a tiger scare \ud83d\ude2d"
+ },
+ {
+  "at": "2026-11-20T03:19:48+00:00",
+  "kind": "info",
+  "agent": "editor",
+  "message": "Clip 115 hook -> Peanut's crew somehow outran every cop in Vice City \ud83d\ude2d"
+ },
+ {
+  "at": "2026-11-20T03:19:48+00:00",
+  "kind": "info",
+  "agent": "editor",
+  "message": "Clip 112 hook -> Peanut got chased by the Hot Milk Police \ud83d\ude2d"
+ },
+ {
+  "at": "2026-11-20T03:19:47+00:00",
+  "kind": "info",
+  "agent": "editor",
+  "message": "Owner switched style to streamer-reaction clips; held 50 non-matching approved clips"
+ },
+ {
+  "at": "2026-11-19T15:58:09+00:00",
+  "kind": "info",
+  "agent": "publish",
+  "message": "Queued 0 post(s) in mode=auto"
+ },
+ {
+  "at": "2026-11-19T15:58:09+00:00",
+  "kind": "info",
+  "agent": "publish",
+  "message": "GTA 6 first: released slots from clips [] for 19 waiting GTA 6 clip(s)"
+ },
+ {
+  "at": "2026-11-19T15:58:09+00:00",
   "kind": "info",
   "agent": "approval",
-  "message": "Approved clips [107, 108, 112, 115, 116, 117, 118, 119, 121, 129, 133, 135]"
+  "message": "Approved clips [140, 142, 143, 144, 145, 147, 148, 155, 159, 161, 162, 164]"
  },
  {
-  "at": "2026-11-19T01:21:57+00:00",
+  "at": "2026-11-19T15:58:09+00:00",
   "kind": "info",
   "agent": "editor",
-  "message": "Clip 117 hook -> Skydiving between Vice City skyscrapers \ud83d\udc40"
+  "message": "Clip 155 hook -> Kai Cenat realizing how big the GTA 6 map is \ud83d\udc40"
  },
  {
-  "at": "2026-11-19T01:21:57+00:00",
+  "at": "2026-11-19T15:58:09+00:00",
   "kind": "info",
   "agent": "editor",
-  "message": "Clip 108 hook -> Peanut vs the GTA 6 frame rate \ud83d\udc80"
+  "message": "Clip 143 hook -> This traffic stop turned into total chaos \ud83d\udc80"
  },
  {
-  "at": "2026-11-19T01:21:57+00:00",
+  "at": "2026-11-19T15:58:08+00:00",
   "kind": "info",
   "agent": "editor",
-  "message": "Clip 107 hook -> Ronaldo's first reaction to GTA 6 on PS5 Pro \ud83d\udc40"
+  "message": "Clip 142 hook -> Lost the cops. Escaped in a minivan \ud83d\udc80"
  },
  {
-  "at": "2026-11-19T01:21:56+00:00",
+  "at": "2026-11-19T15:58:08+00:00",
   "kind": "info",
   "agent": "editor",
-  "message": "Clip 116 hook -> Perfect docking after a tiger scare \ud83d\udc40"
+  "message": "Clip 140 hook -> Is that blimp supposed to do that? \ud83d\udc40"
  },
  {
-  "at": "2026-11-19T01:21:56+00:00",
+  "at": "2026-11-19T15:58:08+00:00",
   "kind": "info",
   "agent": "editor",
-  "message": "Clip 121 hook -> This bridge drive went completely off the rails \ud83d\udc80"
+  "message": "Clip 148 hook -> GTA 6 NPCs fight back now \ud83d\udc80"
  },
  {
-  "at": "2026-11-19T01:21:56+00:00",
+  "at": "2026-11-19T15:58:08+00:00",
   "kind": "info",
   "agent": "editor",
-  "message": "Clip 135 hook -> Crocodile chaos, then the police boat shows up \ud83d\udc80"
+  "message": "Clip 147 hook -> Unluckiest NPC in Vice City \ud83d\udc80"
  },
  {
-  "at": "2026-11-19T01:21:56+00:00",
+  "at": "2026-11-19T15:58:07+00:00",
   "kind": "info",
   "agent": "editor",
-  "message": "Clip 133 hook -> First police chase in GTA 6 goes sideways \ud83d\udc80"
+  "message": "Clip 145 hook -> This GTA 6 side quest went off the rails \ud83d\udc80"
  },
  {
-  "at": "2026-11-19T01:21:56+00:00",
+  "at": "2026-11-19T15:58:07+00:00",
   "kind": "info",
   "agent": "editor",
-  "message": "Clip 115 hook -> The cops couldn't catch them \ud83d\udc80"
+  "message": "Clip 144 hook -> The NPC details in GTA 6 are unreal \ud83d\udc40"
  },
  {
-  "at": "2026-11-19T01:21:55+00:00",
+  "at": "2026-11-19T15:58:07+00:00",
   "kind": "info",
   "agent": "editor",
-  "message": "Clip 112 hook -> The Hot Milk Police are real \ud83d\udc80"
+  "message": "Clip 164 hook -> Lost the car, found a jet ski \ud83c\udf34"
  },
  {
-  "at": "2026-11-19T01:21:55+00:00",
+  "at": "2026-11-19T15:58:07+00:00",
   "kind": "info",
   "agent": "editor",
-  "message": "Clip 119 hook -> Hit by an SUV. Then a crocodile \ud83d\udc80"
+  "message": "Clip 162 hook -> Scooters, a helicopter and zero ammo \ud83d\udc80"
  },
  {
-  "at": "2026-11-19T01:21:55+00:00",
+  "at": "2026-11-19T15:58:06+00:00",
   "kind": "info",
   "agent": "editor",
-  "message": "Clip 118 hook -> GTA 6 physics are already broken \ud83d\udc80"
+  "message": "Clip 161 hook -> Jet ski chase, then a Porsche shows up \ud83d\udc80"
  },
  {
-  "at": "2026-11-19T01:21:55+00:00",
+  "at": "2026-11-19T15:58:06+00:00",
   "kind": "info",
   "agent": "editor",
-  "message": "Clip 129 hook -> Two stars and one bad idea: escape by water \ud83d\udc80"
+  "message": "Clip 159 hook -> Chasing the six-star wanted level with the worst excuses \ud83d\udc80"
  },
  {
-  "at": "2026-11-19T01:21:55+00:00",
+  "at": "2026-11-19T15:58:06+00:00",
   "kind": "info",
   "agent": "editor",
-  "message": "Rejected clips [109, 110, 111, 113, 114, 120, 122, 123, 124, 125, 126, 127, 128, 130, 131, 132, 134]"
+  "message": "Rejected clips [136, 137, 138, 139, 141, 146, 149, 150, 151, 152, 153, 154, 156, 157, 158, 160, 163]"
  },
  {
-  "at": "2026-11-19T01:21:35+00:00",
-  "kind": "info",
-  "agent": "publish",
-  "message": "Queued 0 post(s) in mode=auto"
- },
- {
-  "at": "2026-11-19T01:21:35+00:00",
-  "kind": "info",
-  "agent": "opus",
-  "message": "Imported 1 clip(s) from OpusClip project P31119014SwT"
- },
- {
-  "at": "2026-11-19T01:21:33+00:00",
-  "kind": "info",
-  "agent": "publish",
-  "message": "Queued 0 post(s) in mode=auto"
- },
- {
-  "at": "2026-11-19T01:21:33+00:00",
-  "kind": "info",
-  "agent": "opus",
-  "message": "Imported 6 clip(s) from OpusClip project P31119014ReO"
- },
- {
-  "at": "2026-11-19T01:20:29+00:00",
-  "kind": "info",
-  "agent": "publish",
-  "message": "Queued 0 post(s) in mode=auto"
- },
- {
-  "at": "2026-11-19T01:20:29+00:00",
-  "kind": "info",
-  "agent": "opus",
-  "message": "Imported 6 clip(s) from OpusClip project P31119014Tcm"
- },
- {
-  "at": "2026-11-19T01:17:20+00:00",
-  "kind": "info",
-  "agent": "publish",
-  "message": "Queued 0 post(s) in mode=auto"
- },
- {
-  "at": "2026-11-19T01:17:20+00:00",
-  "kind": "info",
-  "agent": "opus",
-  "message": "Imported 6 clip(s) from OpusClip project P31119014Qq3"
- },
- {
-  "at": "2026-11-19T01:13:10+00:00",
-  "kind": "info",
-  "agent": "publish",
-  "message": "Queued 0 post(s) in mode=auto"
- },
- {
-  "at": "2026-11-19T01:13:10+00:00",
-  "kind": "info",
-  "agent": "opus",
-  "message": "Imported 5 clip(s) from OpusClip project P31119014PBH"
- },
- {
-  "at": "2026-11-19T01:12:04+00:00",
-  "kind": "info",
-  "agent": "publish",
-  "message": "Queued 0 post(s) in mode=auto"
- },
- {
-  "at": "2026-11-19T01:12:04+00:00",
-  "kind": "info",
-  "agent": "opus",
-  "message": "Imported 5 clip(s) from OpusClip project P31119014OkJ"
- },
- {
-  "at": "2026-11-19T01:05:23+00:00",
-  "kind": "info",
-  "agent": "publish",
-  "message": "Queued 12 post(s) in mode=auto"
- },
- {
-  "at": "2026-11-19T01:04:49+00:00",
-  "kind": "info",
-  "agent": "publish",
-  "message": "GTA 6 first: released slots from clips [48] for 1 waiting GTA 6 clip(s)"
- },
- {
-  "at": "2026-11-19T01:04:30+00:00",
-  "kind": "info",
-  "agent": "opus",
-  "message": "Submitted ZPcw5Yl_lFk as P31119014Tcm: GTA 6 IS HERE! My First Time Playing GTA 6!"
- },
- {
-  "at": "2026-11-19T01:04:29+00:00",
-  "kind": "info",
-  "agent": "opus",
-  "message": "Submitted zzWop_h_P-4 as P31119014SwT: GTA 6 is Actually Ridiculous..."
- },
- {
-  "at": "2026-11-19T01:04:28+00:00",
-  "kind": "info",
-  "agent": "opus",
-  "message": "Submitted JhZ0d4hK_3Q as P31119014ReO: I PLAYED GTA 6 FOR THE FIRST TIME"
- },
- {
-  "at": "2026-11-19T01:04:27+00:00",
-  "kind": "info",
-  "agent": "opus",
-  "message": "Submitted nD2xgBJxnJM as P31119014Qq3: GTA 6 FIRST BUGS & GLITCHES Compilation (Funniest Moments)"
- },
- {
-  "at": "2026-11-19T01:04:26+00:00",
-  "kind": "info",
-  "agent": "opus",
-  "message": "Submitted iGpl8L3XIF8 as P31119014PBH: TheBurntPeanut FIRST TIME ON GTA 6 (TRY NOT TO LAUGH) FUNNY MOMENTS ON GTA VI!"
- },
- {
-  "at": "2026-11-19T01:04:24+00:00",
-  "kind": "info",
-  "agent": "opus",
-  "message": "Submitted ilURXQ-4VPg as P31119014OkJ: Streamers REACT to GTA 6 w/ Disappointment, First Impressions & Funny Moments"
- },
- {
-  "at": "2026-11-18T18:15:28+00:00",
-  "kind": "info",
-  "agent": "publish",
-  "message": "Queued 4 post(s) in mode=auto"
- },
- {
-  "at": "2026-11-19T15:10:56+00:00",
+  "at": "2026-11-20T13:17:59+00:00",
   "kind": "recommendation",
   "agent": "growth",
-  "message": "Double down on 'rp' (median 396 views vs overall 109)."
+  "message": "Double down on 'rp' (median 408 views vs overall 42)."
  },
  {
-  "at": "2026-11-19T15:10:56+00:00",
+  "at": "2026-11-20T13:17:59+00:00",
   "kind": "recommendation",
   "agent": "growth",
-  "message": "Cut or rework 'gta6' (median 0 views)."
+  "message": "Cut or rework 'gta6' (median 4 views)."
  },
  {
-  "at": "2026-11-19T15:10:56+00:00",
+  "at": "2026-11-20T13:17:59+00:00",
   "kind": "recommendation",
   "agent": "growth",
-  "message": "Retention: \u226415s clips keep 58% watched vs 18% for longer clips. Trim harder."
+  "message": "Retention: \u226415s clips keep 118% watched vs 20% for longer clips. Trim harder."
  },
  {
-  "at": "2026-11-19T15:10:56+00:00",
+  "at": "2026-11-20T13:17:59+00:00",
   "kind": "recommendation",
   "agent": "growth",
   "message": "Best posting hour so far: 11:00 ET. Test moving a weak slot there."
  },
  {
-  "at": "2026-11-19T15:10:56+00:00",
+  "at": "2026-11-20T13:17:59+00:00",
   "kind": "blocker",
   "agent": "setup",
   "message": "No public video hosting yet, so Buffer can't fetch clips. Needs a storage choice (see ARCHITECTURE.md)."
  },
  {
-  "at": "2026-11-19T15:10:56+00:00",
+  "at": "2026-11-20T13:17:59+00:00",
   "kind": "blocker",
   "agent": "setup",
   "message": "No owned or licensed GTA footage yet. Record gameplay or sign up creators before real clips can be made."
  },
  {
-  "at": "2026-11-19T15:10:56+00:00",
+  "at": "2026-11-20T13:17:59+00:00",
   "kind": "blocker",
   "agent": "setup",
   "message": "YouTube, Facebook and Threads not connected (Buffer free plan allows 3 channels)."
