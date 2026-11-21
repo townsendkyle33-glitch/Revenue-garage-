@@ -95,7 +95,7 @@ def queue(con, platforms=("x", "instagram", "tiktok"), limit=None, within_hours=
     if config.PUBLISH_MODE == "off":
         db.log(con, "publish", "PUBLISH_MODE=off; nothing sent", level="warn")
         return []
-    clips = [c for c in con.execute("SELECT * FROM clips WHERE status='approved' ORDER BY (category IN ('streamer','gta6')) DESC, score DESC")
+    clips = [c for c in con.execute("SELECT * FROM clips WHERE status='approved' ORDER BY (category IN ('streamer','gta6')) DESC, (EXISTS(SELECT 1 FROM sources s WHERE s.id=clips.source_id AND (s.creator_handle LIKE '%ishowspeed%' OR s.creator_handle LIKE '%kaicenat%'))) DESC, score DESC")
              if (c["path"] or "").startswith("http") or config.PUBLIC_MEDIA_BASE_URL]
     if not clips:
         db.log(con, "publish", "Nothing to queue (no approved clips with a public video URL)", level="warn")
