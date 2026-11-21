@@ -36,3 +36,13 @@ Submit with:
 - ZPcw5Yl_lFk — GTA 6 IS HERE! My First Time Playing GTA 6 (finished upload)
 - FVgyZu9q0nc — XQC PLAYS THE FIRST MISSION IN GTA 6 (review hard for story spoilers)
 - kV75bMVZGZU, mHzJQfp_Bcs, 8RbKX7GhROk were still LIVE at 15:20 UTC Nov 18; submit once they end
+
+## PRIORITY (owner, Nov 21): Speed + Kai Cenat first. Blocked: OpusClip out of credits (402) at 14:21 UTC.
+1. Speed overwrites his 98% GTA 6 save after 52h stream (owner wants this posted TODAY, 7:30 PM slot or sooner):
+   https://www.youtube.com/watch?v=7rL7Iuycogs  and Short https://www.youtube.com/watch?v=vee3H0ghuns
+   Hook: "Speed played GTA 6 for 52 hours straight… then overwrote his 98% save 😭"  credit IShowSpeed
+2. Speed Twitch clips: bahaha, borrrr, first robbery speed, LMAO moment, THEY DID IT, speed looking for Jasen,
+   i just seen a roadkill, NOOOOOO, speed runs into a fight for the first time, DAMN, LMAOOOOO, tv channels
+   (python3 -m engine twitch lists URLs; skip gyatt/shower/club/seggs/sus titles)
+3. Kai Twitch clips: Gta 6 gone wild, finding skunk ape, wtf is gta bro, kai plays gta 6 first, winner, kai wildn,
+   HEY WTF YOOO!, kai bank, Cracked, first baby in gta, his reaction, kai is shocked, kai gets emotional, argues with his new girlfriend
