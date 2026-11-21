@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-20T13:17:59+00:00",
+ "generated_at": "2026-11-21T13:14:53+00:00",
  "publish_mode": "auto",
  "media_hosting": false,
  "overview": {
-  "total_views": 2428.0,
-  "published": 42,
+  "total_views": 3293.0,
+  "published": 59,
   "followers_gained": 0
  },
  "channels": [
@@ -40,6 +40,150 @@
  "factory": {
   "sources": [
    {
+    "id": 56,
+    "title": "IShowSpeed Celebrates After 24 hours of NO SLEEP playing GTA 6! \ud83d\ude31 (Full Clip)",
+    "creator": "IShowSpeed",
+    "rights": "repost",
+    "status": "processed",
+    "duration": 124.0,
+    "created_at": "2026-11-20T19:24:38+00:00"
+   },
+   {
+    "id": 55,
+    "title": "here",
+    "creator": "IShowSpeed (twitch.tv/ishowspeed)",
+    "rights": "repost",
+    "status": "processed",
+    "duration": 60.0,
+    "created_at": "2026-11-20T19:23:50+00:00"
+   },
+   {
+    "id": 54,
+    "title": "SPEED PLAY GTA VI EARLY ACCESS",
+    "creator": "IShowSpeed (twitch.tv/ishowspeed)",
+    "rights": "repost",
+    "status": "processed",
+    "duration": 30.0,
+    "created_at": "2026-11-20T19:23:01+00:00"
+   },
+   {
+    "id": 53,
+    "title": "HAHAHAHH",
+    "creator": "IShowSpeed (twitch.tv/ishowspeed)",
+    "rights": "repost",
+    "status": "processed",
+    "duration": 30.0,
+    "created_at": "2026-11-20T19:22:59+00:00"
+   },
+   {
+    "id": 52,
+    "title": "what is going on in GTA 6",
+    "creator": "Lacy (twitch.tv/lacy)",
+    "rights": "repost",
+    "status": "processed",
+    "duration": 28.0,
+    "created_at": "2026-11-20T19:22:57+00:00"
+   },
+   {
+    "id": 51,
+    "title": "Lacy Reacts to Marlon hating on him",
+    "creator": "Lacy (twitch.tv/lacy)",
+    "rights": "repost",
+    "status": "processed",
+    "duration": 54.0,
+    "created_at": "2026-11-20T19:22:55+00:00"
+   },
+   {
+    "id": 50,
+    "title": "mandy",
+    "creator": "Lacy (twitch.tv/lacy)",
+    "rights": "repost",
+    "status": "processed",
+    "duration": 30.0,
+    "created_at": "2026-11-20T19:22:53+00:00"
+   },
+   {
+    "id": 49,
+    "title": "kai got in gta 6 for the first time",
+    "creator": "Kai Cenat (twitch.tv/kaicenat)",
+    "rights": "repost",
+    "status": "processed",
+    "duration": 30.0,
+    "created_at": "2026-11-20T19:22:51+00:00"
+   },
+   {
+    "id": 48,
+    "title": "wtf he doin",
+    "creator": "Kai Cenat (twitch.tv/kaicenat)",
+    "rights": "repost",
+    "status": "processed",
+    "duration": 24.0,
+    "created_at": "2026-11-20T19:22:49+00:00"
+   },
+   {
+    "id": 47,
+    "title": "GTA broke Kai",
+    "creator": "Kai Cenat (twitch.tv/kaicenat)",
+    "rights": "repost",
+    "status": "processed",
+    "duration": 35.0,
+    "created_at": "2026-11-20T19:22:46+00:00"
+   },
+   {
+    "id": 46,
+    "title": "gtavi",
+    "creator": "Kai Cenat (twitch.tv/kaicenat)",
+    "rights": "repost",
+    "status": "processed",
+    "duration": 35.0,
+    "created_at": "2026-11-20T19:21:56+00:00"
+   },
+   {
+    "id": 45,
+    "title": "THE RELEASE OF GTA VI",
+    "creator": "Lacy (twitch.tv/lacy)",
+    "rights": "repost",
+    "status": "processed",
+    "duration": 30.0,
+    "created_at": "2026-11-20T19:21:54+00:00"
+   },
+   {
+    "id": 44,
+    "title": "GTA 6 LEFT STREAMERS SPEECHLESS! \ud83d\ude02\ud83d\udd25 (INSANE REACTIONS)",
+    "creator": "Source: youtu.be/gpHpY1Km3Wo",
+    "rights": "repost",
+    "status": "processed",
+    "duration": 1050.0,
+    "created_at": "2026-11-20T13:24:48+00:00"
+   },
+   {
+    "id": 43,
+    "title": "GTA 6 WENT TOO FAR \ud83d\ude31 Kai Cenat, IShowSpeed, xQc, caseoh, LIRIK & ohnePixel React | Vantis Clips",
+    "creator": "Source: youtu.be/xrWAL5ZhFiQ",
+    "rights": "repost",
+    "status": "processed",
+    "duration": 633.433,
+    "created_at": "2026-11-20T13:22:45+00:00"
+   },
+   {
+    "id": 42,
+    "title": "GTA 6 WTF & Funny Moments! #2",
+    "creator": "Source: youtu.be/pArE26rHjSU",
+    "rights": "repost",
+    "status": "processed",
+    "duration": 1025.166,
+    "created_at": "2026-11-20T13:21:41+00:00"
+   },
+   {
+    "id": 41,
+    "title": "GTA 6 Funny Moments & Epic Fails #1 \ud83d\ude2d (KaiCenat, Lacy, Speed and more)",
+    "creator": "Source: youtu.be/vsx5GhvGBNo",
+    "rights": "repost",
+    "status": "processed",
+    "duration": 302.516,
+    "created_at": "2026-11-20T13:20:37+00:00"
+   },
+   {
     "id": 40,
     "title": "BEST GTA 6 Streamer Moments So Far... (xQc, Lacy & More) #GTA6 #GTA5",
     "creator": "Source: youtu.be/nj9EoJ7W3C0",
@@ -74,153 +218,333 @@
     "status": "processed",
     "duration": 7544.7,
     "created_at": "2026-11-19T15:26:13+00:00"
-   },
-   {
-    "id": 36,
-    "title": "IShowSpeed's all GTA 6 clips (funny)",
-    "creator": "Source: youtu.be/uHwxYSjHzfk",
-    "rights": "repost",
-    "status": "processed",
-    "duration": 1109.0,
-    "created_at": "2026-11-19T15:22:03+00:00"
-   },
-   {
-    "id": 35,
-    "title": "This Game Is Ruining People's Life! (GTA 6 Funny Clips)",
-    "creator": "Source: youtu.be/VAYXEBtvr_0",
-    "rights": "repost",
-    "status": "processed",
-    "duration": 613.716,
-    "created_at": "2026-11-19T15:20:58+00:00"
-   },
-   {
-    "id": 34,
-    "title": "Best GTA VI Clips... SO FUNNY\ud83d\ude2d (Speed, Lacy, Kai and More)",
-    "creator": "Source: youtu.be/NZBDAzU-CJ0",
-    "rights": "repost",
-    "status": "processed",
-    "duration": 1024.166,
-    "created_at": "2026-11-19T15:20:53+00:00"
-   },
-   {
-    "id": 33,
-    "title": "Streamers Funniest GTA 6 Moments Compilation #6 \ud83d\ude02 (ohnePixel, xQc, TheBurntPeanut)",
-    "creator": "Source: youtu.be/hhb9vSFVr6s",
-    "rights": "repost",
-    "status": "processed",
-    "duration": 503.981,
-    "created_at": "2026-11-19T15:19:49+00:00"
-   },
-   {
-    "id": 32,
-    "title": "GTA 6 is Actually Ridiculous...",
-    "creator": "Source: youtu.be/zzWop_h_P-4",
-    "rights": "repost",
-    "status": "processed",
-    "duration": 918.133,
-    "created_at": "2026-11-19T01:21:33+00:00"
-   },
-   {
-    "id": 31,
-    "title": "I PLAYED GTA 6 FOR THE FIRST TIME",
-    "creator": "Source: youtu.be/JhZ0d4hK_3Q",
-    "rights": "repost",
-    "status": "processed",
-    "duration": 2071.0,
-    "created_at": "2026-11-19T01:21:30+00:00"
-   },
-   {
-    "id": 30,
-    "title": "GTA 6 IS HERE! My First Time Playing GTA 6!",
-    "creator": "Source: youtu.be/ZPcw5Yl_lFk",
-    "rights": "repost",
-    "status": "processed",
-    "duration": 18846.267,
-    "created_at": "2026-11-19T01:20:26+00:00"
-   },
-   {
-    "id": 29,
-    "title": "GTA 6 FIRST BUGS & GLITCHES Compilation (Funniest Moments)",
-    "creator": "Source: youtu.be/nD2xgBJxnJM",
-    "rights": "repost",
-    "status": "processed",
-    "duration": 551.066,
-    "created_at": "2026-11-19T01:17:17+00:00"
-   },
-   {
-    "id": 28,
-    "title": "TheBurntPeanut FIRST TIME ON GTA 6 (TRY NOT TO LAUGH) FUNNY MOMENTS ON GTA VI!",
-    "creator": "Source: youtu.be/iGpl8L3XIF8",
-    "rights": "repost",
-    "status": "processed",
-    "duration": 1895.499,
-    "created_at": "2026-11-19T01:13:07+00:00"
-   },
-   {
-    "id": 27,
-    "title": "Streamers REACT to GTA 6 w/ Disappointment, First Impressions & Funny Moments",
-    "creator": "Source: youtu.be/ilURXQ-4VPg",
-    "rights": "repost",
-    "status": "processed",
-    "duration": 552.018,
-    "created_at": "2026-11-19T01:12:02+00:00"
-   },
-   {
-    "id": 26,
-    "title": "XQC PLAYS THE FIRST MISSION IN GTA 6!",
-    "creator": "Source: youtu.be/FVgyZu9q0nc",
-    "rights": "repost",
-    "status": "processed",
-    "duration": 1449.05,
-    "created_at": "2026-11-18T17:32:44+00:00"
-   },
-   {
-    "id": 25,
-    "title": "xQc Reacts to Grand Theft Auto VI Launch Trailer",
-    "creator": "Source: youtu.be/kL_vM5xMC4E",
-    "rights": "repost",
-    "status": "processed",
-    "duration": 266.666,
-    "created_at": "2026-11-18T17:04:14+00:00"
-   },
-   {
-    "id": 24,
-    "title": "They F**ked with the WRONG Car Meet \ud83d\ude02 Big Feelings in Voice Chat",
-    "creator": "Source: youtu.be/WUUQAHlO0_M",
-    "rights": "repost",
-    "status": "processed",
-    "duration": 632.0,
-    "created_at": "2026-11-18T04:20:53+00:00"
-   },
-   {
-    "id": 23,
-    "title": "Big FIRE Car Meet with COOL Cars on GTA 5 FiveM (Funny/Dumb Moments) | & Our Houses Sneak Peak",
-    "creator": "Source: youtu.be/1z48EhJFToU",
-    "rights": "repost",
-    "status": "processed",
-    "duration": 1604.0,
-    "created_at": "2026-11-18T04:16:47+00:00"
-   },
-   {
-    "id": 22,
-    "title": "Escaping Cops After Robbing a BANK in GTA 5 RP",
-    "creator": "Source: youtu.be/Nu1Dv-dWxO8",
-    "rights": "repost",
-    "status": "processed",
-    "duration": 1787.0,
-    "created_at": "2026-11-18T04:16:42+00:00"
-   },
-   {
-    "id": 21,
-    "title": "EVERY COP Chased Me Over One Joke in GTA 5 RP",
-    "creator": "Source: youtu.be/iPvCPjTUkyM",
-    "rights": "repost",
-    "status": "processed",
-    "duration": 1858.0,
-    "created_at": "2026-11-18T04:14:37+00:00"
    }
   ],
   "clips": [
+   {
+    "id": 197,
+    "source_id": 56,
+    "start": 91.827,
+    "end": 115.96,
+    "score": 70.0,
+    "reasons": "[\"OpusClip AI pick\"]",
+    "category": "streamer",
+    "hook": "Speed stayed up 24 hours playing GTA 6\u2026 then hit a backflip \ud83d\ude2d",
+    "status": "approved",
+    "created_at": "2026-11-20T19:24:39+00:00"
+   },
+   {
+    "id": 196,
+    "source_id": 56,
+    "start": 28.38,
+    "end": 34.1,
+    "score": 78.0,
+    "reasons": "[\"OpusClip AI pick\"]",
+    "category": "hype",
+    "hook": "24-Hour Stream Complete\u2014Then I Landed a Backflip!",
+    "status": "rejected",
+    "created_at": "2026-11-20T19:24:39+00:00"
+   },
+   {
+    "id": 195,
+    "source_id": 55,
+    "start": 34.259,
+    "end": 60.0,
+    "score": 85.0,
+    "reasons": "[\"OpusClip AI pick\"]",
+    "category": "hype",
+    "hook": "GTA VI Is Here: The Moment Fans Have Waited For",
+    "status": "rejected",
+    "created_at": "2026-11-20T19:23:52+00:00"
+   },
+   {
+    "id": 194,
+    "source_id": 55,
+    "start": 5.225,
+    "end": 31.08,
+    "score": 99.0,
+    "reasons": "[\"OpusClip AI pick\"]",
+    "category": "hype",
+    "hook": "GTA VI Is Here! The Countdown Is Over",
+    "status": "rejected",
+    "created_at": "2026-11-20T19:23:52+00:00"
+   },
+   {
+    "id": 193,
+    "source_id": 54,
+    "start": 0.905,
+    "end": 29.983,
+    "score": 75.0,
+    "reasons": "[\"OpusClip AI pick\"]",
+    "category": "hype",
+    "hook": "He Said It Was His Mom\u2019s Car\u2014Then Confessed",
+    "status": "rejected",
+    "created_at": "2026-11-20T19:23:04+00:00"
+   },
+   {
+    "id": 192,
+    "source_id": 53,
+    "start": 3.07,
+    "end": 29.983,
+    "score": 94.0,
+    "reasons": "[\"OpusClip AI pick\"]",
+    "category": "hype",
+    "hook": "Chat Went Too Far\u2026 I\u2019m About to Get Banned!",
+    "status": "rejected",
+    "created_at": "2026-11-20T19:23:01+00:00"
+   },
+   {
+    "id": 191,
+    "source_id": 52,
+    "start": 0.0,
+    "end": 28.0,
+    "score": 75.0,
+    "reasons": "[\"OpusClip AI pick\"]",
+    "category": "hype",
+    "hook": "From Freeway Ride to City Street Stop",
+    "status": "rejected",
+    "created_at": "2026-11-20T19:22:58+00:00"
+   },
+   {
+    "id": 190,
+    "source_id": 51,
+    "start": 0.905,
+    "end": 54.316,
+    "score": 93.0,
+    "reasons": "[\"OpusClip AI pick\"]",
+    "category": "hype",
+    "hook": "I Lost 100 Pounds\u2014Why Does Everyone Blame Ozempic?",
+    "status": "rejected",
+    "created_at": "2026-11-20T19:22:56+00:00"
+   },
+   {
+    "id": 189,
+    "source_id": 50,
+    "start": 1.205,
+    "end": 29.98,
+    "score": 94.0,
+    "reasons": "[\"OpusClip AI pick\"]",
+    "category": "hype",
+    "hook": "When a Crush Turns Into a Full-Time Investigation",
+    "status": "rejected",
+    "created_at": "2026-11-20T19:22:54+00:00"
+   },
+   {
+    "id": 188,
+    "source_id": 49,
+    "start": 2.625,
+    "end": 29.62,
+    "score": 75.0,
+    "reasons": "[\"OpusClip AI pick\"]",
+    "category": "hype",
+    "hook": "Screen Narration Turns On and I Panic!",
+    "status": "rejected",
+    "created_at": "2026-11-20T19:22:52+00:00"
+   },
+   {
+    "id": 187,
+    "source_id": 48,
+    "start": 1.683,
+    "end": 24.395,
+    "score": 88.0,
+    "reasons": "[\"OpusClip AI pick\"]",
+    "category": "hype",
+    "hook": "If You\u2019re Happy and You Know It: Clap Along!",
+    "status": "rejected",
+    "created_at": "2026-11-20T19:22:50+00:00"
+   },
+   {
+    "id": 186,
+    "source_id": 47,
+    "start": 0.06,
+    "end": 34.96,
+    "score": 79.0,
+    "reasons": "[\"OpusClip AI pick\"]",
+    "category": "hype",
+    "hook": "If It\u2019s Not One Thing: Hilarious Catchphrase Meme",
+    "status": "rejected",
+    "created_at": "2026-11-20T19:22:48+00:00"
+   },
+   {
+    "id": 185,
+    "source_id": 46,
+    "start": 0.4,
+    "end": 35.76,
+    "score": 94.0,
+    "reasons": "[\"OpusClip AI pick\"]",
+    "category": "hype",
+    "hook": "Lucia\u2019s GTA 6-Star Police Chase Gets Intense",
+    "status": "rejected",
+    "created_at": "2026-11-20T19:21:58+00:00"
+   },
+   {
+    "id": 184,
+    "source_id": 45,
+    "start": 0.0,
+    "end": 29.949,
+    "score": 88.0,
+    "reasons": "[\"OpusClip AI pick\"]",
+    "category": "hype",
+    "hook": "GTA 6 Launch Countdown: The Final 10 Seconds",
+    "status": "rejected",
+    "created_at": "2026-11-20T19:21:55+00:00"
+   },
+   {
+    "id": 183,
+    "source_id": 44,
+    "start": 0.04,
+    "end": 55.1,
+    "score": 87.0,
+    "reasons": "[\"OpusClip AI pick\"]",
+    "category": "hype",
+    "hook": "GTA VI Is Here! We Tried a Backflip",
+    "status": "rejected",
+    "created_at": "2026-11-20T13:24:51+00:00"
+   },
+   {
+    "id": 182,
+    "source_id": 44,
+    "start": 191.735,
+    "end": 209.62,
+    "score": 88.0,
+    "reasons": "[\"OpusClip AI pick\"]",
+    "category": "hype",
+    "hook": "Jason and Lucia Are Ready for Fun | GTA 6",
+    "status": "rejected",
+    "created_at": "2026-11-20T13:24:51+00:00"
+   },
+   {
+    "id": 181,
+    "source_id": 44,
+    "start": 865.383,
+    "end": 887.038,
+    "score": 90.0,
+    "reasons": "[\"OpusClip AI pick\"]",
+    "category": "hype",
+    "hook": "Stolen Car Comedy: The Wildest Ride-Along Confession",
+    "status": "rejected",
+    "created_at": "2026-11-20T13:24:51+00:00"
+   },
+   {
+    "id": 180,
+    "source_id": 44,
+    "start": 85.485,
+    "end": 102.5,
+    "score": 91.0,
+    "reasons": "[\"OpusClip AI pick\"]",
+    "category": "hype",
+    "hook": "Stolen Car Confession Turns Into an Awkward Escape",
+    "status": "rejected",
+    "created_at": "2026-11-20T13:24:51+00:00"
+   },
+   {
+    "id": 179,
+    "source_id": 44,
+    "start": 503.265,
+    "end": 533.248,
+    "score": 93.0,
+    "reasons": "[\"OpusClip AI pick\"]",
+    "category": "hype",
+    "hook": "Funny Traffic Stop: The Boyfriend Story Goes Off the Rails",
+    "status": "rejected",
+    "created_at": "2026-11-20T13:24:51+00:00"
+   },
+   {
+    "id": 178,
+    "source_id": 44,
+    "start": 297.651,
+    "end": 339.52,
+    "score": 97.0,
+    "reasons": "[\"OpusClip AI pick\"]",
+    "category": "hype",
+    "hook": "Caught in a Stolen Car: The Twist Nobody Expected",
+    "status": "rejected",
+    "created_at": "2026-11-20T13:24:51+00:00"
+   },
+   {
+    "id": 177,
+    "source_id": 43,
+    "start": 16.76,
+    "end": 64.9,
+    "score": 94.0,
+    "reasons": "[\"OpusClip AI pick\"]",
+    "category": "hype",
+    "hook": "GTA 6 Gameplay Has Us Shocked From the Start",
+    "status": "rejected",
+    "created_at": "2026-11-20T13:22:46+00:00"
+   },
+   {
+    "id": 176,
+    "source_id": 42,
+    "start": 838.0,
+    "end": 875.98,
+    "score": 80.0,
+    "reasons": "[\"OpusClip AI pick\"]",
+    "category": "hype",
+    "hook": "No More Crashing? This Chaotic Moment Gets Wild",
+    "status": "rejected",
+    "created_at": "2026-11-20T13:21:44+00:00"
+   },
+   {
+    "id": 175,
+    "source_id": 42,
+    "start": 493.684,
+    "end": 500.926,
+    "score": 83.0,
+    "reasons": "[\"OpusClip AI pick\"]",
+    "category": "hype",
+    "hook": "GTA VI Player Finds the Perfect Spot for Chaos",
+    "status": "rejected",
+    "created_at": "2026-11-20T13:21:44+00:00"
+   },
+   {
+    "id": 174,
+    "source_id": 42,
+    "start": 115.699,
+    "end": 135.56,
+    "score": 87.0,
+    "reasons": "[\"OpusClip AI pick\"]",
+    "category": "hype",
+    "hook": "Eating Apples Turns Awkward When the Police Arrive",
+    "status": "rejected",
+    "created_at": "2026-11-20T13:21:44+00:00"
+   },
+   {
+    "id": 173,
+    "source_id": 42,
+    "start": 914.3,
+    "end": 951.06,
+    "score": 90.0,
+    "reasons": "[\"OpusClip AI pick\"]",
+    "category": "streamer",
+    "hook": "He thought he hit a cat\u2026 then found a $700 payday \ud83d\ude2d",
+    "status": "scheduled",
+    "created_at": "2026-11-20T13:21:44+00:00"
+   },
+   {
+    "id": 172,
+    "source_id": 42,
+    "start": 685.475,
+    "end": 703.8,
+    "score": 97.0,
+    "reasons": "[\"OpusClip AI pick\"]",
+    "category": "hype",
+    "hook": "You Can\u2019t Catch Me! A Wild Chase Begins",
+    "status": "rejected",
+    "created_at": "2026-11-20T13:21:44+00:00"
+   },
+   {
+    "id": 171,
+    "source_id": 41,
+    "start": 149.995,
+    "end": 183.52,
+    "score": 80.0,
+    "reasons": "[\"OpusClip AI pick\"]",
+    "category": "streamer",
+    "hook": "His getaway plan hit a security check \ud83d\ude2d",
+    "status": "approved",
+    "created_at": "2026-11-20T13:20:38+00:00"
+   },
    {
     "id": 170,
     "source_id": 40,
@@ -230,7 +554,7 @@
     "reasons": "[\"OpusClip AI pick\"]",
     "category": "streamer",
     "hook": "xQc's GTA 6 launch reaction pulled 100K viewers \ud83d\ude2d",
-    "status": "approved",
+    "status": "scheduled",
     "created_at": "2026-11-20T03:24:08+00:00"
    },
    {
@@ -254,7 +578,7 @@
     "reasons": "[\"OpusClip AI pick\"]",
     "category": "streamer",
     "hook": "Jynxzi's car survived the crash\u2026 he barely did \ud83d\ude2d",
-    "status": "approved",
+    "status": "scheduled",
     "created_at": "2026-11-20T03:23:53+00:00"
    },
    {
@@ -266,7 +590,7 @@
     "reasons": "[\"OpusClip AI pick\"]",
     "category": "streamer",
     "hook": "One wrong button turned his escape into a police chase \ud83d\ude2d",
-    "status": "approved",
+    "status": "scheduled",
     "created_at": "2026-11-20T03:23:53+00:00"
    },
    {
@@ -410,7 +734,7 @@
     "reasons": "[\"OpusClip AI pick\"]",
     "category": "streamer",
     "hook": "Kai Cenat got lost in the GTA 6 map in 5 minutes \ud83d\ude2d",
-    "status": "approved",
+    "status": "scheduled",
     "created_at": "2026-11-19T15:26:17+00:00"
    },
    {
@@ -496,337 +820,13 @@
     "hook": "GTA 6 NPCs fight back now \ud83d\udc80",
     "status": "held",
     "created_at": "2026-11-19T15:21:02+00:00"
-   },
-   {
-    "id": 147,
-    "source_id": 35,
-    "start": 504.47,
-    "end": 539.614,
-    "score": 81.0,
-    "reasons": "[\"OpusClip AI pick\"]",
-    "category": "gta6",
-    "hook": "Unluckiest NPC in Vice City \ud83d\udc80",
-    "status": "held",
-    "created_at": "2026-11-19T15:21:02+00:00"
-   },
-   {
-    "id": 146,
-    "source_id": 35,
-    "start": 578.215,
-    "end": 613.716,
-    "score": 85.0,
-    "reasons": "[\"OpusClip AI pick\"]",
-    "category": "hype",
-    "hook": "A Driving Mistake Turns Into Panic When Police Arrive",
-    "status": "rejected",
-    "created_at": "2026-11-19T15:21:02+00:00"
-   },
-   {
-    "id": 145,
-    "source_id": 35,
-    "start": 80.275,
-    "end": 122.42,
-    "score": 92.0,
-    "reasons": "[\"OpusClip AI pick\"]",
-    "category": "gta6",
-    "hook": "This GTA 6 side quest went off the rails \ud83d\udc80",
-    "status": "held",
-    "created_at": "2026-11-19T15:21:02+00:00"
-   },
-   {
-    "id": 144,
-    "source_id": 35,
-    "start": 40.865,
-    "end": 79.52,
-    "score": 96.0,
-    "reasons": "[\"OpusClip AI pick\"]",
-    "category": "streamer",
-    "hook": "Every NPC in GTA 6 is out to get him \ud83d\ude2d",
-    "status": "scheduled",
-    "created_at": "2026-11-19T15:21:02+00:00"
-   },
-   {
-    "id": 143,
-    "source_id": 34,
-    "start": 86.565,
-    "end": 118.32,
-    "score": 82.0,
-    "reasons": "[\"OpusClip AI pick\"]",
-    "category": "streamer",
-    "hook": "His routine traffic stop turned into pure chaos \ud83d\ude2d",
-    "status": "approved",
-    "created_at": "2026-11-19T15:20:57+00:00"
-   },
-   {
-    "id": 142,
-    "source_id": 34,
-    "start": 931.934,
-    "end": 986.46,
-    "score": 83.0,
-    "reasons": "[\"OpusClip AI pick\"]",
-    "category": "streamer",
-    "hook": "He lost the cops by hitting a drive-thru \ud83d\ude2d",
-    "status": "approved",
-    "created_at": "2026-11-19T15:20:57+00:00"
-   },
-   {
-    "id": 141,
-    "source_id": 34,
-    "start": 823.925,
-    "end": 842.64,
-    "score": 85.0,
-    "reasons": "[\"OpusClip AI pick\"]",
-    "category": "hype",
-    "hook": "Why Is Lucia\u2019s Friend Locked Up? This Game Gets Wild",
-    "status": "rejected",
-    "created_at": "2026-11-19T15:20:57+00:00"
-   },
-   {
-    "id": 140,
-    "source_id": 34,
-    "start": 67.965,
-    "end": 85.9,
-    "score": 90.0,
-    "reasons": "[\"OpusClip AI pick\"]",
-    "category": "streamer",
-    "hook": "He saw the blimp glitch and lost it \ud83d\ude2d",
-    "status": "scheduled",
-    "created_at": "2026-11-19T15:20:57+00:00"
-   },
-   {
-    "id": 139,
-    "source_id": 34,
-    "start": 226.2,
-    "end": 279.72,
-    "score": 97.0,
-    "reasons": "[\"OpusClip AI pick\"]",
-    "category": "hype",
-    "hook": "GTA 5 Police Chase Goes Completely Off the Rails",
-    "status": "rejected",
-    "created_at": "2026-11-19T15:20:57+00:00"
-   },
-   {
-    "id": 138,
-    "source_id": 33,
-    "start": 2.985,
-    "end": 53.342,
-    "score": 82.0,
-    "reasons": "[\"OpusClip AI pick\"]",
-    "category": "hype",
-    "hook": "A Chaotic Car Ride Turns Into Apologies",
-    "status": "rejected",
-    "created_at": "2026-11-19T15:19:51+00:00"
-   },
-   {
-    "id": 137,
-    "source_id": 33,
-    "start": 479.62,
-    "end": 503.981,
-    "score": 84.0,
-    "reasons": "[\"OpusClip AI pick\"]",
-    "category": "hype",
-    "hook": "Chad Wants to Be Jason\u2014Then Instantly Changes His Mind",
-    "status": "rejected",
-    "created_at": "2026-11-19T15:19:51+00:00"
-   },
-   {
-    "id": 136,
-    "source_id": 33,
-    "start": 181.177,
-    "end": 212.684,
-    "score": 85.0,
-    "reasons": "[\"OpusClip AI pick\"]",
-    "category": "hype",
-    "hook": "A Moment of Panic: Should I Call the Police?",
-    "status": "rejected",
-    "created_at": "2026-11-19T15:19:51+00:00"
-   },
-   {
-    "id": 135,
-    "source_id": 32,
-    "start": 303.565,
-    "end": 361.36,
-    "score": 84.0,
-    "reasons": "[\"OpusClip AI pick\"]",
-    "category": "gta6",
-    "hook": "Crocodile chaos, then the police boat shows up \ud83d\udc80",
-    "status": "held",
-    "created_at": "2026-11-19T01:21:35+00:00"
-   },
-   {
-    "id": 134,
-    "source_id": 31,
-    "start": 271.297,
-    "end": 318.68,
-    "score": 87.0,
-    "reasons": "[\"OpusClip AI pick\"]",
-    "category": "hype",
-    "hook": "Lucia in Prison: Exploring the Jail and Meeting Everyone",
-    "status": "rejected",
-    "created_at": "2026-11-19T01:21:33+00:00"
-   },
-   {
-    "id": 133,
-    "source_id": 31,
-    "start": 660.365,
-    "end": 706.54,
-    "score": 90.0,
-    "reasons": "[\"OpusClip AI pick\"]",
-    "category": "gta6",
-    "hook": "First police chase in GTA 6 goes sideways \ud83d\udc80",
-    "status": "held",
-    "created_at": "2026-11-19T01:21:33+00:00"
-   },
-   {
-    "id": 132,
-    "source_id": 31,
-    "start": 3.305,
-    "end": 55.64,
-    "score": 92.0,
-    "reasons": "[\"OpusClip AI pick\"]",
-    "category": "hype",
-    "hook": "GTA 6 Is Finally Here! The Countdown to Gameplay",
-    "status": "rejected",
-    "created_at": "2026-11-19T01:21:33+00:00"
-   },
-   {
-    "id": 131,
-    "source_id": 31,
-    "start": 148.14,
-    "end": 169.82,
-    "score": 94.0,
-    "reasons": "[\"OpusClip AI pick\"]",
-    "category": "hype",
-    "hook": "GTA 6 Trailer Reaction: We\u2019re Finally Playing It!",
-    "status": "rejected",
-    "created_at": "2026-11-19T01:21:33+00:00"
-   },
-   {
-    "id": 130,
-    "source_id": 31,
-    "start": 471.335,
-    "end": 522.472,
-    "score": 97.0,
-    "reasons": "[\"OpusClip AI pick\"]",
-    "category": "hype",
-    "hook": "GTA 6 Robbery Goes Wrong as Lucia Faces the Police!",
-    "status": "rejected",
-    "created_at": "2026-11-19T01:21:33+00:00"
-   },
-   {
-    "id": 129,
-    "source_id": 31,
-    "start": 535.877,
-    "end": 576.552,
-    "score": 99.0,
-    "reasons": "[\"OpusClip AI pick\"]",
-    "category": "gta6",
-    "hook": "Two stars and one bad idea: escape by water \ud83d\udc80",
-    "status": "scheduled",
-    "created_at": "2026-11-19T01:21:33+00:00"
-   },
-   {
-    "id": 128,
-    "source_id": 30,
-    "start": 1086.388,
-    "end": 1138.188,
-    "score": 84.0,
-    "reasons": "[\"OpusClip AI pick\"]",
-    "category": "hype",
-    "hook": "Jason and Lucia\u2019s Chaotic GTA 6 Game Night",
-    "status": "rejected",
-    "created_at": "2026-11-19T01:20:29+00:00"
-   },
-   {
-    "id": 127,
-    "source_id": 30,
-    "start": 841.68,
-    "end": 889.28,
-    "score": 87.0,
-    "reasons": "[\"OpusClip AI pick\"]",
-    "category": "hype",
-    "hook": "Stream Panic: No Signal, Elgato, and a Close Call",
-    "status": "rejected",
-    "created_at": "2026-11-19T01:20:29+00:00"
-   },
-   {
-    "id": 126,
-    "source_id": 30,
-    "start": 503.225,
-    "end": 553.35,
-    "score": 88.0,
-    "reasons": "[\"OpusClip AI pick\"]",
-    "category": "hype",
-    "hook": "GTA 6 Hype Will Fade\u2014But I\u2019m Here for the Long Run",
-    "status": "rejected",
-    "created_at": "2026-11-19T01:20:29+00:00"
-   },
-   {
-    "id": 125,
-    "source_id": 30,
-    "start": 403.415,
-    "end": 444.43,
-    "score": 91.0,
-    "reasons": "[\"OpusClip AI pick\"]",
-    "category": "hype",
-    "hook": "GTA 6 Launch Countdown: My First Stream Begins!",
-    "status": "rejected",
-    "created_at": "2026-11-19T01:20:29+00:00"
-   },
-   {
-    "id": 124,
-    "source_id": 30,
-    "start": 470.739,
-    "end": 500.19,
-    "score": 94.0,
-    "reasons": "[\"OpusClip AI pick\"]",
-    "category": "hype",
-    "hook": "50 Gifted Memberships?! This Streamer Is a Legend",
-    "status": "rejected",
-    "created_at": "2026-11-19T01:20:29+00:00"
-   },
-   {
-    "id": 123,
-    "source_id": 30,
-    "start": 37.715,
-    "end": 61.66,
-    "score": 97.0,
-    "reasons": "[\"OpusClip AI pick\"]",
-    "category": "hype",
-    "hook": "GTA 6 Launch Stream: Playable in Just 13 Minutes?",
-    "status": "rejected",
-    "created_at": "2026-11-19T01:20:29+00:00"
-   },
-   {
-    "id": 122,
-    "source_id": 29,
-    "start": 354.666,
-    "end": 370.299,
-    "score": 83.0,
-    "reasons": "[\"OpusClip AI pick\"]",
-    "category": "hype",
-    "hook": "From Underwater Escape to a Police-Filled Street",
-    "status": "rejected",
-    "created_at": "2026-11-19T01:17:20+00:00"
-   },
-   {
-    "id": 121,
-    "source_id": 29,
-    "start": 387.633,
-    "end": 417.39,
-    "score": 84.0,
-    "reasons": "[\"OpusClip AI pick\"]",
-    "category": "gta6",
-    "hook": "This bridge drive went completely off the rails \ud83d\udc80",
-    "status": "held",
-    "created_at": "2026-11-19T01:17:20+00:00"
    }
   ],
   "counts": {
-   "approved": 7,
+   "approved": 4,
    "held": 50,
-   "rejected": 93,
-   "scheduled": 20
+   "rejected": 117,
+   "scheduled": 26
   }
  },
  "growth": {
@@ -836,20 +836,40 @@
     "platform": "tiktok",
     "due_at": "2026-11-18T16:30:00Z",
     "sent_at": "2026-11-18T16:32:34.698Z",
-    "external_link": "https://tiktok.com/@wasteddailyclips8/video/7709549659408059661",
+    "external_link": "https://www.tiktok.com/@wasteddailyclips8/video/7709549659408059661?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
     "clip_id": 53,
     "category": "rp",
     "hook": "The car won't move. Burt takes it personally \ud83d\udc80",
     "length": 51.29500000000007,
-    "views": 699.0,
-    "reach": 0.0,
+    "views": 701.0,
+    "reach": 664.0,
     "likes": null,
     "comments": 1.0,
     "shares": 0.0,
     "saves": null,
     "follows": null,
-    "avg_watch_sec": 12.72,
-    "hours_after": 44.756895999444446
+    "avg_watch_sec": 12.69,
+    "hours_after": 68.7051355425
+   },
+   {
+    "post_id": 51,
+    "platform": "tiktok",
+    "due_at": "2026-11-19T16:30:00Z",
+    "sent_at": "2026-11-19T16:32:35.804Z",
+    "external_link": "https://www.tiktok.com/@wasteddailyclips8/video/7709921056601001247?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
+    "clip_id": 107,
+    "category": "gta6",
+    "hook": "Ronaldo's first reaction to GTA 6 on PS5 Pro \ud83d\udc40",
+    "length": 5.656000000000006,
+    "views": 213.0,
+    "reach": 172.0,
+    "likes": null,
+    "comments": 0.0,
+    "shares": 0.0,
+    "saves": null,
+    "follows": null,
+    "avg_watch_sec": 9.55,
+    "hours_after": 44.70482824472222
    },
    {
     "post_id": 2,
@@ -872,24 +892,24 @@
     "hours_after": 60.77957052694445
    },
    {
-    "post_id": 51,
+    "post_id": 71,
     "platform": "tiktok",
-    "due_at": "2026-11-19T16:30:00Z",
-    "sent_at": "2026-11-19T16:32:35.804Z",
-    "external_link": "https://tiktok.com/@wasteddailyclips8/video/7709921056601001247",
-    "clip_id": 107,
-    "category": "gta6",
-    "hook": "Ronaldo's first reaction to GTA 6 on PS5 Pro \ud83d\udc40",
-    "length": 5.656000000000006,
-    "views": 157.0,
+    "due_at": "2026-11-20T14:00:00Z",
+    "sent_at": "2026-11-20T14:05:41.181Z",
+    "external_link": "https://www.tiktok.com/@wasteddailyclips8/video/7710254093289180430?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
+    "clip_id": 144,
+    "category": "streamer",
+    "hook": "Every NPC in GTA 6 is out to get him \ud83d\ude2d",
+    "length": 38.654999999999994,
+    "views": 147.0,
     "reach": 0.0,
     "likes": null,
     "comments": 0.0,
-    "shares": 0.0,
+    "shares": 1.0,
     "saves": null,
     "follows": null,
-    "avg_watch_sec": 9.95,
-    "hours_after": 20.756588731944447
+    "avg_watch_sec": 6.98,
+    "hours_after": 23.153334550833335
    },
    {
     "post_id": 50,
@@ -908,8 +928,8 @@
     "shares": 0.0,
     "saves": 0.0,
     "follows": null,
-    "avg_watch_sec": 16.81,
-    "hours_after": 20.762373736666667
+    "avg_watch_sec": 16.7,
+    "hours_after": 44.710613261666666
    },
    {
     "post_id": 38,
@@ -929,7 +949,7 @@
     "saves": 0.0,
     "follows": null,
     "avg_watch_sec": 9.27,
-    "hours_after": 34.28567513777778
+    "hours_after": 58.23391467861111
    },
    {
     "post_id": 3,
@@ -988,54 +1008,34 @@
     "shares": 0.0,
     "saves": 0.0,
     "follows": null,
-    "avg_watch_sec": 9.78,
-    "hours_after": 18.233962890277777
+    "avg_watch_sec": 9.84,
+    "hours_after": 42.1822024025
    },
    {
-    "post_id": 27,
+    "post_id": 62,
     "platform": "instagram",
-    "due_at": "2026-11-19T00:30:00Z",
-    "sent_at": "2026-11-19T00:31:55.728Z",
-    "external_link": "https://www.instagram.com/reel/Df5zFHLjyxo/",
-    "clip_id": 40,
-    "category": "hype",
-    "hook": "Traffic pileup on an exit ramp \ud83d\udc80",
-    "length": 32.25999999999999,
-    "views": 126.0,
-    "reach": 114.0,
+    "due_at": "2026-11-20T00:30:00Z",
+    "sent_at": "2026-11-20T00:32:18.112Z",
+    "external_link": "https://www.instagram.com/reel/Df8X62cFXAU/",
+    "clip_id": 118,
+    "category": "gta6",
+    "hook": "GTA 6 physics are already broken \ud83d\udc80",
+    "length": 31.186,
+    "views": 139.0,
+    "reach": 109.0,
     "likes": null,
     "comments": 0.0,
     "shares": 0.0,
     "saves": 0.0,
     "follows": null,
-    "avg_watch_sec": 11.95,
-    "hours_after": 36.76772102416667
-   },
-   {
-    "post_id": 9,
-    "platform": "tiktok",
-    "due_at": "2026-11-18T14:00:00Z",
-    "sent_at": "2026-11-18T14:08:05.664Z",
-    "external_link": "https://tiktok.com/@wasteddailyclips8/video/7709512019510070541",
-    "clip_id": 5,
-    "category": "hype",
-    "hook": "Jason and Lucia get one more shot \ud83c\udf34",
-    "length": 14.4,
-    "views": 121.0,
-    "reach": 0.0,
-    "likes": null,
-    "comments": 0.0,
-    "shares": 0.0,
-    "saves": null,
-    "follows": null,
-    "avg_watch_sec": 7.64,
-    "hours_after": 47.1649610625
+    "avg_watch_sec": 11.97,
+    "hours_after": 36.70974265222222
    }
   ],
   "recommendations": [
-   "Double down on 'rp' (median 408 views vs overall 42).",
-   "Cut or rework 'gta6' (median 4 views).",
-   "Retention: \u226415s clips keep 118% watched vs 20% for longer clips. Trim harder.",
+   "Double down on 'rp' (median 409 views vs overall 77).",
+   "Cut or rework 'gta6' (median 8 views).",
+   "Retention: \u226415s clips keep 59% watched vs 25% for longer clips. Trim harder.",
    "Best posting hour so far: 11:00 ET. Test moving a weak slot there."
   ]
  },
@@ -1057,244 +1057,244 @@
  "automation": {
   "events": [
    {
-    "at": "2026-11-20T13:17:59+00:00",
+    "at": "2026-11-21T13:14:53+00:00",
     "level": "info",
     "agent": "metrics",
-    "message": "Pulled metrics for 42 post(s)"
+    "message": "Pulled metrics for 44 post(s)"
    },
    {
-    "at": "2026-11-20T13:17:59+00:00",
+    "at": "2026-11-21T13:14:52+00:00",
     "level": "info",
     "agent": "publish",
-    "message": "Queued 8 post(s) in mode=auto"
+    "message": "Queued 20 post(s) in mode=auto"
    },
    {
-    "at": "2026-11-20T13:17:52+00:00",
+    "at": "2026-11-21T13:14:34+00:00",
     "level": "info",
     "agent": "opus",
     "message": "Refreshed export URLs for 9/9 approved clip(s)"
    },
    {
-    "at": "2026-11-20T04:21:32+00:00",
-    "level": "info",
-    "agent": "editor",
-    "message": "Clip 170 hook -> xQc's GTA 6 launch reaction pulled 100K viewers \ud83d\ude2d"
-   },
-   {
-    "at": "2026-11-20T04:21:32+00:00",
-    "level": "info",
-    "agent": "editor",
-    "message": "Clip 168 hook -> Jynxzi's car survived the crash\u2026 he barely did \ud83d\ude2d"
-   },
-   {
-    "at": "2026-11-20T04:21:32+00:00",
-    "level": "info",
-    "agent": "editor",
-    "message": "Clip 167 hook -> One wrong button turned his escape into a police chase \ud83d\ude2d"
-   },
-   {
-    "at": "2026-11-20T04:21:31+00:00",
-    "level": "info",
-    "agent": "editor",
-    "message": "Clip 166 hook -> Asmongold's getaway almost took out a random bystander \ud83d\ude2d"
-   },
-   {
-    "at": "2026-11-20T04:21:31+00:00",
-    "level": "info",
-    "agent": "editor",
-    "message": "Clip 165 hook -> His $42 snack stop turned into a robbery \ud83d\ude2d"
-   },
-   {
-    "at": "2026-11-20T03:24:08+00:00",
+    "at": "2026-11-20T19:25:25+00:00",
     "level": "info",
     "agent": "publish",
-    "message": "Queued 0 post(s) in mode=auto"
+    "message": "Queued 4 post(s) in mode=auto"
    },
    {
-    "at": "2026-11-20T03:24:08+00:00",
-    "level": "info",
-    "agent": "opus",
-    "message": "Imported 2 clip(s) from OpusClip project P3112003KEVk"
-   },
-   {
-    "at": "2026-11-20T03:24:06+00:00",
+    "at": "2026-11-20T19:25:17+00:00",
     "level": "info",
     "agent": "publish",
-    "message": "Queued 16 post(s) in mode=auto"
+    "message": "GTA 6 first: released slots from clips [] for 10 waiting GTA 6 clip(s)"
    },
    {
-    "at": "2026-11-20T03:23:53+00:00",
-    "level": "info",
-    "agent": "opus",
-    "message": "Imported 4 clip(s) from OpusClip project P3112003KD9n"
-   },
-   {
-    "at": "2026-11-20T03:20:28+00:00",
-    "level": "info",
-    "agent": "opus",
-    "message": "Submitted G3VjdnkiD0s as P3112003KKAg: Adin Ross Opens GTA 6 #gta6"
-   },
-   {
-    "at": "2026-11-20T03:20:20+00:00",
-    "level": "info",
-    "agent": "opus",
-    "message": "Submitted nj9EoJ7W3C0 as P3112003KEVk: BEST GTA 6 Streamer Moments So Far... (xQc, Lacy & More) #GTA6 #GTA5"
-   },
-   {
-    "at": "2026-11-20T03:20:14+00:00",
-    "level": "info",
-    "agent": "opus",
-    "message": "Submitted fhw_k890INs as P3112003KD9n: Streamers Funniest GTA 6 Moments Compilation #9 \ud83d\ude02 (xQc, Asmongold, TheBurntPeanut)"
-   },
-   {
-    "at": "2026-11-20T03:19:49+00:00",
+    "at": "2026-11-20T19:25:17+00:00",
     "level": "info",
     "agent": "editor",
-    "message": "Clip 155 hook -> Kai Cenat got lost in the GTA 6 map in 5 minutes \ud83d\ude2d"
+    "message": "Rejected clips [184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196]"
    },
    {
-    "at": "2026-11-20T03:19:49+00:00",
-    "level": "info",
-    "agent": "editor",
-    "message": "Clip 144 hook -> Every NPC in GTA 6 is out to get him \ud83d\ude2d"
-   },
-   {
-    "at": "2026-11-20T03:19:49+00:00",
-    "level": "info",
-    "agent": "editor",
-    "message": "Clip 143 hook -> His routine traffic stop turned into pure chaos \ud83d\ude2d"
-   },
-   {
-    "at": "2026-11-20T03:19:49+00:00",
-    "level": "info",
-    "agent": "editor",
-    "message": "Clip 142 hook -> He lost the cops by hitting a drive-thru \ud83d\ude2d"
-   },
-   {
-    "at": "2026-11-20T03:19:48+00:00",
-    "level": "info",
-    "agent": "editor",
-    "message": "Clip 140 hook -> He saw the blimp glitch and lost it \ud83d\ude2d"
-   },
-   {
-    "at": "2026-11-20T03:19:48+00:00",
-    "level": "info",
-    "agent": "editor",
-    "message": "Clip 116 hook -> Peanut nailed the docking right after a tiger scare \ud83d\ude2d"
-   },
-   {
-    "at": "2026-11-20T03:19:48+00:00",
-    "level": "info",
-    "agent": "editor",
-    "message": "Clip 115 hook -> Peanut's crew somehow outran every cop in Vice City \ud83d\ude2d"
-   },
-   {
-    "at": "2026-11-20T03:19:48+00:00",
-    "level": "info",
-    "agent": "editor",
-    "message": "Clip 112 hook -> Peanut got chased by the Hot Milk Police \ud83d\ude2d"
-   },
-   {
-    "at": "2026-11-20T03:19:47+00:00",
-    "level": "info",
-    "agent": "editor",
-    "message": "Owner switched style to streamer-reaction clips; held 50 non-matching approved clips"
-   },
-   {
-    "at": "2026-11-19T15:58:09+00:00",
-    "level": "info",
-    "agent": "publish",
-    "message": "Queued 0 post(s) in mode=auto"
-   },
-   {
-    "at": "2026-11-19T15:58:09+00:00",
-    "level": "info",
-    "agent": "publish",
-    "message": "GTA 6 first: released slots from clips [] for 19 waiting GTA 6 clip(s)"
-   },
-   {
-    "at": "2026-11-19T15:58:09+00:00",
+    "at": "2026-11-20T19:25:17+00:00",
     "level": "info",
     "agent": "approval",
-    "message": "Approved clips [140, 142, 143, 144, 145, 147, 148, 155, 159, 161, 162, 164]"
+    "message": "Approved clips [197]"
    },
    {
-    "at": "2026-11-19T15:58:09+00:00",
+    "at": "2026-11-20T19:25:17+00:00",
     "level": "info",
     "agent": "editor",
-    "message": "Clip 155 hook -> Kai Cenat realizing how big the GTA 6 map is \ud83d\udc40"
+    "message": "Clip 197 hook -> Speed stayed up 24 hours playing GTA 6\u2026 then hit a backflip \ud83d\ude2d"
    },
    {
-    "at": "2026-11-19T15:58:09+00:00",
+    "at": "2026-11-20T19:24:39+00:00",
     "level": "info",
-    "agent": "editor",
-    "message": "Clip 143 hook -> This traffic stop turned into total chaos \ud83d\udc80"
+    "agent": "opus",
+    "message": "Imported 2 clip(s) from OpusClip project P3112019JndW"
    },
    {
-    "at": "2026-11-19T15:58:08+00:00",
+    "at": "2026-11-20T19:23:52+00:00",
     "level": "info",
-    "agent": "editor",
-    "message": "Clip 142 hook -> Lost the cops. Escaped in a minivan \ud83d\udc80"
+    "agent": "opus",
+    "message": "Imported 2 clip(s) from OpusClip project P3112019LjMw"
    },
    {
-    "at": "2026-11-19T15:58:08+00:00",
+    "at": "2026-11-20T19:23:04+00:00",
     "level": "info",
-    "agent": "editor",
-    "message": "Clip 140 hook -> Is that blimp supposed to do that? \ud83d\udc40"
+    "agent": "opus",
+    "message": "Imported 1 clip(s) from OpusClip project P3112019Lc1Y"
    },
    {
-    "at": "2026-11-19T15:58:08+00:00",
+    "at": "2026-11-20T19:23:01+00:00",
     "level": "info",
-    "agent": "editor",
-    "message": "Clip 148 hook -> GTA 6 NPCs fight back now \ud83d\udc80"
+    "agent": "opus",
+    "message": "Imported 1 clip(s) from OpusClip project P3112019LUUd"
    },
    {
-    "at": "2026-11-19T15:58:08+00:00",
+    "at": "2026-11-20T19:22:58+00:00",
     "level": "info",
-    "agent": "editor",
-    "message": "Clip 147 hook -> Unluckiest NPC in Vice City \ud83d\udc80"
+    "agent": "opus",
+    "message": "Imported 1 clip(s) from OpusClip project P3112019LN6I"
    },
    {
-    "at": "2026-11-19T15:58:07+00:00",
+    "at": "2026-11-20T19:22:56+00:00",
     "level": "info",
-    "agent": "editor",
-    "message": "Clip 145 hook -> This GTA 6 side quest went off the rails \ud83d\udc80"
+    "agent": "opus",
+    "message": "Imported 1 clip(s) from OpusClip project P3112019LFlD"
    },
    {
-    "at": "2026-11-19T15:58:07+00:00",
+    "at": "2026-11-20T19:22:54+00:00",
     "level": "info",
-    "agent": "editor",
-    "message": "Clip 144 hook -> The NPC details in GTA 6 are unreal \ud83d\udc40"
+    "agent": "opus",
+    "message": "Imported 1 clip(s) from OpusClip project P3112019L8Ph"
    },
    {
-    "at": "2026-11-19T15:58:07+00:00",
+    "at": "2026-11-20T19:22:52+00:00",
     "level": "info",
-    "agent": "editor",
-    "message": "Clip 164 hook -> Lost the car, found a jet ski \ud83c\udf34"
+    "agent": "opus",
+    "message": "Imported 1 clip(s) from OpusClip project P3112019L1OW"
    },
    {
-    "at": "2026-11-19T15:58:07+00:00",
+    "at": "2026-11-20T19:22:50+00:00",
     "level": "info",
-    "agent": "editor",
-    "message": "Clip 162 hook -> Scooters, a helicopter and zero ammo \ud83d\udc80"
+    "agent": "opus",
+    "message": "Imported 1 clip(s) from OpusClip project P3112019KsvT"
    },
    {
-    "at": "2026-11-19T15:58:06+00:00",
+    "at": "2026-11-20T19:22:48+00:00",
     "level": "info",
-    "agent": "editor",
-    "message": "Clip 161 hook -> Jet ski chase, then a Porsche shows up \ud83d\udc80"
+    "agent": "opus",
+    "message": "Imported 1 clip(s) from OpusClip project P3112019Kik0"
    },
    {
-    "at": "2026-11-19T15:58:06+00:00",
+    "at": "2026-11-20T19:21:58+00:00",
     "level": "info",
-    "agent": "editor",
-    "message": "Clip 159 hook -> Chasing the six-star wanted level with the worst excuses \ud83d\udc80"
+    "agent": "opus",
+    "message": "Imported 1 clip(s) from OpusClip project P3112019KavV"
    },
    {
-    "at": "2026-11-19T15:58:06+00:00",
+    "at": "2026-11-20T19:21:55+00:00",
+    "level": "info",
+    "agent": "opus",
+    "message": "Imported 1 clip(s) from OpusClip project P3112019Jil4"
+   },
+   {
+    "at": "2026-11-20T16:54:58+00:00",
+    "level": "info",
+    "agent": "publish",
+    "message": "Re-created Buffer posts for clips 112,140,115 with fresh media URLs (old signed URLs expired)"
+   },
+   {
+    "at": "2026-11-20T13:25:11+00:00",
     "level": "info",
     "agent": "editor",
-    "message": "Rejected clips [136, 137, 138, 139, 141, 146, 149, 150, 151, 152, 153, 154, 156, 157, 158, 160, 163]"
+    "message": "Rejected clips [177, 178, 179, 180, 181, 182, 183]"
+   },
+   {
+    "at": "2026-11-20T13:24:51+00:00",
+    "level": "info",
+    "agent": "publish",
+    "message": "Queued 0 post(s) in mode=auto"
+   },
+   {
+    "at": "2026-11-20T13:24:51+00:00",
+    "level": "info",
+    "agent": "opus",
+    "message": "Imported 6 clip(s) from OpusClip project P3112013IP2l"
+   },
+   {
+    "at": "2026-11-20T13:23:02+00:00",
+    "level": "info",
+    "agent": "publish",
+    "message": "Queued 0 post(s) in mode=auto"
+   },
+   {
+    "at": "2026-11-20T13:23:02+00:00",
+    "level": "info",
+    "agent": "publish",
+    "message": "GTA 6 first: released slots from clips [] for 9 waiting GTA 6 clip(s)"
+   },
+   {
+    "at": "2026-11-20T13:23:02+00:00",
+    "level": "info",
+    "agent": "approval",
+    "message": "Approved clips [171, 173]"
+   },
+   {
+    "at": "2026-11-20T13:23:01+00:00",
+    "level": "info",
+    "agent": "editor",
+    "message": "Clip 173 hook -> He thought he hit a cat\u2026 then found a $700 payday \ud83d\ude2d"
+   },
+   {
+    "at": "2026-11-20T13:23:01+00:00",
+    "level": "info",
+    "agent": "editor",
+    "message": "Clip 171 hook -> His getaway plan hit a security check \ud83d\ude2d"
+   },
+   {
+    "at": "2026-11-20T13:22:46+00:00",
+    "level": "info",
+    "agent": "publish",
+    "message": "Queued 0 post(s) in mode=auto"
+   },
+   {
+    "at": "2026-11-20T13:22:46+00:00",
+    "level": "info",
+    "agent": "opus",
+    "message": "Imported 1 clip(s) from OpusClip project P3112013IO6H"
+   },
+   {
+    "at": "2026-11-20T13:21:44+00:00",
+    "level": "info",
+    "agent": "publish",
+    "message": "Queued 0 post(s) in mode=auto"
+   },
+   {
+    "at": "2026-11-20T13:21:44+00:00",
+    "level": "info",
+    "agent": "opus",
+    "message": "Imported 5 clip(s) from OpusClip project P3112013IW22"
+   },
+   {
+    "at": "2026-11-20T13:20:38+00:00",
+    "level": "info",
+    "agent": "publish",
+    "message": "Queued 0 post(s) in mode=auto"
+   },
+   {
+    "at": "2026-11-20T13:20:38+00:00",
+    "level": "info",
+    "agent": "opus",
+    "message": "Imported 1 clip(s) from OpusClip project P3112013IN85"
+   },
+   {
+    "at": "2026-11-20T13:18:33+00:00",
+    "level": "info",
+    "agent": "opus",
+    "message": "Submitted pArE26rHjSU as P3112013IW22: GTA 6 WTF & Funny Moments! #2"
+   },
+   {
+    "at": "2026-11-20T13:18:32+00:00",
+    "level": "info",
+    "agent": "opus",
+    "message": "Submitted gpHpY1Km3Wo as P3112013IP2l: GTA 6 LEFT STREAMERS SPEECHLESS! \ud83d\ude02\ud83d\udd25 (INSANE REACTIONS)"
+   },
+   {
+    "at": "2026-11-20T13:18:25+00:00",
+    "level": "info",
+    "agent": "opus",
+    "message": "Submitted xrWAL5ZhFiQ as P3112013IO6H: GTA 6 WENT TOO FAR \ud83d\ude31 Kai Cenat, IShowSpeed, xQc, caseoh, LIRIK & ohnePixel React | Vantis Clips"
+   },
+   {
+    "at": "2026-11-20T13:18:24+00:00",
+    "level": "info",
+    "agent": "opus",
+    "message": "Submitted vsx5GhvGBNo as P3112013IN85: GTA 6 Funny Moments & Epic Fails #1 \ud83d\ude2d (KaiCenat, Lacy, Speed and more)"
+   },
+   {
+    "at": "2026-11-20T13:18:03+00:00",
+    "level": "info",
+    "agent": "publish",
+    "message": "Queued 0 post(s) in mode=auto"
    }
   ],
   "errors": []
