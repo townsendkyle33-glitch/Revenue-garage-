@@ -7,6 +7,11 @@ import requests
 from . import copywriter, db
 
 API = "https://api.opus.pro/api"
+# Full 16:9 frame, no OpusClip captions: splitcam.py builds the house layout (facecam top / gameplay bottom) from it.
+FIT_PREF = {"enableCaption": False, "enableWatermark": False, "enableEmoji": False, "enableAutoLayout": False,
+            "enableFillLayout": False, "enableFitLayout": True, "fitLayoutCropRatio": "16:9",
+            "enableSplitLayout": False, "enableThreeLayout": False, "enableFourLayout": False,
+            "enableGameLayout": False, "enableScreenLayout": False, "disableFitBackgroundBlur": True}
 HDR = {"Authorization": "Bearer proxy-injected", "Content-Type": "application/json"}
 
 
@@ -16,7 +21,7 @@ def submit(video_url, start=0, end=None, keywords=("GTA 6", "reaction", "hype"))
         pref["range"] = {"startSec": start, "endSec": end}
     r = requests.post(f"{API}/clip-projects", headers=HDR, timeout=60,
                       json={"videoUrl": video_url, "curationPref": pref, "importPref": {"sourceLang": "en"},
-                            "renderPref": {"enableWatermark": False}})
+                            "renderPref": FIT_PREF})
     r.raise_for_status()
     return r.json()
 

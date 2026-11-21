@@ -17,14 +17,14 @@ def ensure_clone():
         subprocess.run(["git", "clone", "--depth", "1", REMOTE, str(MEDIA_REPO)], check=True)
 
 
-def host(video_path):
+def host(video_path, subdir="videos"):
     ensure_clone()
     _git("pull", "-q", "--ff-only", "origin", "main")
-    dest = MEDIA_REPO / "videos" / Path(video_path).name
+    dest = MEDIA_REPO / subdir / Path(video_path).name
     dest.parent.mkdir(exist_ok=True)
     shutil.copy2(video_path, dest)
     _git("add", str(dest))
     if _git("status", "--porcelain"):
         _git("commit", "-q", "-m", f"Add {dest.name}")
         _git("-c", "push.negotiate=true", "push", "-q", "origin", "main")
-    return RAW + dest.name
+    return RAW.replace("/videos/", f"/{subdir}/") + dest.name

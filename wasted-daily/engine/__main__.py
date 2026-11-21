@@ -40,6 +40,8 @@ def main():
     tw = sp.add_parser("twitch", help="find streamers' latest GTA 6 Twitch VODs and send them to OpusClip")
     tw.add_argument("--days", type=int, default=3); tw.add_argument("--max", type=int, default=12)
     tw.add_argument("--dry-run", action="store_true"); tw.add_argument("--start-min", type=int, default=60)
+    hs = sp.add_parser("house", help="re-render approved clips in the split facecam/gameplay format and host them")
+    hs.add_argument("clip_ids", type=int, nargs="*")
     sp.add_parser("promote-gta6", help="give upcoming slots to approved GTA 6 gameplay clips")
     dl = sp.add_parser("daily"); dl.add_argument("--videos", nargs="*", default=[], help="new YouTube ids to clip")
     sp.add_parser("metrics"); sp.add_parser("report"); sp.add_parser("status")
@@ -115,6 +117,9 @@ def main():
             credit = {v["url"]: f"{v['name']} (twitch.tv/{v['login']})" for v in vods}
             if new:
                 autopilot.main([f"{p}={u}|{credit[u]}" for p, u in new.items()], min_score=0, top=2, require=())
+    elif args.cmd == "house":
+        from . import house
+        print(house.run(con, args.clip_ids))
     elif args.cmd == "promote-gta6":
         print(pipeline.promote_gta6(con))
     elif args.cmd == "daily":
