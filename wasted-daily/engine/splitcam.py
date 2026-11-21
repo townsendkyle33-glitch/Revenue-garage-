@@ -1,7 +1,7 @@
 """House format for every Wasted Daily post: streamer facecam on top, gameplay below, hook bar on the seam,
 word-by-word captions on the gameplay. Owner's rule (Nov 21): same layout on every post.
 
-Input: an OpusClip "fit" render (1080x1920, the full 16:9 stream frame centered, no captions) - see opus.FIT_PREF.
+Input: a landscape original (Twitch clip download, free) or an OpusClip "fit" render (1080x1920, 16:9 picture centered).
 The facecam is found by face detection; clips where no stable face is found return None (= not our format)."""
 import subprocess
 from collections import Counter
@@ -15,11 +15,25 @@ TOP_H = 800                                     # facecam area; gameplay gets th
 BAD = {"fuck", "fucking", "fucked", "shit", "bitch", "nigga", "niggas", "pussy", "dick", "hoe", "hoes"}
 
 
-def find_cam(path, samples=16):
-    """Return (x, y, w, h) of the facecam box inside the 1080x608 band, or None."""
+def band_of(path):
+    """(x, y, w, h) of the 16:9 stream picture: the whole frame for a landscape original (Twitch download),
+    or the centered strip of an OpusClip vertical fit render."""
+    out = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", "stream=width,height",
+                          "-of", "csv=p=0", str(path)], capture_output=True, text=True).stdout.strip().split(",")
+    w, h = int(out[0]), int(out[1])
+    if w > h:
+        return 0, 0, w, h
+    bh = int(w * 9 / 16)
+    return 0, (h - bh) // 2, w, bh
+
+
+def find_cam(path, samples=20):
+    """Return (x, y, w, h) of the facecam box inside the stream picture, or None."""
     import cv2
     import numpy as np
     det = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
+    BX, BY, BW, BH = band_of(path)
+    k = BW / 1080                                 # detector sizes are tuned for a 1080-wide picture
     cap = cv2.VideoCapture(str(path))
     n = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
     hits = []
@@ -28,23 +42,24 @@ def find_cam(path, samples=16):
         ok, f = cap.read()
         if not ok:
             continue
-        band = cv2.cvtColor(f[BAND_Y:BAND_Y + BAND_H], cv2.COLOR_BGR2GRAY)
-        for (x, y, w, h) in det.detectMultiScale(band, 1.1, 5, minSize=(22, 22)):
+        band = cv2.cvtColor(f[BY:BY + BH, BX:BX + BW], cv2.COLOR_BGR2GRAY)
+        for (x, y, w, h) in det.detectMultiScale(band, 1.1, 4, minSize=(int(20 * k), int(20 * k))):
             hits.append((x + w // 2, y + h // 2, w))
     if not hits:
         return None
     # A real facecam sits still: take the position bucket seen in the most frames.
-    buckets = Counter((cx // 40, cy // 40) for cx, cy, _ in hits)
+    g = int(60 * k)
+    buckets = Counter((cx // g, cy // g) for cx, cy, _ in hits)
     (bx, by), count = buckets.most_common(1)[0]
-    if count < samples * 0.4:
+    if count < samples * 0.3:
         return None
-    sel = [(cx, cy, w) for cx, cy, w in hits if (cx // 40, cy // 40) == (bx, by)]
+    sel = [(cx, cy, w) for cx, cy, w in hits if (cx // g, cy // g) == (bx, by)]
     cx = int(np.median([s[0] for s in sel])); cy = int(np.median([s[1] for s in sel]))
     fw = int(np.median([s[2] for s in sel]))
-    bw = min(1080, int(fw * 4.6)); bh = int(bw * TOP_H / W)
-    if bh > BAND_H:
-        bh = BAND_H; bw = int(bh * W / TOP_H)
-    x = max(0, min(1080 - bw, cx - bw // 2)); y = max(0, min(BAND_H - bh, cy - int(bh * 0.45)))
+    bw = min(BW, int(fw * 4.6)); bh = int(bw * TOP_H / W)
+    if bh > BH:
+        bh = BH; bw = int(bh * W / TOP_H)
+    x = max(0, min(BW - bw, cx - bw // 2)); y = max(0, min(BH - bh, cy - int(bh * 0.45)))
     return x, y, bw, bh
 
 
@@ -68,12 +83,13 @@ def build(src, out, hook):
                                capture_output=True, text=True).stdout.strip() or 0)
     ass = out.with_suffix(".ass")
     _ass(ass, hook, words, dur)
+    BX, BY, BW, BH = band_of(src)
     gh = H - TOP_H
-    gw = int(BAND_H * W / gh)                    # gameplay crop width at full band height
-    gx = (1080 - gw) // 2
-    vf = (f"[0:v]crop=1080:{BAND_H}:0:{BAND_Y}[band];[band]split[a][b];"
+    gw = int(BH * W / gh)                        # gameplay crop width at full picture height
+    gx = (BW - gw) // 2
+    vf = (f"[0:v]crop={BW}:{BH}:{BX}:{BY}[band];[band]split[a][b];"
           f"[a]crop={bw}:{bh}:{x}:{y},scale={W}:{TOP_H}:flags=lanczos,unsharp=5:5:0.8[top];"
-          f"[b]crop={gw}:{BAND_H}:{gx}:0,scale={W}:{gh}:flags=lanczos,unsharp=5:5:0.5[bot];"
+          f"[b]crop={gw}:{BH}:{gx}:0,scale={W}:{gh}:flags=lanczos,unsharp=5:5:0.5[bot];"
           f"[top][bot]vstack,drawbox=x=0:y={TOP_H - 3}:w={W}:h=6:color=black@1:t=fill,"
           f"ass='{ass}':fontsdir='{config.FONT_DIR}'[v]")
     cmd = ["ffmpeg", "-hide_banner", "-loglevel", "error", "-y", "-i", str(src), "-filter_complex",

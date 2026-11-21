@@ -37,11 +37,29 @@ def run(con, clip_ids=None, wait=1800):
     if not clip_ids:
         clip_ids = [r[0] for r in con.execute(
             "SELECT id FROM clips WHERE status='approved' AND (path NOT LIKE '%night-stories-media%' OR path IS NULL)")]
-    jobs = {}
+    jobs, done_free = {}, []
     for cid in clip_ids:
         k = con.execute("SELECT k.*, s.rights_proof src FROM clips k JOIN sources s ON s.id=k.source_id WHERE k.id=?",
                         (cid,)).fetchone()
         src = k["src"]
+        if "twitch.tv" in src and "/clip/" in src:   # free path: original 1080p download, no OpusClip
+            from . import twitchdl
+            try:
+                f = twitchdl.local_path(src)
+                if not f.exists():
+                    twitchdl.download(src, f)
+                out = splitcam.build(f, OUT / f"wd_{k['id']}.mp4", k["hook"])
+                if not out:
+                    con.execute("UPDATE clips SET status='rejected' WHERE id=?", (k["id"],))
+                    db.log(con, "house", f"Clip {k['id']} rejected: no stable facecam for the split layout")
+                else:
+                    url = mhost.host(out, subdir="wd")
+                    con.execute("UPDATE clips SET path=?, ext_id=NULL WHERE id=?", (url, k["id"]))
+                    done_free.append(k["id"]); print("HOUSE", k["id"], url, flush=True)
+                con.commit()
+            except Exception as e:
+                db.log(con, "house", f"Free Twitch render failed for clip {cid}: {e}", level="warn")
+            continue
         if k["ext_id"]:                         # already rendered full-frame by OpusClip? reuse it, no new credits
             pid0 = k["ext_id"].split(".")[0]
             if (opus.project(pid0).get("renderPref") or {}).get("fitLayoutCropRatio") == "16:9":
@@ -52,7 +70,7 @@ def run(con, clip_ids=None, wait=1800):
             jobs[_submit(src) if whole else _submit(src, max(0, k["start"] - 1), k["end"] + 1)] = k
         except Exception as e:
             db.log(con, "house", f"Fit submit failed for clip {cid}: {e}", level="warn")
-    done, deadline = [], time.time() + wait
+    done, deadline = list(done_free), time.time() + wait
     while jobs and time.time() < deadline:
         for key, k in list(jobs.items()):
             pid, _, want = key.partition("#")
