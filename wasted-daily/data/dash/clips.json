@@ -1,5 +1,185 @@
 [
  {
+  "clip": 256,
+  "hook": "wwwwwwwwwwwwwww",
+  "category": "streamer",
+  "score": 3978.0,
+  "length_sec": 27.0,
+  "why": "twitch top clip, views:3978",
+  "status": "rejected"
+ },
+ {
+  "clip": 255,
+  "hook": "We like that",
+  "category": "streamer",
+  "score": 4021.0,
+  "length_sec": 60.0,
+  "why": "twitch top clip, views:4021",
+  "status": "rejected"
+ },
+ {
+  "clip": 254,
+  "hook": "a",
+  "category": "streamer",
+  "score": 4404.0,
+  "length_sec": 35.0,
+  "why": "twitch top clip, views:4404",
+  "status": "rejected"
+ },
+ {
+  "clip": 253,
+  "hook": "JTW'S REACTION",
+  "category": "streamer",
+  "score": 4415.0,
+  "length_sec": 37.0,
+  "why": "twitch top clip, views:4415",
+  "status": "rejected"
+ },
+ {
+  "clip": 252,
+  "hook": "Stable Ronaldo got caught red-handed in GTA 6 \ud83d\ude2d",
+  "category": "streamer",
+  "score": 6068.0,
+  "length_sec": 25.0,
+  "why": "twitch top clip, views:6068",
+  "status": "scheduled"
+ },
+ {
+  "clip": 251,
+  "hook": "CaseOh said 'let's not crash this time'\u2026 \ud83d\ude2d",
+  "category": "streamer",
+  "score": 6229.0,
+  "length_sec": 51.0,
+  "why": "twitch top clip, views:6229",
+  "status": "scheduled"
+ },
+ {
+  "clip": 250,
+  "hook": "kyle 2",
+  "category": "streamer",
+  "score": 6461.0,
+  "length_sec": 60.0,
+  "why": "twitch top clip, views:6461",
+  "status": "rejected"
+ },
+ {
+  "clip": 249,
+  "hook": "Peanut went straight for the dog in GTA 6 \ud83d\ude2d",
+  "category": "streamer",
+  "score": 6858.0,
+  "length_sec": 30.0,
+  "why": "twitch top clip, views:6858",
+  "status": "rejected"
+ },
+ {
+  "clip": 248,
+  "hook": "CaseOh's road rage ended with a beef slap \ud83d\ude2d",
+  "category": "streamer",
+  "score": 7536.0,
+  "length_sec": 48.0,
+  "why": "twitch top clip, views:7536",
+  "status": "scheduled"
+ },
+ {
+  "clip": 247,
+  "hook": "got caught",
+  "category": "streamer",
+  "score": 11085.0,
+  "length_sec": 60.0,
+  "why": "twitch top clip, views:11085",
+  "status": "rejected"
+ },
+ {
+  "clip": 246,
+  "hook": "kyle 1",
+  "category": "streamer",
+  "score": 15874.0,
+  "length_sec": 60.0,
+  "why": "twitch top clip, views:15874",
+  "status": "rejected"
+ },
+ {
+  "clip": 245,
+  "hook": "wtfff",
+  "category": "streamer",
+  "score": 24183.0,
+  "length_sec": 12.0,
+  "why": "twitch top clip, views:24183",
+  "status": "rejected"
+ },
+ {
+  "clip": 244,
+  "hook": "Kai was NOT ready for this GTA 6 scene",
+  "category": "streamer",
+  "score": 2295.0,
+  "length_sec": 40.0,
+  "why": "twitch top clip, views:2295",
+  "status": "rejected"
+ },
+ {
+  "clip": 243,
+  "hook": "Kai cenat",
+  "category": "streamer",
+  "score": 2594.0,
+  "length_sec": 60.0,
+  "why": "twitch top clip, views:2594",
+  "status": "rejected"
+ },
+ {
+  "clip": 242,
+  "hook": "on another levld",
+  "category": "streamer",
+  "score": 3295.0,
+  "length_sec": 39.0,
+  "why": "twitch top clip, views:3295",
+  "status": "rejected"
+ },
+ {
+  "clip": 241,
+  "hook": "KAI GOT MOTION \ud83e\udd2a",
+  "category": "streamer",
+  "score": 3424.0,
+  "length_sec": 30.0,
+  "why": "twitch top clip, views:3424",
+  "status": "rejected"
+ },
+ {
+  "clip": 240,
+  "hook": "BIG BIg",
+  "category": "streamer",
+  "score": 8223.0,
+  "length_sec": 26.0,
+  "why": "twitch top clip, views:8223",
+  "status": "rejected"
+ },
+ {
+  "clip": 239,
+  "hook": "kkkkkkkkkkkkk",
+  "category": "streamer",
+  "score": 10656.0,
+  "length_sec": 30.0,
+  "why": "twitch top clip, views:10656",
+  "status": "rejected"
+ },
+ {
+  "clip": 238,
+  "hook": "speed gta6",
+  "category": "streamer",
+  "score": 18148.0,
+  "length_sec": 18.0,
+  "why": "twitch top clip, views:18148",
+  "status": "rejected"
+ },
+ {
+  "clip": 237,
+  "hook": "changing clothes",
+  "category": "streamer",
+  "score": 21380.0,
+  "length_sec": 22.0,
+  "why": "twitch top clip, views:21380",
+  "status": "rejected"
+ },
+ {
   "clip": 236,
   "hook": "The Party Was Just Getting Started",
   "category": "hype",
@@ -266,186 +446,6 @@
   "category": "hype",
   "score": 92.0,
   "length_sec": 14.0,
-  "why": "OpusClip AI pick",
-  "status": "rejected"
- },
- {
-  "clip": 206,
-  "hook": "Jynxzi got jump scared so hard in GTA 6 \ud83d\ude2d",
-  "category": "streamer",
-  "score": 80.0,
-  "length_sec": 29.9,
-  "why": "OpusClip AI pick",
-  "status": "scheduled"
- },
- {
-  "clip": 205,
-  "hook": "xQc just wanted to put his coffee down \ud83d\ude2d",
-  "category": "streamer",
-  "score": 84.0,
-  "length_sec": 15.7,
-  "why": "OpusClip AI pick",
-  "status": "scheduled"
- },
- {
-  "clip": 204,
-  "hook": "xQc flat out refused to leave the club \ud83d\ude2d",
-  "category": "streamer",
-  "score": 75.0,
-  "length_sec": 58.6,
-  "why": "OpusClip AI pick",
-  "status": "approved"
- },
- {
-  "clip": 203,
-  "hook": "Kelly County Police Dispatch: Officers Respond to Homicide Report",
-  "category": "hype",
-  "score": 99.0,
-  "length_sec": 18.1,
-  "why": "OpusClip AI pick",
-  "status": "rejected"
- },
- {
-  "clip": 202,
-  "hook": "Bridge Tossing Challenge Turns Into a Serious Warning",
-  "category": "hype",
-  "score": 99.0,
-  "length_sec": 47.4,
-  "why": "OpusClip AI pick",
-  "status": "rejected"
- },
- {
-  "clip": 201,
-  "hook": "The Mystery Bag Reveal Nobody Expected",
-  "category": "hype",
-  "score": 91.0,
-  "length_sec": 52.2,
-  "why": "OpusClip AI pick",
-  "status": "rejected"
- },
- {
-  "clip": 200,
-  "hook": "CaseOh called it seconds before the scooter ride went wrong \ud83d\ude2d",
-  "category": "streamer",
-  "score": 80.0,
-  "length_sec": 21.8,
-  "why": "OpusClip AI pick",
-  "status": "scheduled"
- },
- {
-  "clip": 199,
-  "hook": "CaseOh slammed the brakes and absolutely cooked them \ud83d\ude2d",
-  "category": "streamer",
-  "score": 88.0,
-  "length_sec": 3.2,
-  "why": "OpusClip AI pick",
-  "status": "rejected"
- },
- {
-  "clip": 198,
-  "hook": "CaseOh crash-landed a plane at the dock\u2026 somehow everyone survived \ud83d\ude2d",
-  "category": "streamer",
-  "score": 78.0,
-  "length_sec": 35.0,
-  "why": "OpusClip AI pick, house:P3112121isTH.gJlGIBk6dY",
-  "status": "scheduled"
- },
- {
-  "clip": 197,
-  "hook": "Speed stayed up 24 hours playing GTA 6\u2026 then hit a backflip \ud83d\ude2d",
-  "category": "streamer",
-  "score": 70.0,
-  "length_sec": 24.1,
-  "why": "OpusClip AI pick",
-  "status": "approved"
- },
- {
-  "clip": 196,
-  "hook": "24-Hour Stream Complete\u2014Then I Landed a Backflip!",
-  "category": "hype",
-  "score": 78.0,
-  "length_sec": 5.7,
-  "why": "OpusClip AI pick",
-  "status": "rejected"
- },
- {
-  "clip": 195,
-  "hook": "GTA VI Is Here: The Moment Fans Have Waited For",
-  "category": "hype",
-  "score": 85.0,
-  "length_sec": 25.7,
-  "why": "OpusClip AI pick",
-  "status": "rejected"
- },
- {
-  "clip": 194,
-  "hook": "GTA VI Is Here! The Countdown Is Over",
-  "category": "hype",
-  "score": 99.0,
-  "length_sec": 25.9,
-  "why": "OpusClip AI pick",
-  "status": "rejected"
- },
- {
-  "clip": 193,
-  "hook": "He Said It Was His Mom\u2019s Car\u2014Then Confessed",
-  "category": "hype",
-  "score": 75.0,
-  "length_sec": 29.1,
-  "why": "OpusClip AI pick",
-  "status": "rejected"
- },
- {
-  "clip": 192,
-  "hook": "Chat Went Too Far\u2026 I\u2019m About to Get Banned!",
-  "category": "hype",
-  "score": 94.0,
-  "length_sec": 26.9,
-  "why": "OpusClip AI pick",
-  "status": "rejected"
- },
- {
-  "clip": 191,
-  "hook": "From Freeway Ride to City Street Stop",
-  "category": "hype",
-  "score": 75.0,
-  "length_sec": 28.0,
-  "why": "OpusClip AI pick",
-  "status": "rejected"
- },
- {
-  "clip": 190,
-  "hook": "I Lost 100 Pounds\u2014Why Does Everyone Blame Ozempic?",
-  "category": "hype",
-  "score": 93.0,
-  "length_sec": 53.4,
-  "why": "OpusClip AI pick",
-  "status": "rejected"
- },
- {
-  "clip": 189,
-  "hook": "When a Crush Turns Into a Full-Time Investigation",
-  "category": "hype",
-  "score": 94.0,
-  "length_sec": 28.8,
-  "why": "OpusClip AI pick",
-  "status": "rejected"
- },
- {
-  "clip": 188,
-  "hook": "Screen Narration Turns On and I Panic!",
-  "category": "hype",
-  "score": 75.0,
-  "length_sec": 27.0,
-  "why": "OpusClip AI pick",
-  "status": "rejected"
- },
- {
-  "clip": 187,
-  "hook": "If You\u2019re Happy and You Know It: Clap Along!",
-  "category": "hype",
-  "score": 88.0,
-  "length_sec": 22.7,
   "why": "OpusClip AI pick",
   "status": "rejected"
  }

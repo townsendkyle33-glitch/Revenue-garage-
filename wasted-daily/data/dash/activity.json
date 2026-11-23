@@ -1,5 +1,125 @@
 [
  {
+  "at": "2026-11-23T13:21:50+00:00",
+  "kind": "info",
+  "agent": "metrics",
+  "message": "Pulled metrics for 47 post(s)"
+ },
+ {
+  "at": "2026-11-23T13:21:49+00:00",
+  "kind": "info",
+  "agent": "publish",
+  "message": "Queued 12 post(s) in mode=auto"
+ },
+ {
+  "at": "2026-11-23T07:20:59+00:00",
+  "kind": "info",
+  "agent": "metrics",
+  "message": "Pulled metrics for 47 post(s)"
+ },
+ {
+  "at": "2026-11-22T13:22:52+00:00",
+  "kind": "info",
+  "agent": "publish",
+  "message": "Queued 0 post(s) in mode=auto"
+ },
+ {
+  "at": "2026-11-22T13:22:52+00:00",
+  "kind": "info",
+  "agent": "publish",
+  "message": "GTA 6 first: released slots from clips [] for 4 waiting GTA 6 clip(s)"
+ },
+ {
+  "at": "2026-11-22T13:22:38+00:00",
+  "kind": "info",
+  "agent": "house",
+  "message": "House-format renders: [248, 251, 252]"
+ },
+ {
+  "at": "2026-11-22T13:19:09+00:00",
+  "kind": "info",
+  "agent": "house",
+  "message": "Clip 249 rejected: no stable facecam for the split layout"
+ },
+ {
+  "at": "2026-11-22T13:16:37+00:00",
+  "kind": "warn",
+  "agent": "house",
+  "message": "Fit submit failed for clip 197: 402 Client Error: Payment Required for url: https://api.opus.pro/api/clip-projects"
+ },
+ {
+  "at": "2026-11-22T13:16:35+00:00",
+  "kind": "warn",
+  "agent": "house",
+  "message": "Fit submit failed for clip 171: 402 Client Error: Payment Required for url: https://api.opus.pro/api/clip-projects"
+ },
+ {
+  "at": "2026-11-22T13:16:29+00:00",
+  "kind": "warn",
+  "agent": "house",
+  "message": "Fit submit failed for clip 170: 402 Client Error: Payment Required for url: https://api.opus.pro/api/clip-projects"
+ },
+ {
+  "at": "2026-11-22T13:16:21+00:00",
+  "kind": "warn",
+  "agent": "house",
+  "message": "Fit submit failed for clip 143: 402 Client Error: Payment Required for url: https://api.opus.pro/api/clip-projects"
+ },
+ {
+  "at": "2026-11-22T13:16:19+00:00",
+  "kind": "warn",
+  "agent": "house",
+  "message": "Fit submit failed for clip 142: 402 Client Error: Payment Required for url: https://api.opus.pro/api/clip-projects"
+ },
+ {
+  "at": "2026-11-22T13:16:18+00:00",
+  "kind": "warn",
+  "agent": "house",
+  "message": "Fit submit failed for clip 116: 402 Client Error: Payment Required for url: https://api.opus.pro/api/clip-projects"
+ },
+ {
+  "at": "2026-11-22T13:16:16+00:00",
+  "kind": "info",
+  "agent": "editor",
+  "message": "Rejected clips [237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 250, 253, 254, 255, 256]"
+ },
+ {
+  "at": "2026-11-22T13:16:16+00:00",
+  "kind": "info",
+  "agent": "approval",
+  "message": "Approved clips [248, 249, 251, 252]"
+ },
+ {
+  "at": "2026-11-22T13:16:16+00:00",
+  "kind": "info",
+  "agent": "editor",
+  "message": "Clip 252 hook -> Stable Ronaldo got caught red-handed in GTA 6 \ud83d\ude2d"
+ },
+ {
+  "at": "2026-11-22T13:16:16+00:00",
+  "kind": "info",
+  "agent": "editor",
+  "message": "Clip 251 hook -> CaseOh said 'let's not crash this time'\u2026 \ud83d\ude2d"
+ },
+ {
+  "at": "2026-11-22T13:16:15+00:00",
+  "kind": "info",
+  "agent": "editor",
+  "message": "Clip 249 hook -> Peanut went straight for the dog in GTA 6 \ud83d\ude2d"
+ },
+ {
+  "at": "2026-11-22T13:16:15+00:00",
+  "kind": "info",
+  "agent": "editor",
+  "message": "Clip 248 hook -> CaseOh's road rage ended with a beef slap \ud83d\ude2d"
+ },
+ {
+  "at": "2026-11-22T13:15:28+00:00",
+  "kind": "info",
+  "agent": "twitch",
+  "message": "Downloaded 20 Twitch clip(s) for review (no OpusClip credits)"
+ },
+ {
   "at": "2026-11-22T13:14:30+00:00",
   "kind": "info",
   "agent": "metrics",
@@ -120,163 +240,43 @@
   "message": "Fit submit failed for clip 205: 402 Client Error: Payment Required for url: https://api.opus.pro/api/clip-projects"
  },
  {
-  "at": "2026-11-21T21:45:13+00:00",
-  "kind": "warn",
-  "agent": "house",
-  "message": "Fit submit failed for clip 204: 402 Client Error: Payment Required for url: https://api.opus.pro/api/clip-projects"
- },
- {
-  "at": "2026-11-21T16:41:13+00:00",
-  "kind": "info",
-  "agent": "publish",
-  "message": "Queued 0 post(s) in mode=auto"
- },
- {
-  "at": "2026-11-21T16:41:13+00:00",
-  "kind": "info",
-  "agent": "publish",
-  "message": "GTA 6 first: released slots from clips [] for 14 waiting GTA 6 clip(s)"
- },
- {
-  "at": "2026-11-21T16:41:12+00:00",
-  "kind": "info",
-  "agent": "editor",
-  "message": "Rejected clips [219, 220, 222, 223, 224, 225, 226, 228, 230, 231, 232, 234, 235, 236]"
- },
- {
-  "at": "2026-11-21T16:41:12+00:00",
-  "kind": "info",
-  "agent": "approval",
-  "message": "Approved clips [221, 227, 229, 233]"
- },
- {
-  "at": "2026-11-21T16:41:12+00:00",
-  "kind": "info",
-  "agent": "editor",
-  "message": "Clip 233 hook -> Kai Cenat's GTA 6 foot chase turned into pure chaos \ud83d\ude2d"
- },
- {
-  "at": "2026-11-21T16:41:12+00:00",
-  "kind": "info",
-  "agent": "editor",
-  "message": "Clip 229 hook -> Speed ran into his first fight in GTA 6 \ud83d\ude2d"
- },
- {
-  "at": "2026-11-21T16:41:12+00:00",
-  "kind": "info",
-  "agent": "editor",
-  "message": "Clip 227 hook -> Speed stopped everything to save a chameleon in GTA 6 \ud83d\ude2d"
- },
- {
-  "at": "2026-11-21T16:41:11+00:00",
-  "kind": "info",
-  "agent": "editor",
-  "message": "Clip 221 hook -> Speed's first robbery in GTA 6 went wrong fast \ud83d\ude2d"
- },
- {
-  "at": "2026-11-21T16:40:33+00:00",
-  "kind": "info",
-  "agent": "publish",
-  "message": "Queued 0 post(s) in mode=auto"
- },
- {
-  "at": "2026-11-21T16:40:33+00:00",
-  "kind": "info",
-  "agent": "opus",
-  "message": "Imported 1 clip(s) from OpusClip project P3112116bFqS"
- },
- {
-  "at": "2026-11-21T16:39:30+00:00",
-  "kind": "info",
-  "agent": "publish",
-  "message": "Queued 0 post(s) in mode=auto"
- },
- {
-  "at": "2026-11-21T16:39:30+00:00",
-  "kind": "info",
-  "agent": "opus",
-  "message": "Imported 1 clip(s) from OpusClip project P3112116bi8e"
- },
- {
-  "at": "2026-11-21T16:39:29+00:00",
-  "kind": "info",
-  "agent": "publish",
-  "message": "Queued 0 post(s) in mode=auto"
- },
- {
-  "at": "2026-11-21T16:39:29+00:00",
-  "kind": "info",
-  "agent": "opus",
-  "message": "Imported 1 clip(s) from OpusClip project P3112116bYaA"
- },
- {
-  "at": "2026-11-21T16:39:27+00:00",
-  "kind": "info",
-  "agent": "publish",
-  "message": "Queued 0 post(s) in mode=auto"
- },
- {
-  "at": "2026-11-21T16:39:27+00:00",
-  "kind": "info",
-  "agent": "opus",
-  "message": "Imported 1 clip(s) from OpusClip project P3112116bSvR"
- },
- {
-  "at": "2026-11-21T16:39:24+00:00",
-  "kind": "info",
-  "agent": "publish",
-  "message": "Queued 0 post(s) in mode=auto"
- },
- {
-  "at": "2026-11-21T16:39:24+00:00",
-  "kind": "info",
-  "agent": "opus",
-  "message": "Imported 1 clip(s) from OpusClip project P3112116bAxi"
- },
- {
-  "at": "2026-11-21T16:39:23+00:00",
-  "kind": "info",
-  "agent": "publish",
-  "message": "Queued 0 post(s) in mode=auto"
- },
- {
-  "at": "2026-11-22T13:14:30+00:00",
+  "at": "2026-11-23T13:21:50+00:00",
   "kind": "recommendation",
   "agent": "growth",
-  "message": "Double down on 'rp' (median 409 views vs overall 8)."
+  "message": "Double down on 'rp' (median 409 views vs overall 7)."
  },
  {
-  "at": "2026-11-22T13:14:30+00:00",
+  "at": "2026-11-23T13:21:50+00:00",
   "kind": "recommendation",
   "agent": "growth",
-  "message": "Cut or rework 'streamer' (median 3 views)."
+  "message": "Cut or rework 'streamer' (median 2 views)."
  },
  {
-  "at": "2026-11-22T13:14:30+00:00",
+  "at": "2026-11-23T13:21:50+00:00",
   "kind": "recommendation",
   "agent": "growth",
   "message": "Retention: \u226415s clips keep 59% watched vs 25% for longer clips. Trim harder."
  },
  {
-  "at": "2026-11-22T13:14:30+00:00",
+  "at": "2026-11-23T13:21:50+00:00",
   "kind": "recommendation",
   "agent": "growth",
   "message": "Best posting hour so far: 11:00 ET. Test moving a weak slot there."
  },
  {
-  "at": "2026-11-22T13:14:30+00:00",
+  "at": "2026-11-23T13:21:50+00:00",
   "kind": "blocker",
   "agent": "setup",
   "message": "No public video hosting yet, so Buffer can't fetch clips. Needs a storage choice (see ARCHITECTURE.md)."
  },
  {
-  "at": "2026-11-22T13:14:30+00:00",
+  "at": "2026-11-23T13:21:50+00:00",
   "kind": "blocker",
   "agent": "setup",
   "message": "No owned or licensed GTA footage yet. Record gameplay or sign up creators before real clips can be made."
  },
  {
-  "at": "2026-11-22T13:14:30+00:00",
+  "at": "2026-11-23T13:21:50+00:00",
   "kind": "blocker",
   "agent": "setup",
   "message": "YouTube, Facebook and Threads not connected (Buffer free plan allows 3 channels)."

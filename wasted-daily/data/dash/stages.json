@@ -13,15 +13,15 @@
  },
  {
   "stage": "approved",
-  "clips": 7
+  "clips": 0
  },
  {
   "stage": "scheduled",
-  "clips": 33
+  "clips": 37
  },
  {
   "stage": "published",
-  "clips": 81
+  "clips": 99
  },
  {
   "stage": "failed",

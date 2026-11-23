@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-22T13:14:30+00:00",
+ "generated_at": "2026-11-23T13:21:50+00:00",
  "publish_mode": "auto",
  "media_hosting": false,
  "overview": {
-  "total_views": 3793.0,
-  "published": 81,
+  "total_views": 4096.0,
+  "published": 99,
   "followers_gained": 0
  },
  "channels": [
@@ -40,187 +40,427 @@
  "factory": {
   "sources": [
    {
-    "id": 95,
-    "title": "kai wildn",
-    "creator": "KaiCenat (twitch.tv/kaicenat)",
+    "id": 115,
+    "title": "wwwwwwwwwwwwwww",
+    "creator": "Lacy",
+    "rights": "repost",
+    "status": "processed",
+    "duration": 27.0,
+    "created_at": "2026-11-22T13:15:28+00:00"
+   },
+   {
+    "id": 114,
+    "title": "We like that",
+    "creator": "jasontheween",
+    "rights": "repost",
+    "status": "processed",
+    "duration": 60.0,
+    "created_at": "2026-11-22T13:15:27+00:00"
+   },
+   {
+    "id": 113,
+    "title": "a",
+    "creator": "Lacy",
+    "rights": "repost",
+    "status": "processed",
+    "duration": 35.0,
+    "created_at": "2026-11-22T13:15:24+00:00"
+   },
+   {
+    "id": 112,
+    "title": "JTW'S REACTION",
+    "creator": "jasontheween",
+    "rights": "repost",
+    "status": "processed",
+    "duration": 37.0,
+    "created_at": "2026-11-22T13:15:22+00:00"
+   },
+   {
+    "id": 111,
+    "title": "CAUGHT",
+    "creator": "stableronaldo",
+    "rights": "repost",
+    "status": "processed",
+    "duration": 25.0,
+    "created_at": "2026-11-22T13:15:20+00:00"
+   },
+   {
+    "id": 110,
+    "title": "Lets not crash this time...",
+    "creator": "caseoh_",
+    "rights": "repost",
+    "status": "processed",
+    "duration": 51.0,
+    "created_at": "2026-11-22T13:15:17+00:00"
+   },
+   {
+    "id": 109,
+    "title": "kyle 2",
+    "creator": "caseoh_",
+    "rights": "repost",
+    "status": "processed",
+    "duration": 60.0,
+    "created_at": "2026-11-22T13:15:14+00:00"
+   },
+   {
+    "id": 108,
+    "title": "going for the dog",
+    "creator": "TheBurntPeanut",
     "rights": "repost",
     "status": "processed",
     "duration": 30.0,
-    "created_at": "2026-11-21T16:40:31+00:00"
+    "created_at": "2026-11-22T13:15:11+00:00"
    },
    {
-    "id": 94,
-    "title": "his reaction",
-    "creator": "KaiCenat (twitch.tv/kaicenat)",
+    "id": 107,
+    "title": "beef slap",
+    "creator": "caseoh_",
     "rights": "repost",
     "status": "processed",
-    "duration": 53.0,
-    "created_at": "2026-11-21T16:39:29+00:00"
+    "duration": 48.0,
+    "created_at": "2026-11-22T13:15:10+00:00"
    },
    {
-    "id": 93,
-    "title": "Cracked",
-    "creator": "KaiCenat (twitch.tv/kaicenat)",
+    "id": 106,
+    "title": "got caught",
+    "creator": "Lacy",
     "rights": "repost",
     "status": "processed",
-    "duration": 30.0,
-    "created_at": "2026-11-21T16:39:27+00:00"
+    "duration": 60.0,
+    "created_at": "2026-11-22T13:15:07+00:00"
    },
    {
-    "id": 92,
-    "title": "kai bank",
-    "creator": "KaiCenat (twitch.tv/kaicenat)",
+    "id": 105,
+    "title": "kyle 1",
+    "creator": "caseoh_",
     "rights": "repost",
     "status": "processed",
-    "duration": 30.0,
-    "created_at": "2026-11-21T16:39:25+00:00"
+    "duration": 60.0,
+    "created_at": "2026-11-22T13:15:04+00:00"
    },
    {
-    "id": 91,
-    "title": "winner",
-    "creator": "KaiCenat (twitch.tv/kaicenat)",
+    "id": 104,
+    "title": "wtfff",
+    "creator": "stableronaldo",
     "rights": "repost",
     "status": "processed",
     "duration": 12.0,
-    "created_at": "2026-11-21T16:39:23+00:00"
+    "created_at": "2026-11-22T13:15:02+00:00"
    },
    {
-    "id": 90,
-    "title": "kai plays gta 6 first",
-    "creator": "KaiCenat (twitch.tv/kaicenat)",
+    "id": 103,
+    "title": "Kai was NOT ready for this GTA 6 scene",
+    "creator": "KaiCenat",
+    "rights": "repost",
+    "status": "processed",
+    "duration": 40.0,
+    "created_at": "2026-11-22T13:15:00+00:00"
+   },
+   {
+    "id": 102,
+    "title": "Kai cenat",
+    "creator": "KaiCenat",
     "rights": "repost",
     "status": "processed",
     "duration": 60.0,
-    "created_at": "2026-11-21T16:39:21+00:00"
+    "created_at": "2026-11-22T13:14:58+00:00"
    },
    {
-    "id": 89,
-    "title": "Gta 6 gone wild #Ripdudescolon LMAO",
-    "creator": "KaiCenat (twitch.tv/kaicenat)",
+    "id": 101,
+    "title": "on another levld",
+    "creator": "KaiCenat",
+    "rights": "repost",
+    "status": "processed",
+    "duration": 39.0,
+    "created_at": "2026-11-22T13:14:54+00:00"
+   },
+   {
+    "id": 100,
+    "title": "KAI GOT MOTION \ud83e\udd2a",
+    "creator": "KaiCenat",
     "rights": "repost",
     "status": "processed",
     "duration": 30.0,
-    "created_at": "2026-11-21T16:39:19+00:00"
+    "created_at": "2026-11-22T13:14:52+00:00"
    },
    {
-    "id": 88,
-    "title": "speed runs into a fight for the first time",
-    "creator": "IShowSpeed (twitch.tv/ishowspeed)",
+    "id": 99,
+    "title": "BIG BIg",
+    "creator": "IShowSpeed",
     "rights": "repost",
     "status": "processed",
-    "duration": 23.0,
-    "created_at": "2026-11-21T16:39:17+00:00"
+    "duration": 26.0,
+    "created_at": "2026-11-22T13:14:50+00:00"
    },
    {
-    "id": 87,
-    "title": "NOOOOOO",
-    "creator": "IShowSpeed (twitch.tv/ishowspeed)",
-    "rights": "repost",
-    "status": "processed",
-    "duration": 30.0,
-    "created_at": "2026-11-21T16:39:16+00:00"
-   },
-   {
-    "id": 86,
-    "title": "i just seen a roadkill",
-    "creator": "IShowSpeed (twitch.tv/ishowspeed)",
-    "rights": "repost",
-    "status": "processed",
-    "duration": 16.0,
-    "created_at": "2026-11-21T16:38:11+00:00"
-   },
-   {
-    "id": 85,
-    "title": "DAMN",
-    "creator": "IShowSpeed (twitch.tv/ishowspeed)",
-    "rights": "repost",
-    "status": "processed",
-    "duration": 16.0,
-    "created_at": "2026-11-21T16:38:09+00:00"
-   },
-   {
-    "id": 84,
-    "title": "LMAOOOOO",
-    "creator": "IShowSpeed (twitch.tv/ishowspeed)",
-    "rights": "repost",
-    "status": "processed",
-    "duration": 60.0,
-    "created_at": "2026-11-21T16:38:07+00:00"
-   },
-   {
-    "id": 83,
-    "title": "THEY DID IT",
-    "creator": "IShowSpeed (twitch.tv/ishowspeed)",
-    "rights": "repost",
-    "status": "processed",
-    "duration": 60.0,
-    "created_at": "2026-11-21T16:38:05+00:00"
-   },
-   {
-    "id": 82,
-    "title": "tv channels",
-    "creator": "IShowSpeed (twitch.tv/ishowspeed)",
-    "rights": "repost",
-    "status": "processed",
-    "duration": 14.0,
-    "created_at": "2026-11-21T16:38:04+00:00"
-   },
-   {
-    "id": 81,
-    "title": "LMAO moment | ishowspeed",
-    "creator": "IShowSpeed (twitch.tv/ishowspeed)",
+    "id": 98,
+    "title": "kkkkkkkkkkkkk",
+    "creator": "KaiCenat",
     "rights": "repost",
     "status": "processed",
     "duration": 30.0,
-    "created_at": "2026-11-21T16:38:02+00:00"
+    "created_at": "2026-11-22T13:14:48+00:00"
    },
    {
-    "id": 80,
-    "title": "first robbery speed",
-    "creator": "IShowSpeed (twitch.tv/ishowspeed)",
+    "id": 97,
+    "title": "speed gta6",
+    "creator": "IShowSpeed",
     "rights": "repost",
     "status": "processed",
-    "duration": 30.0,
-    "created_at": "2026-11-21T16:38:00+00:00"
+    "duration": 18.0,
+    "created_at": "2026-11-22T13:14:46+00:00"
    },
    {
-    "id": 79,
-    "title": "borrrr",
-    "creator": "IShowSpeed (twitch.tv/ishowspeed)",
+    "id": 96,
+    "title": "changing clothes",
+    "creator": "IShowSpeed",
     "rights": "repost",
     "status": "processed",
-    "duration": 15.0,
-    "created_at": "2026-11-21T16:37:58+00:00"
-   },
-   {
-    "id": 78,
-    "title": "bahaha",
-    "creator": "IShowSpeed (twitch.tv/ishowspeed)",
-    "rights": "repost",
-    "status": "processed",
-    "duration": 28.0,
-    "created_at": "2026-11-21T16:37:56+00:00"
-   },
-   {
-    "id": 77,
-    "title": "IShowSpeed Overwrites His 98% GTA 6 Save",
-    "creator": "IShowSpeed (youtube.com/@IShowSpeed)",
-    "rights": "repost",
-    "status": "processed",
-    "duration": 19.0,
-    "created_at": "2026-11-21T16:34:52+00:00"
-   },
-   {
-    "id": 76,
-    "title": "Jason first time to shoe store in gta 6",
-    "creator": "jasontheween (twitch.tv/jasontheween)",
-    "rights": "repost",
-    "status": "processed",
-    "duration": 34.0,
-    "created_at": "2026-11-21T13:20:30+00:00"
+    "duration": 22.0,
+    "created_at": "2026-11-22T13:14:45+00:00"
    }
   ],
   "clips": [
+   {
+    "id": 256,
+    "source_id": 115,
+    "start": 0.0,
+    "end": 27.0,
+    "score": 3978.0,
+    "reasons": "[\"twitch top clip\", \"views:3978\"]",
+    "category": "streamer",
+    "hook": "wwwwwwwwwwwwwww",
+    "status": "rejected",
+    "created_at": "2026-11-22T13:15:28+00:00"
+   },
+   {
+    "id": 255,
+    "source_id": 114,
+    "start": 0.0,
+    "end": 60.0,
+    "score": 4021.0,
+    "reasons": "[\"twitch top clip\", \"views:4021\"]",
+    "category": "streamer",
+    "hook": "We like that",
+    "status": "rejected",
+    "created_at": "2026-11-22T13:15:27+00:00"
+   },
+   {
+    "id": 254,
+    "source_id": 113,
+    "start": 0.0,
+    "end": 35.0,
+    "score": 4404.0,
+    "reasons": "[\"twitch top clip\", \"views:4404\"]",
+    "category": "streamer",
+    "hook": "a",
+    "status": "rejected",
+    "created_at": "2026-11-22T13:15:24+00:00"
+   },
+   {
+    "id": 253,
+    "source_id": 112,
+    "start": 0.0,
+    "end": 37.0,
+    "score": 4415.0,
+    "reasons": "[\"twitch top clip\", \"views:4415\"]",
+    "category": "streamer",
+    "hook": "JTW'S REACTION",
+    "status": "rejected",
+    "created_at": "2026-11-22T13:15:22+00:00"
+   },
+   {
+    "id": 252,
+    "source_id": 111,
+    "start": 0.0,
+    "end": 25.0,
+    "score": 6068.0,
+    "reasons": "[\"twitch top clip\", \"views:6068\"]",
+    "category": "streamer",
+    "hook": "Stable Ronaldo got caught red-handed in GTA 6 \ud83d\ude2d",
+    "status": "scheduled",
+    "created_at": "2026-11-22T13:15:20+00:00"
+   },
+   {
+    "id": 251,
+    "source_id": 110,
+    "start": 0.0,
+    "end": 51.0,
+    "score": 6229.0,
+    "reasons": "[\"twitch top clip\", \"views:6229\"]",
+    "category": "streamer",
+    "hook": "CaseOh said 'let's not crash this time'\u2026 \ud83d\ude2d",
+    "status": "scheduled",
+    "created_at": "2026-11-22T13:15:17+00:00"
+   },
+   {
+    "id": 250,
+    "source_id": 109,
+    "start": 0.0,
+    "end": 60.0,
+    "score": 6461.0,
+    "reasons": "[\"twitch top clip\", \"views:6461\"]",
+    "category": "streamer",
+    "hook": "kyle 2",
+    "status": "rejected",
+    "created_at": "2026-11-22T13:15:14+00:00"
+   },
+   {
+    "id": 249,
+    "source_id": 108,
+    "start": 0.0,
+    "end": 30.0,
+    "score": 6858.0,
+    "reasons": "[\"twitch top clip\", \"views:6858\"]",
+    "category": "streamer",
+    "hook": "Peanut went straight for the dog in GTA 6 \ud83d\ude2d",
+    "status": "rejected",
+    "created_at": "2026-11-22T13:15:11+00:00"
+   },
+   {
+    "id": 248,
+    "source_id": 107,
+    "start": 0.0,
+    "end": 48.0,
+    "score": 7536.0,
+    "reasons": "[\"twitch top clip\", \"views:7536\"]",
+    "category": "streamer",
+    "hook": "CaseOh's road rage ended with a beef slap \ud83d\ude2d",
+    "status": "scheduled",
+    "created_at": "2026-11-22T13:15:10+00:00"
+   },
+   {
+    "id": 247,
+    "source_id": 106,
+    "start": 0.0,
+    "end": 60.0,
+    "score": 11085.0,
+    "reasons": "[\"twitch top clip\", \"views:11085\"]",
+    "category": "streamer",
+    "hook": "got caught",
+    "status": "rejected",
+    "created_at": "2026-11-22T13:15:07+00:00"
+   },
+   {
+    "id": 246,
+    "source_id": 105,
+    "start": 0.0,
+    "end": 60.0,
+    "score": 15874.0,
+    "reasons": "[\"twitch top clip\", \"views:15874\"]",
+    "category": "streamer",
+    "hook": "kyle 1",
+    "status": "rejected",
+    "created_at": "2026-11-22T13:15:04+00:00"
+   },
+   {
+    "id": 245,
+    "source_id": 104,
+    "start": 0.0,
+    "end": 12.0,
+    "score": 24183.0,
+    "reasons": "[\"twitch top clip\", \"views:24183\"]",
+    "category": "streamer",
+    "hook": "wtfff",
+    "status": "rejected",
+    "created_at": "2026-11-22T13:15:02+00:00"
+   },
+   {
+    "id": 244,
+    "source_id": 103,
+    "start": 0.0,
+    "end": 40.0,
+    "score": 2295.0,
+    "reasons": "[\"twitch top clip\", \"views:2295\"]",
+    "category": "streamer",
+    "hook": "Kai was NOT ready for this GTA 6 scene",
+    "status": "rejected",
+    "created_at": "2026-11-22T13:15:00+00:00"
+   },
+   {
+    "id": 243,
+    "source_id": 102,
+    "start": 0.0,
+    "end": 60.0,
+    "score": 2594.0,
+    "reasons": "[\"twitch top clip\", \"views:2594\"]",
+    "category": "streamer",
+    "hook": "Kai cenat",
+    "status": "rejected",
+    "created_at": "2026-11-22T13:14:58+00:00"
+   },
+   {
+    "id": 242,
+    "source_id": 101,
+    "start": 0.0,
+    "end": 39.0,
+    "score": 3295.0,
+    "reasons": "[\"twitch top clip\", \"views:3295\"]",
+    "category": "streamer",
+    "hook": "on another levld",
+    "status": "rejected",
+    "created_at": "2026-11-22T13:14:54+00:00"
+   },
+   {
+    "id": 241,
+    "source_id": 100,
+    "start": 0.0,
+    "end": 30.0,
+    "score": 3424.0,
+    "reasons": "[\"twitch top clip\", \"views:3424\"]",
+    "category": "streamer",
+    "hook": "KAI GOT MOTION \ud83e\udd2a",
+    "status": "rejected",
+    "created_at": "2026-11-22T13:14:52+00:00"
+   },
+   {
+    "id": 240,
+    "source_id": 99,
+    "start": 0.0,
+    "end": 26.0,
+    "score": 8223.0,
+    "reasons": "[\"twitch top clip\", \"views:8223\"]",
+    "category": "streamer",
+    "hook": "BIG BIg",
+    "status": "rejected",
+    "created_at": "2026-11-22T13:14:50+00:00"
+   },
+   {
+    "id": 239,
+    "source_id": 98,
+    "start": 0.0,
+    "end": 30.0,
+    "score": 10656.0,
+    "reasons": "[\"twitch top clip\", \"views:10656\"]",
+    "category": "streamer",
+    "hook": "kkkkkkkkkkkkk",
+    "status": "rejected",
+    "created_at": "2026-11-22T13:14:48+00:00"
+   },
+   {
+    "id": 238,
+    "source_id": 97,
+    "start": 0.0,
+    "end": 18.0,
+    "score": 18148.0,
+    "reasons": "[\"twitch top clip\", \"views:18148\"]",
+    "category": "streamer",
+    "hook": "speed gta6",
+    "status": "rejected",
+    "created_at": "2026-11-22T13:14:46+00:00"
+   },
+   {
+    "id": 237,
+    "source_id": 96,
+    "start": 0.0,
+    "end": 22.0,
+    "score": 21380.0,
+    "reasons": "[\"twitch top clip\", \"views:21380\"]",
+    "category": "streamer",
+    "hook": "changing clothes",
+    "status": "rejected",
+    "created_at": "2026-11-22T13:14:45+00:00"
+   },
    {
     "id": 236,
     "source_id": 95,
@@ -580,253 +820,12 @@
     "hook": "Elsa Blames You for a Car That Isn\u2019t Even Yours",
     "status": "rejected",
     "created_at": "2026-11-21T13:19:09+00:00"
-   },
-   {
-    "id": 206,
-    "source_id": 65,
-    "start": 0.145,
-    "end": 30.0,
-    "score": 80.0,
-    "reasons": "[\"OpusClip AI pick\"]",
-    "category": "streamer",
-    "hook": "Jynxzi got jump scared so hard in GTA 6 \ud83d\ude2d",
-    "status": "scheduled",
-    "created_at": "2026-11-21T13:19:07+00:00"
-   },
-   {
-    "id": 205,
-    "source_id": 64,
-    "start": 0.44,
-    "end": 16.16,
-    "score": 84.0,
-    "reasons": "[\"OpusClip AI pick\"]",
-    "category": "streamer",
-    "hook": "xQc just wanted to put his coffee down \ud83d\ude2d",
-    "status": "scheduled",
-    "created_at": "2026-11-21T13:19:05+00:00"
-   },
-   {
-    "id": 204,
-    "source_id": 63,
-    "start": 0.36,
-    "end": 59.0,
-    "score": 75.0,
-    "reasons": "[\"OpusClip AI pick\"]",
-    "category": "streamer",
-    "hook": "xQc flat out refused to leave the club \ud83d\ude2d",
-    "status": "approved",
-    "created_at": "2026-11-21T13:19:02+00:00"
-   },
-   {
-    "id": 203,
-    "source_id": 62,
-    "start": 0.08,
-    "end": 18.21,
-    "score": 99.0,
-    "reasons": "[\"OpusClip AI pick\"]",
-    "category": "hype",
-    "hook": "Kelly County Police Dispatch: Officers Respond to Homicide Report",
-    "status": "rejected",
-    "created_at": "2026-11-21T13:18:59+00:00"
-   },
-   {
-    "id": 202,
-    "source_id": 61,
-    "start": 1.331,
-    "end": 48.74,
-    "score": 99.0,
-    "reasons": "[\"OpusClip AI pick\"]",
-    "category": "hype",
-    "hook": "Bridge Tossing Challenge Turns Into a Serious Warning",
-    "status": "rejected",
-    "created_at": "2026-11-21T13:18:57+00:00"
-   },
-   {
-    "id": 201,
-    "source_id": 60,
-    "start": 1.761,
-    "end": 54.0,
-    "score": 91.0,
-    "reasons": "[\"OpusClip AI pick\"]",
-    "category": "hype",
-    "hook": "The Mystery Bag Reveal Nobody Expected",
-    "status": "rejected",
-    "created_at": "2026-11-21T13:18:55+00:00"
-   },
-   {
-    "id": 200,
-    "source_id": 59,
-    "start": 0.0,
-    "end": 21.833,
-    "score": 80.0,
-    "reasons": "[\"OpusClip AI pick\"]",
-    "category": "streamer",
-    "hook": "CaseOh called it seconds before the scooter ride went wrong \ud83d\ude2d",
-    "status": "scheduled",
-    "created_at": "2026-11-21T13:18:53+00:00"
-   },
-   {
-    "id": 199,
-    "source_id": 58,
-    "start": 3.581,
-    "end": 6.761,
-    "score": 88.0,
-    "reasons": "[\"OpusClip AI pick\"]",
-    "category": "streamer",
-    "hook": "CaseOh slammed the brakes and absolutely cooked them \ud83d\ude2d",
-    "status": "rejected",
-    "created_at": "2026-11-21T13:18:50+00:00"
-   },
-   {
-    "id": 198,
-    "source_id": 57,
-    "start": 0.0,
-    "end": 35.0,
-    "score": 78.0,
-    "reasons": "[\"OpusClip AI pick\", \"house:P3112121isTH.gJlGIBk6dY\"]",
-    "category": "streamer",
-    "hook": "CaseOh crash-landed a plane at the dock\u2026 somehow everyone survived \ud83d\ude2d",
-    "status": "scheduled",
-    "created_at": "2026-11-21T13:18:47+00:00"
-   },
-   {
-    "id": 197,
-    "source_id": 56,
-    "start": 91.827,
-    "end": 115.96,
-    "score": 70.0,
-    "reasons": "[\"OpusClip AI pick\"]",
-    "category": "streamer",
-    "hook": "Speed stayed up 24 hours playing GTA 6\u2026 then hit a backflip \ud83d\ude2d",
-    "status": "approved",
-    "created_at": "2026-11-20T19:24:39+00:00"
-   },
-   {
-    "id": 196,
-    "source_id": 56,
-    "start": 28.38,
-    "end": 34.1,
-    "score": 78.0,
-    "reasons": "[\"OpusClip AI pick\"]",
-    "category": "hype",
-    "hook": "24-Hour Stream Complete\u2014Then I Landed a Backflip!",
-    "status": "rejected",
-    "created_at": "2026-11-20T19:24:39+00:00"
-   },
-   {
-    "id": 195,
-    "source_id": 55,
-    "start": 34.259,
-    "end": 60.0,
-    "score": 85.0,
-    "reasons": "[\"OpusClip AI pick\"]",
-    "category": "hype",
-    "hook": "GTA VI Is Here: The Moment Fans Have Waited For",
-    "status": "rejected",
-    "created_at": "2026-11-20T19:23:52+00:00"
-   },
-   {
-    "id": 194,
-    "source_id": 55,
-    "start": 5.225,
-    "end": 31.08,
-    "score": 99.0,
-    "reasons": "[\"OpusClip AI pick\"]",
-    "category": "hype",
-    "hook": "GTA VI Is Here! The Countdown Is Over",
-    "status": "rejected",
-    "created_at": "2026-11-20T19:23:52+00:00"
-   },
-   {
-    "id": 193,
-    "source_id": 54,
-    "start": 0.905,
-    "end": 29.983,
-    "score": 75.0,
-    "reasons": "[\"OpusClip AI pick\"]",
-    "category": "hype",
-    "hook": "He Said It Was His Mom\u2019s Car\u2014Then Confessed",
-    "status": "rejected",
-    "created_at": "2026-11-20T19:23:04+00:00"
-   },
-   {
-    "id": 192,
-    "source_id": 53,
-    "start": 3.07,
-    "end": 29.983,
-    "score": 94.0,
-    "reasons": "[\"OpusClip AI pick\"]",
-    "category": "hype",
-    "hook": "Chat Went Too Far\u2026 I\u2019m About to Get Banned!",
-    "status": "rejected",
-    "created_at": "2026-11-20T19:23:01+00:00"
-   },
-   {
-    "id": 191,
-    "source_id": 52,
-    "start": 0.0,
-    "end": 28.0,
-    "score": 75.0,
-    "reasons": "[\"OpusClip AI pick\"]",
-    "category": "hype",
-    "hook": "From Freeway Ride to City Street Stop",
-    "status": "rejected",
-    "created_at": "2026-11-20T19:22:58+00:00"
-   },
-   {
-    "id": 190,
-    "source_id": 51,
-    "start": 0.905,
-    "end": 54.316,
-    "score": 93.0,
-    "reasons": "[\"OpusClip AI pick\"]",
-    "category": "hype",
-    "hook": "I Lost 100 Pounds\u2014Why Does Everyone Blame Ozempic?",
-    "status": "rejected",
-    "created_at": "2026-11-20T19:22:56+00:00"
-   },
-   {
-    "id": 189,
-    "source_id": 50,
-    "start": 1.205,
-    "end": 29.98,
-    "score": 94.0,
-    "reasons": "[\"OpusClip AI pick\"]",
-    "category": "hype",
-    "hook": "When a Crush Turns Into a Full-Time Investigation",
-    "status": "rejected",
-    "created_at": "2026-11-20T19:22:54+00:00"
-   },
-   {
-    "id": 188,
-    "source_id": 49,
-    "start": 2.625,
-    "end": 29.62,
-    "score": 75.0,
-    "reasons": "[\"OpusClip AI pick\"]",
-    "category": "hype",
-    "hook": "Screen Narration Turns On and I Panic!",
-    "status": "rejected",
-    "created_at": "2026-11-20T19:22:52+00:00"
-   },
-   {
-    "id": 187,
-    "source_id": 48,
-    "start": 1.683,
-    "end": 24.395,
-    "score": 88.0,
-    "reasons": "[\"OpusClip AI pick\"]",
-    "category": "hype",
-    "hook": "If You\u2019re Happy and You Know It: Clap Along!",
-    "status": "rejected",
-    "created_at": "2026-11-20T19:22:50+00:00"
    }
   ],
   "counts": {
-   "approved": 7,
-   "held": 50,
-   "rejected": 146,
-   "scheduled": 33
+   "held": 56,
+   "rejected": 163,
+   "scheduled": 37
   }
  },
  "growth": {
@@ -932,6 +931,26 @@
     "hours_after": 47.14697893833333
    },
    {
+    "post_id": 137,
+    "platform": "instagram",
+    "due_at": "2026-11-22T22:00:00Z",
+    "sent_at": "2026-11-22T22:01:44.814Z",
+    "external_link": "https://www.instagram.com/reel/DgD1FCiiD1M/",
+    "clip_id": 205,
+    "category": "streamer",
+    "hook": "xQc just wanted to put his coffee down \ud83d\ude2d",
+    "length": 15.72,
+    "views": 146.0,
+    "reach": 112.0,
+    "likes": null,
+    "comments": 0.0,
+    "shares": 0.0,
+    "saves": 0.0,
+    "follows": null,
+    "avg_watch_sec": 9.52,
+    "hours_after": 15.33479391888889
+   },
+   {
     "post_id": 50,
     "platform": "instagram",
     "due_at": "2026-11-19T16:30:00Z",
@@ -962,14 +981,14 @@
     "hook": "Peanut got chased by the Hot Milk Police \ud83d\ude2d",
     "length": 28.741000000000014,
     "views": 143.0,
-    "reach": 0.0,
+    "reach": 113.0,
     "likes": null,
     "comments": 0.0,
     "shares": 0.0,
     "saves": null,
     "follows": null,
     "avg_watch_sec": 11.61,
-    "hours_after": 44.304308014444445
+    "hours_after": 68.42646577611112
    },
    {
     "post_id": 38,
@@ -1010,31 +1029,11 @@
     "follows": null,
     "avg_watch_sec": 4.93,
     "hours_after": 60.77777080138889
-   },
-   {
-    "post_id": 6,
-    "platform": "tiktok",
-    "due_at": "2026-11-18T03:00:00Z",
-    "sent_at": "2026-11-18T03:01:04.250Z",
-    "external_link": "https://tiktok.com/@wasteddailyclips8/video/7709340910445677837",
-    "clip_id": 4,
-    "category": "hype",
-    "hook": "This reaction is all of us right now \u23f3",
-    "length": 39.02799999999999,
-    "views": 139.0,
-    "reach": 0.0,
-    "likes": null,
-    "comments": 0.0,
-    "shares": 0.0,
-    "saves": null,
-    "follows": null,
-    "avg_watch_sec": 5.08,
-    "hours_after": 58.28202051666666
    }
   ],
   "recommendations": [
-   "Double down on 'rp' (median 409 views vs overall 8).",
-   "Cut or rework 'streamer' (median 3 views).",
+   "Double down on 'rp' (median 409 views vs overall 7).",
+   "Cut or rework 'streamer' (median 2 views).",
    "Retention: \u226415s clips keep 59% watched vs 25% for longer clips. Trim harder.",
    "Best posting hour so far: 11:00 ET. Test moving a weak slot there."
   ]
@@ -1056,6 +1055,126 @@
  },
  "automation": {
   "events": [
+   {
+    "at": "2026-11-23T13:21:50+00:00",
+    "level": "info",
+    "agent": "metrics",
+    "message": "Pulled metrics for 47 post(s)"
+   },
+   {
+    "at": "2026-11-23T13:21:49+00:00",
+    "level": "info",
+    "agent": "publish",
+    "message": "Queued 12 post(s) in mode=auto"
+   },
+   {
+    "at": "2026-11-23T07:20:59+00:00",
+    "level": "info",
+    "agent": "metrics",
+    "message": "Pulled metrics for 47 post(s)"
+   },
+   {
+    "at": "2026-11-22T13:22:52+00:00",
+    "level": "info",
+    "agent": "publish",
+    "message": "Queued 0 post(s) in mode=auto"
+   },
+   {
+    "at": "2026-11-22T13:22:52+00:00",
+    "level": "info",
+    "agent": "publish",
+    "message": "GTA 6 first: released slots from clips [] for 4 waiting GTA 6 clip(s)"
+   },
+   {
+    "at": "2026-11-22T13:22:38+00:00",
+    "level": "info",
+    "agent": "house",
+    "message": "House-format renders: [248, 251, 252]"
+   },
+   {
+    "at": "2026-11-22T13:19:09+00:00",
+    "level": "info",
+    "agent": "house",
+    "message": "Clip 249 rejected: no stable facecam for the split layout"
+   },
+   {
+    "at": "2026-11-22T13:16:37+00:00",
+    "level": "warn",
+    "agent": "house",
+    "message": "Fit submit failed for clip 197: 402 Client Error: Payment Required for url: https://api.opus.pro/api/clip-projects"
+   },
+   {
+    "at": "2026-11-22T13:16:35+00:00",
+    "level": "warn",
+    "agent": "house",
+    "message": "Fit submit failed for clip 171: 402 Client Error: Payment Required for url: https://api.opus.pro/api/clip-projects"
+   },
+   {
+    "at": "2026-11-22T13:16:29+00:00",
+    "level": "warn",
+    "agent": "house",
+    "message": "Fit submit failed for clip 170: 402 Client Error: Payment Required for url: https://api.opus.pro/api/clip-projects"
+   },
+   {
+    "at": "2026-11-22T13:16:21+00:00",
+    "level": "warn",
+    "agent": "house",
+    "message": "Fit submit failed for clip 143: 402 Client Error: Payment Required for url: https://api.opus.pro/api/clip-projects"
+   },
+   {
+    "at": "2026-11-22T13:16:19+00:00",
+    "level": "warn",
+    "agent": "house",
+    "message": "Fit submit failed for clip 142: 402 Client Error: Payment Required for url: https://api.opus.pro/api/clip-projects"
+   },
+   {
+    "at": "2026-11-22T13:16:18+00:00",
+    "level": "warn",
+    "agent": "house",
+    "message": "Fit submit failed for clip 116: 402 Client Error: Payment Required for url: https://api.opus.pro/api/clip-projects"
+   },
+   {
+    "at": "2026-11-22T13:16:16+00:00",
+    "level": "info",
+    "agent": "editor",
+    "message": "Rejected clips [237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 250, 253, 254, 255, 256]"
+   },
+   {
+    "at": "2026-11-22T13:16:16+00:00",
+    "level": "info",
+    "agent": "approval",
+    "message": "Approved clips [248, 249, 251, 252]"
+   },
+   {
+    "at": "2026-11-22T13:16:16+00:00",
+    "level": "info",
+    "agent": "editor",
+    "message": "Clip 252 hook -> Stable Ronaldo got caught red-handed in GTA 6 \ud83d\ude2d"
+   },
+   {
+    "at": "2026-11-22T13:16:16+00:00",
+    "level": "info",
+    "agent": "editor",
+    "message": "Clip 251 hook -> CaseOh said 'let's not crash this time'\u2026 \ud83d\ude2d"
+   },
+   {
+    "at": "2026-11-22T13:16:15+00:00",
+    "level": "info",
+    "agent": "editor",
+    "message": "Clip 249 hook -> Peanut went straight for the dog in GTA 6 \ud83d\ude2d"
+   },
+   {
+    "at": "2026-11-22T13:16:15+00:00",
+    "level": "info",
+    "agent": "editor",
+    "message": "Clip 248 hook -> CaseOh's road rage ended with a beef slap \ud83d\ude2d"
+   },
+   {
+    "at": "2026-11-22T13:15:28+00:00",
+    "level": "info",
+    "agent": "twitch",
+    "message": "Downloaded 20 Twitch clip(s) for review (no OpusClip credits)"
+   },
    {
     "at": "2026-11-22T13:14:30+00:00",
     "level": "info",
@@ -1175,126 +1294,6 @@
     "level": "warn",
     "agent": "house",
     "message": "Fit submit failed for clip 205: 402 Client Error: Payment Required for url: https://api.opus.pro/api/clip-projects"
-   },
-   {
-    "at": "2026-11-21T21:45:13+00:00",
-    "level": "warn",
-    "agent": "house",
-    "message": "Fit submit failed for clip 204: 402 Client Error: Payment Required for url: https://api.opus.pro/api/clip-projects"
-   },
-   {
-    "at": "2026-11-21T16:41:13+00:00",
-    "level": "info",
-    "agent": "publish",
-    "message": "Queued 0 post(s) in mode=auto"
-   },
-   {
-    "at": "2026-11-21T16:41:13+00:00",
-    "level": "info",
-    "agent": "publish",
-    "message": "GTA 6 first: released slots from clips [] for 14 waiting GTA 6 clip(s)"
-   },
-   {
-    "at": "2026-11-21T16:41:12+00:00",
-    "level": "info",
-    "agent": "editor",
-    "message": "Rejected clips [219, 220, 222, 223, 224, 225, 226, 228, 230, 231, 232, 234, 235, 236]"
-   },
-   {
-    "at": "2026-11-21T16:41:12+00:00",
-    "level": "info",
-    "agent": "approval",
-    "message": "Approved clips [221, 227, 229, 233]"
-   },
-   {
-    "at": "2026-11-21T16:41:12+00:00",
-    "level": "info",
-    "agent": "editor",
-    "message": "Clip 233 hook -> Kai Cenat's GTA 6 foot chase turned into pure chaos \ud83d\ude2d"
-   },
-   {
-    "at": "2026-11-21T16:41:12+00:00",
-    "level": "info",
-    "agent": "editor",
-    "message": "Clip 229 hook -> Speed ran into his first fight in GTA 6 \ud83d\ude2d"
-   },
-   {
-    "at": "2026-11-21T16:41:12+00:00",
-    "level": "info",
-    "agent": "editor",
-    "message": "Clip 227 hook -> Speed stopped everything to save a chameleon in GTA 6 \ud83d\ude2d"
-   },
-   {
-    "at": "2026-11-21T16:41:11+00:00",
-    "level": "info",
-    "agent": "editor",
-    "message": "Clip 221 hook -> Speed's first robbery in GTA 6 went wrong fast \ud83d\ude2d"
-   },
-   {
-    "at": "2026-11-21T16:40:33+00:00",
-    "level": "info",
-    "agent": "publish",
-    "message": "Queued 0 post(s) in mode=auto"
-   },
-   {
-    "at": "2026-11-21T16:40:33+00:00",
-    "level": "info",
-    "agent": "opus",
-    "message": "Imported 1 clip(s) from OpusClip project P3112116bFqS"
-   },
-   {
-    "at": "2026-11-21T16:39:30+00:00",
-    "level": "info",
-    "agent": "publish",
-    "message": "Queued 0 post(s) in mode=auto"
-   },
-   {
-    "at": "2026-11-21T16:39:30+00:00",
-    "level": "info",
-    "agent": "opus",
-    "message": "Imported 1 clip(s) from OpusClip project P3112116bi8e"
-   },
-   {
-    "at": "2026-11-21T16:39:29+00:00",
-    "level": "info",
-    "agent": "publish",
-    "message": "Queued 0 post(s) in mode=auto"
-   },
-   {
-    "at": "2026-11-21T16:39:29+00:00",
-    "level": "info",
-    "agent": "opus",
-    "message": "Imported 1 clip(s) from OpusClip project P3112116bYaA"
-   },
-   {
-    "at": "2026-11-21T16:39:27+00:00",
-    "level": "info",
-    "agent": "publish",
-    "message": "Queued 0 post(s) in mode=auto"
-   },
-   {
-    "at": "2026-11-21T16:39:27+00:00",
-    "level": "info",
-    "agent": "opus",
-    "message": "Imported 1 clip(s) from OpusClip project P3112116bSvR"
-   },
-   {
-    "at": "2026-11-21T16:39:24+00:00",
-    "level": "info",
-    "agent": "publish",
-    "message": "Queued 0 post(s) in mode=auto"
-   },
-   {
-    "at": "2026-11-21T16:39:24+00:00",
-    "level": "info",
-    "agent": "opus",
-    "message": "Imported 1 clip(s) from OpusClip project P3112116bAxi"
-   },
-   {
-    "at": "2026-11-21T16:39:23+00:00",
-    "level": "info",
-    "agent": "publish",
-    "message": "Queued 0 post(s) in mode=auto"
    }
   ],
   "errors": []

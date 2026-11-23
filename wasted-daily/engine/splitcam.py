@@ -78,7 +78,10 @@ def build(src, out, hook):
         return None
     x, y, bw, bh = cam
     out = Path(out); out.parent.mkdir(parents=True, exist_ok=True)
-    words = _clean(transcribe.words(src))
+    try:
+        words = _clean(transcribe.words(src))
+    except Exception:          # whisper can fail on clips with music/no clear speech; post without captions
+        words = []
     dur = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(src)],
                                capture_output=True, text=True).stdout.strip() or 0)
     ass = out.with_suffix(".ass")
