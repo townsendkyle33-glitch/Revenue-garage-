@@ -95,13 +95,31 @@ def queue(con, platforms=("x", "instagram", "tiktok"), limit=None, within_hours=
     if config.PUBLISH_MODE == "off":
         db.log(con, "publish", "PUBLISH_MODE=off; nothing sent", level="warn")
         return []
-    clips = [c for c in con.execute("SELECT * FROM clips WHERE status='approved' ORDER BY (category IN ('streamer','gta6')) DESC, (EXISTS(SELECT 1 FROM sources s WHERE s.id=clips.source_id AND (s.creator_handle LIKE '%ishowspeed%' OR s.creator_handle LIKE '%kaicenat%'))) DESC, score DESC")
+    clips = [c for c in con.execute("SELECT * FROM clips WHERE status='approved' ORDER BY (category IN ('streamer','gta6')) DESC, (EXISTS(SELECT 1 FROM sources s WHERE s.id=clips.source_id AND (s.creator_handle LIKE '%kaicenat%' OR s.creator_handle LIKE '%ishowspeed%'))) DESC, score DESC")
              if "night-stories-media" in (c["path"] or "")]     # house split format only (owner rule Nov 21)
     if not clips:
         db.log(con, "publish", "Nothing to queue (no approved clips with a public video URL)", level="warn")
         return []
     clips = clips[:limit] if limit else clips
     slots = next_slots(con, len(clips))
+    # Owner rule (Nov 23): at most 1 IShowSpeed post per day (ET). Speed is over-reposted and gets held back.
+    tz = ZoneInfo(config.TIMEZONE)
+    day = lambda iso: datetime.fromisoformat(iso.replace(".000Z", "Z").replace("Z", "+00:00")).astimezone(tz).date()
+    is_speed = lambda c: bool(con.execute("SELECT 1 FROM sources WHERE id=? AND lower(creator_handle) LIKE '%ishowspeed%'",
+                                          (c["source_id"],)).fetchone())
+    speed_days = {day(r[0]) for r in con.execute(
+        "SELECT p.due_at FROM posts p JOIN clips k ON k.id=p.clip_id JOIN sources s ON s.id=k.source_id "
+        "WHERE p.status IN ('scheduled','sent') AND p.due_at IS NOT NULL AND lower(s.creator_handle) LIKE '%ishowspeed%'")}
+    pool, pairs = list(clips), []
+    for s in slots:
+        pick = next((c for c in pool if not (is_speed(c) and day(s) in speed_days)), None)
+        if pick is None:
+            continue
+        pool.remove(pick)
+        if is_speed(pick):
+            speed_days.add(day(s))
+        pairs.append((pick, s))
+    clips, slots = [c for c, _ in pairs], [s for _, s in pairs]
     if within_hours:   # signed media URLs expire; only use slots inside the window
         cutoff = datetime.now(ZoneInfo("UTC")) + timedelta(hours=within_hours)
         keep = [(c, s) for c, s in zip(clips, slots) if datetime.fromisoformat(s.replace("Z", "+00:00")) <= cutoff]
