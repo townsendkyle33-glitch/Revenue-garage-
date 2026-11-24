@@ -1,5 +1,89 @@
 [
  {
+  "at": "2026-11-24T13:19:25+00:00",
+  "kind": "info",
+  "agent": "metrics",
+  "message": "Pulled metrics for 49 post(s)"
+ },
+ {
+  "at": "2026-11-24T13:19:25+00:00",
+  "kind": "warn",
+  "agent": "publish",
+  "message": "Nothing to queue (no approved clips with a public video URL)"
+ },
+ {
+  "at": "2026-11-23T13:26:40+00:00",
+  "kind": "info",
+  "agent": "publish",
+  "message": "Queued 3 post(s) in mode=auto"
+ },
+ {
+  "at": "2026-11-23T13:26:37+00:00",
+  "kind": "info",
+  "agent": "publish",
+  "message": "GTA 6 first: released slots from clips [] for 1 waiting GTA 6 clip(s)"
+ },
+ {
+  "at": "2026-11-23T13:26:37+00:00",
+  "kind": "info",
+  "agent": "house",
+  "message": "House-format renders: [264]"
+ },
+ {
+  "at": "2026-11-23T13:25:04+00:00",
+  "kind": "info",
+  "agent": "publish",
+  "message": "Queued 3 post(s) in mode=auto"
+ },
+ {
+  "at": "2026-11-23T13:25:00+00:00",
+  "kind": "info",
+  "agent": "publish",
+  "message": "GTA 6 first: released slots from clips [] for 1 waiting GTA 6 clip(s)"
+ },
+ {
+  "at": "2026-11-23T13:24:59+00:00",
+  "kind": "info",
+  "agent": "house",
+  "message": "House-format renders: [258]"
+ },
+ {
+  "at": "2026-11-23T13:24:59+00:00",
+  "kind": "warn",
+  "agent": "house",
+  "message": "Free Twitch render failed for clip 264: boolean index did not match indexed array along axis 0; size of axis is 0 but size of corresponding boolean axis is 1"
+ },
+ {
+  "at": "2026-11-23T13:23:29+00:00",
+  "kind": "info",
+  "agent": "editor",
+  "message": "Rejected clips [257, 259, 260, 261, 262, 263, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276]"
+ },
+ {
+  "at": "2026-11-23T13:23:29+00:00",
+  "kind": "info",
+  "agent": "approval",
+  "message": "Approved clips [258, 264]"
+ },
+ {
+  "at": "2026-11-23T13:23:28+00:00",
+  "kind": "info",
+  "agent": "editor",
+  "message": "Clip 264 hook -> xQc thinks GTA 6 locks you into a relationship \ud83d\ude2d"
+ },
+ {
+  "at": "2026-11-23T13:23:28+00:00",
+  "kind": "info",
+  "agent": "editor",
+  "message": "Clip 258 hook -> Speed found an ALIEN in GTA 6 \ud83d\ude2d"
+ },
+ {
+  "at": "2026-11-23T13:22:47+00:00",
+  "kind": "info",
+  "agent": "twitch",
+  "message": "Downloaded 20 Twitch clip(s) for review (no OpusClip credits)"
+ },
+ {
   "at": "2026-11-23T13:21:50+00:00",
   "kind": "info",
   "agent": "metrics",
@@ -156,127 +240,43 @@
   "message": "Clip 199 rejected: no stable facecam for the split layout"
  },
  {
-  "at": "2026-11-21T21:48:36+00:00",
-  "kind": "info",
-  "agent": "publish",
-  "message": "Queued 3 post(s) in mode=auto"
- },
- {
-  "at": "2026-11-21T21:48:15+00:00",
-  "kind": "info",
-  "agent": "house",
-  "message": "House-format renders: [198]"
- },
- {
-  "at": "2026-11-21T21:48:15+00:00",
-  "kind": "info",
-  "agent": "house",
-  "message": "Clip 197 rejected: no stable facecam for the split layout"
- },
- {
-  "at": "2026-11-21T21:48:10+00:00",
-  "kind": "info",
-  "agent": "house",
-  "message": "Clip 171 rejected: no stable facecam for the split layout"
- },
- {
-  "at": "2026-11-21T21:48:04+00:00",
-  "kind": "info",
-  "agent": "house",
-  "message": "Clip 116 rejected: no stable facecam for the split layout"
- },
- {
-  "at": "2026-11-21T21:47:27+00:00",
-  "kind": "info",
-  "agent": "house",
-  "message": "Clip 200 rejected: no stable facecam for the split layout"
- },
- {
-  "at": "2026-11-21T21:47:21+00:00",
-  "kind": "info",
-  "agent": "house",
-  "message": "Clip 199 rejected: no stable facecam for the split layout"
- },
- {
-  "at": "2026-11-21T21:46:14+00:00",
-  "kind": "info",
-  "agent": "house",
-  "message": "Clip 143 rejected: no stable facecam for the split layout"
- },
- {
-  "at": "2026-11-21T21:45:35+00:00",
-  "kind": "warn",
-  "agent": "house",
-  "message": "Fit submit failed for clip 233: 402 Client Error: Payment Required for url: https://api.opus.pro/api/clip-projects"
- },
- {
-  "at": "2026-11-21T21:45:32+00:00",
-  "kind": "warn",
-  "agent": "house",
-  "message": "Fit submit failed for clip 229: 402 Client Error: Payment Required for url: https://api.opus.pro/api/clip-projects"
- },
- {
-  "at": "2026-11-21T21:45:28+00:00",
-  "kind": "warn",
-  "agent": "house",
-  "message": "Fit submit failed for clip 227: 402 Client Error: Payment Required for url: https://api.opus.pro/api/clip-projects"
- },
- {
-  "at": "2026-11-21T21:45:24+00:00",
-  "kind": "warn",
-  "agent": "house",
-  "message": "Fit submit failed for clip 221: 402 Client Error: Payment Required for url: https://api.opus.pro/api/clip-projects"
- },
- {
-  "at": "2026-11-21T21:45:21+00:00",
-  "kind": "warn",
-  "agent": "house",
-  "message": "Fit submit failed for clip 206: 402 Client Error: Payment Required for url: https://api.opus.pro/api/clip-projects"
- },
- {
-  "at": "2026-11-21T21:45:17+00:00",
-  "kind": "warn",
-  "agent": "house",
-  "message": "Fit submit failed for clip 205: 402 Client Error: Payment Required for url: https://api.opus.pro/api/clip-projects"
- },
- {
-  "at": "2026-11-23T13:21:50+00:00",
+  "at": "2026-11-24T13:19:26+00:00",
   "kind": "recommendation",
   "agent": "growth",
-  "message": "Double down on 'rp' (median 409 views vs overall 7)."
+  "message": "Double down on 'rp' (median 409 views vs overall 6)."
  },
  {
-  "at": "2026-11-23T13:21:50+00:00",
+  "at": "2026-11-24T13:19:26+00:00",
   "kind": "recommendation",
   "agent": "growth",
   "message": "Cut or rework 'streamer' (median 2 views)."
  },
  {
-  "at": "2026-11-23T13:21:50+00:00",
+  "at": "2026-11-24T13:19:26+00:00",
   "kind": "recommendation",
   "agent": "growth",
   "message": "Retention: \u226415s clips keep 59% watched vs 25% for longer clips. Trim harder."
  },
  {
-  "at": "2026-11-23T13:21:50+00:00",
+  "at": "2026-11-24T13:19:26+00:00",
   "kind": "recommendation",
   "agent": "growth",
-  "message": "Best posting hour so far: 11:00 ET. Test moving a weak slot there."
+  "message": "Best posting hour so far: 22:00 ET. Test moving a weak slot there."
  },
  {
-  "at": "2026-11-23T13:21:50+00:00",
+  "at": "2026-11-24T13:19:26+00:00",
   "kind": "blocker",
   "agent": "setup",
   "message": "No public video hosting yet, so Buffer can't fetch clips. Needs a storage choice (see ARCHITECTURE.md)."
  },
  {
-  "at": "2026-11-23T13:21:50+00:00",
+  "at": "2026-11-24T13:19:26+00:00",
   "kind": "blocker",
   "agent": "setup",
   "message": "No owned or licensed GTA footage yet. Record gameplay or sign up creators before real clips can be made."
  },
  {
-  "at": "2026-11-23T13:21:50+00:00",
+  "at": "2026-11-24T13:19:26+00:00",
   "kind": "blocker",
   "agent": "setup",
   "message": "YouTube, Facebook and Threads not connected (Buffer free plan allows 3 channels)."

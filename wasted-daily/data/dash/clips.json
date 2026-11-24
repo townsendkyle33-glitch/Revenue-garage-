@@ -1,5 +1,185 @@
 [
  {
+  "clip": 276,
+  "hook": "wwww",
+  "category": "streamer",
+  "score": 2490.0,
+  "length_sec": 22.0,
+  "why": "twitch top clip, views:2490",
+  "status": "rejected"
+ },
+ {
+  "clip": 275,
+  "hook": "XQC Camera Roll",
+  "category": "streamer",
+  "score": 2567.0,
+  "length_sec": 45.0,
+  "why": "twitch top clip, views:2567",
+  "status": "rejected"
+ },
+ {
+  "clip": 274,
+  "hook": "Lacy got impressed",
+  "category": "streamer",
+  "score": 2640.0,
+  "length_sec": 19.0,
+  "why": "twitch top clip, views:2640",
+  "status": "rejected"
+ },
+ {
+  "clip": 273,
+  "hook": "a",
+  "category": "streamer",
+  "score": 2699.0,
+  "length_sec": 30.0,
+  "why": "twitch top clip, views:2699",
+  "status": "rejected"
+ },
+ {
+  "clip": 272,
+  "hook": "wwwwww",
+  "category": "streamer",
+  "score": 2809.0,
+  "length_sec": 34.0,
+  "why": "twitch top clip, views:2809",
+  "status": "rejected"
+ },
+ {
+  "clip": 271,
+  "hook": "xQc got the Bonnie and Clyde Ending in GTA 6",
+  "category": "streamer",
+  "score": 3276.0,
+  "length_sec": 60.0,
+  "why": "twitch top clip, views:3276",
+  "status": "rejected"
+ },
+ {
+  "clip": 270,
+  "hook": "a",
+  "category": "streamer",
+  "score": 3681.0,
+  "length_sec": 52.0,
+  "why": "twitch top clip, views:3681",
+  "status": "rejected"
+ },
+ {
+  "clip": 269,
+  "hook": "Peanut Escalates a Situation",
+  "category": "streamer",
+  "score": 4796.0,
+  "length_sec": 30.0,
+  "why": "twitch top clip, views:4796",
+  "status": "rejected"
+ },
+ {
+  "clip": 268,
+  "hook": "a",
+  "category": "streamer",
+  "score": 5146.0,
+  "length_sec": 32.0,
+  "why": "twitch top clip, views:5146",
+  "status": "rejected"
+ },
+ {
+  "clip": 267,
+  "hook": "xQc finishes GTA 6 after 62 hours and rates it a 9/10",
+  "category": "streamer",
+  "score": 5898.0,
+  "length_sec": 60.0,
+  "why": "twitch top clip, views:5898",
+  "status": "rejected"
+ },
+ {
+  "clip": 266,
+  "hook": "CAUGHT???",
+  "category": "streamer",
+  "score": 6471.0,
+  "length_sec": 24.0,
+  "why": "twitch top clip, views:6471",
+  "status": "rejected"
+ },
+ {
+  "clip": 265,
+  "hook": "kyle 3",
+  "category": "streamer",
+  "score": 7291.0,
+  "length_sec": 60.0,
+  "why": "twitch top clip, views:7291",
+  "status": "rejected"
+ },
+ {
+  "clip": 264,
+  "hook": "xQc thinks GTA 6 locks you into a relationship \ud83d\ude2d",
+  "category": "streamer",
+  "score": 7686.0,
+  "length_sec": 30.0,
+  "why": "twitch top clip, views:7686",
+  "status": "rejected"
+ },
+ {
+  "clip": 263,
+  "hook": "niko belic",
+  "category": "streamer",
+  "score": 1867.0,
+  "length_sec": 60.0,
+  "why": "twitch top clip, views:1867",
+  "status": "rejected"
+ },
+ {
+  "clip": 262,
+  "hook": "He lost all of it",
+  "category": "streamer",
+  "score": 1915.0,
+  "length_sec": 22.0,
+  "why": "twitch top clip, views:1915",
+  "status": "rejected"
+ },
+ {
+  "clip": 261,
+  "hook": "KAI WTF",
+  "category": "streamer",
+  "score": 2130.0,
+  "length_sec": 12.0,
+  "why": "twitch top clip, views:2130",
+  "status": "rejected"
+ },
+ {
+  "clip": 260,
+  "hook": "Chat explodes | Grand Theft Auto VI | clipped with twitch-tools.panda-core.net",
+  "category": "streamer",
+  "score": 2186.0,
+  "length_sec": 30.0,
+  "why": "twitch top clip, views:2186",
+  "status": "rejected"
+ },
+ {
+  "clip": 259,
+  "hook": "WWWW eiii",
+  "category": "streamer",
+  "score": 2239.0,
+  "length_sec": 30.0,
+  "why": "twitch top clip, views:2239",
+  "status": "rejected"
+ },
+ {
+  "clip": 258,
+  "hook": "Speed found an ALIEN in GTA 6 \ud83d\ude2d",
+  "category": "streamer",
+  "score": 3246.0,
+  "length_sec": 30.0,
+  "why": "twitch top clip, views:3246",
+  "status": "scheduled"
+ },
+ {
+  "clip": 257,
+  "hook": "type shit",
+  "category": "streamer",
+  "score": 4100.0,
+  "length_sec": 39.0,
+  "why": "twitch top clip, views:4100",
+  "status": "rejected"
+ },
+ {
   "clip": 256,
   "hook": "wwwwwwwwwwwwwww",
   "category": "streamer",
@@ -268,185 +448,5 @@
   "length_sec": 15.5,
   "why": "OpusClip AI pick",
   "status": "scheduled"
- },
- {
-  "clip": 226,
-  "hook": "Highway Cleanup: A Tense Ride Offer and Unexpected Wait",
-  "category": "hype",
-  "score": 86.0,
-  "length_sec": 15.4,
-  "why": "OpusClip AI pick",
-  "status": "rejected"
- },
- {
-  "clip": 225,
-  "hook": "On-Set Chaos: The Scene That Had Everyone Saying \u201cHold On\u201d",
-  "category": "hype",
-  "score": 84.0,
-  "length_sec": 58.2,
-  "why": "OpusClip AI pick",
-  "status": "rejected"
- },
- {
-  "clip": 224,
-  "hook": "The Most Awkward Silence Test Ever",
-  "category": "hype",
-  "score": 84.0,
-  "length_sec": 59.9,
-  "why": "OpusClip AI pick",
-  "status": "rejected"
- },
- {
-  "clip": 223,
-  "hook": "What the Hell Is on These TV Channels?",
-  "category": "hype",
-  "score": 80.0,
-  "length_sec": 14.0,
-  "why": "OpusClip AI pick",
-  "status": "rejected"
- },
- {
-  "clip": 222,
-  "hook": "Warrior Dance Showdown: \u201cGet Him, Tiger!\u201d",
-  "category": "hype",
-  "score": 86.0,
-  "length_sec": 27.5,
-  "why": "OpusClip AI pick",
-  "status": "rejected"
- },
- {
-  "clip": 221,
-  "hook": "Speed's first robbery in GTA 6 went wrong fast \ud83d\ude2d",
-  "category": "streamer",
-  "score": 81.0,
-  "length_sec": 29.7,
-  "why": "OpusClip AI pick",
-  "status": "scheduled"
- },
- {
-  "clip": 220,
-  "hook": "A Glamorous Entrance Into a Neon-Lit Night",
-  "category": "hype",
-  "score": 83.0,
-  "length_sec": 15.9,
-  "why": "OpusClip AI pick",
-  "status": "rejected"
- },
- {
-  "clip": 219,
-  "hook": "Where\u2019s Jason? This Got Weird Fast",
-  "category": "hype",
-  "score": 83.0,
-  "length_sec": 28.7,
-  "why": "OpusClip AI pick",
-  "status": "rejected"
- },
- {
-  "clip": 218,
-  "hook": "Speed played GTA 6 for 52 hours straight\u2026 then overwrote his 98% save \ud83d\ude2d",
-  "category": "streamer",
-  "score": 84.0,
-  "length_sec": 18.3,
-  "why": "OpusClip AI pick",
-  "status": "scheduled"
- },
- {
-  "clip": 217,
-  "hook": "He Wasted $300 on a Livestream\u2014Without Tipping",
-  "category": "hype",
-  "score": 80.0,
-  "length_sec": 34.2,
-  "why": "OpusClip AI pick",
-  "status": "rejected"
- },
- {
-  "clip": 216,
-  "hook": "What Just Happened? A Hilarious Live Reaction",
-  "category": "hype",
-  "score": 81.0,
-  "length_sec": 55.1,
-  "why": "OpusClip AI pick",
-  "status": "rejected"
- },
- {
-  "clip": 215,
-  "hook": "When Your Reflection Starts Talking Back",
-  "category": "hype",
-  "score": 75.0,
-  "length_sec": 21.0,
-  "why": "OpusClip AI pick",
-  "status": "rejected"
- },
- {
-  "clip": 214,
-  "hook": "He Runs Into Traffic\u2014Then Shouts \u201cDefund ICE\u201d",
-  "category": "hype",
-  "score": 80.0,
-  "length_sec": 20.0,
-  "why": "OpusClip AI pick",
-  "status": "rejected"
- },
- {
-  "clip": 213,
-  "hook": "My PC Died Mid-Stream\u2026 But I\u2019m Back!",
-  "category": "hype",
-  "score": 83.0,
-  "length_sec": 20.2,
-  "why": "OpusClip AI pick",
-  "status": "rejected"
- },
- {
-  "clip": 212,
-  "hook": "Lou Swears Nothing Will Change\u2014But Is She Sure?",
-  "category": "hype",
-  "score": 92.0,
-  "length_sec": 40.1,
-  "why": "OpusClip AI pick",
-  "status": "rejected"
- },
- {
-  "clip": 211,
-  "hook": "Snapmatic Stalking: How Much Can You Learn From Scrolling?",
-  "category": "hype",
-  "score": 88.0,
-  "length_sec": 52.2,
-  "why": "OpusClip AI pick",
-  "status": "rejected"
- },
- {
-  "clip": 210,
-  "hook": "When the Ride Ends Too Soon \ud83d\ude02",
-  "category": "hype",
-  "score": 78.0,
-  "length_sec": 29.9,
-  "why": "OpusClip AI pick",
-  "status": "rejected"
- },
- {
-  "clip": 209,
-  "hook": "The Party Benefactor Who Pays College Tuition",
-  "category": "hype",
-  "score": 87.0,
-  "length_sec": 22.7,
-  "why": "OpusClip AI pick",
-  "status": "rejected"
- },
- {
-  "clip": 208,
-  "hook": "\u201cIs This a Porno?\u201d The Unexpected On-Set Moment",
-  "category": "hype",
-  "score": 76.0,
-  "length_sec": 38.0,
-  "why": "OpusClip AI pick",
-  "status": "rejected"
- },
- {
-  "clip": 207,
-  "hook": "Elsa Blames You for a Car That Isn\u2019t Even Yours",
-  "category": "hype",
-  "score": 92.0,
-  "length_sec": 14.0,
-  "why": "OpusClip AI pick",
-  "status": "rejected"
  }
 ]
