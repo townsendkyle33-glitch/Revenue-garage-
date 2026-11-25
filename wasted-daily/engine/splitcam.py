@@ -36,24 +36,28 @@ def find_cam(path, samples=20):
     k = BW / 1080                                 # detector sizes are tuned for a 1080-wide picture
     cap = cv2.VideoCapture(str(path))
     n = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
-    hits = []
-    for i in np.linspace(0, n - 1, samples).astype(int):
+    hits, hits4 = [], []
+    for fi, i in enumerate(np.linspace(0, n - 1, samples).astype(int)):
         cap.set(cv2.CAP_PROP_POS_FRAMES, int(i))
         ok, f = cap.read()
         if not ok:
             continue
         band = cv2.cvtColor(f[BY:BY + BH, BX:BX + BW], cv2.COLOR_BGR2GRAY)
-        for (x, y, w, h) in det.detectMultiScale(band, 1.1, 4, minSize=(int(20 * k), int(20 * k))):
-            hits.append((x + w // 2, y + h // 2, w))
+        for (x, y, w, h) in det.detectMultiScale(band, 1.1, 3, minSize=(int(20 * k), int(20 * k))):
+            hits.append((x + w // 2, y + h // 2, w)); hits4.append((x + w // 2, y + h // 2, w, fi))
     if not hits:
         return None
-    # A real facecam sits still: take the position bucket seen in the most frames.
-    g = int(60 * k)
-    buckets = Counter((cx // g, cy // g) for cx, cy, _ in hits)
-    (bx, by), count = buckets.most_common(1)[0]
-    if count < samples * 0.3:
+    # A real facecam sits still: pick the spot that has a face in the most sampled frames (distance-based, so a
+    # face sitting on a grid boundary is not split in two). Streamers look down a lot, so 25% of frames is enough.
+    g = int(80 * k)
+    best, sel = 0, []
+    for cx0, cy0, _ in hits:
+        near = [(cx, cy, w, fi) for cx, cy, w, fi in hits4 if abs(cx - cx0) < g and abs(cy - cy0) < g]
+        nf = len({fi for *_, fi in near})
+        if nf > best:
+            best, sel = nf, near
+    if best < samples * 0.25:
         return None
-    sel = [(cx, cy, w) for cx, cy, w in hits if (cx // g, cy // g) == (bx, by)]
     cx = int(np.median([s[0] for s in sel])); cy = int(np.median([s[1] for s in sel]))
     fw = int(np.median([s[2] for s in sel]))
     bw = min(BW, int(fw * 4.6)); bh = int(bw * TOP_H / W)

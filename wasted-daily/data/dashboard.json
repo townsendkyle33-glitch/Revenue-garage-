@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-24T13:19:26+00:00",
+ "generated_at": "2026-11-25T13:17:49+00:00",
  "publish_mode": "auto",
  "media_hosting": false,
  "overview": {
-  "total_views": 5139.0,
-  "published": 114,
+  "total_views": 6926.0,
+  "published": 126,
   "followers_gained": 0
  },
  "channels": [
@@ -40,187 +40,571 @@
  "factory": {
   "sources": [
    {
-    "id": 135,
-    "title": "wwww",
+    "id": 167,
+    "title": "oh well",
+    "creator": "TheBurntPeanut",
+    "rights": "repost",
+    "status": "processed",
+    "duration": 29.0,
+    "created_at": "2026-11-24T13:25:50+00:00"
+   },
+   {
+    "id": 166,
+    "title": "whats he doing",
     "creator": "Lacy",
     "rights": "repost",
     "status": "processed",
-    "duration": 22.0,
-    "created_at": "2026-11-23T13:22:47+00:00"
+    "duration": 29.0,
+    "created_at": "2026-11-24T13:25:48+00:00"
    },
    {
-    "id": 134,
-    "title": "XQC Camera Roll",
-    "creator": "xQc",
-    "rights": "repost",
-    "status": "processed",
-    "duration": 45.0,
-    "created_at": "2026-11-23T13:22:45+00:00"
-   },
-   {
-    "id": 133,
-    "title": "Lacy got impressed",
-    "creator": "Lacy",
-    "rights": "repost",
-    "status": "processed",
-    "duration": 19.0,
-    "created_at": "2026-11-23T13:22:43+00:00"
-   },
-   {
-    "id": 132,
-    "title": "a",
-    "creator": "Lacy",
+    "id": 165,
+    "title": "OOOO",
+    "creator": "stableronaldo",
     "rights": "repost",
     "status": "processed",
     "duration": 30.0,
-    "created_at": "2026-11-23T13:22:41+00:00"
+    "created_at": "2026-11-24T13:25:45+00:00"
    },
    {
-    "id": 131,
-    "title": "wwwwww",
+    "id": 164,
+    "title": "wtf",
     "creator": "Lacy",
-    "rights": "repost",
-    "status": "processed",
-    "duration": 34.0,
-    "created_at": "2026-11-23T13:22:39+00:00"
-   },
-   {
-    "id": 130,
-    "title": "xQc got the Bonnie and Clyde Ending in GTA 6",
-    "creator": "xQc",
     "rights": "repost",
     "status": "processed",
     "duration": 60.0,
-    "created_at": "2026-11-23T13:22:37+00:00"
+    "created_at": "2026-11-24T13:25:44+00:00"
    },
    {
-    "id": 129,
-    "title": "a",
+    "id": 163,
+    "title": "Is this even allowed? LOL",
+    "creator": "stableronaldo",
+    "rights": "repost",
+    "status": "processed",
+    "duration": 13.0,
+    "created_at": "2026-11-24T13:25:42+00:00"
+   },
+   {
+    "id": 162,
+    "title": "123",
+    "creator": "Marlon",
+    "rights": "repost",
+    "status": "processed",
+    "duration": 17.0,
+    "created_at": "2026-11-24T13:25:40+00:00"
+   },
+   {
+    "id": 161,
+    "title": "xQc commits Grand Theft Auto for the first time in GTA 6",
+    "creator": "xQc",
+    "rights": "repost",
+    "status": "processed",
+    "duration": 54.0,
+    "created_at": "2026-11-24T13:25:38+00:00"
+   },
+   {
+    "id": 160,
+    "title": "OMG",
     "creator": "Lacy",
     "rights": "repost",
     "status": "processed",
-    "duration": 52.0,
-    "created_at": "2026-11-23T13:22:35+00:00"
+    "duration": 23.0,
+    "created_at": "2026-11-24T13:25:35+00:00"
    },
    {
-    "id": 128,
-    "title": "Peanut Escalates a Situation",
+    "id": 159,
+    "title": "XQC gets called a f****** P**** right after he said so to an NPC in GTA 6",
+    "creator": "xQc",
+    "rights": "repost",
+    "status": "processed",
+    "duration": 17.0,
+    "created_at": "2026-11-24T13:25:33+00:00"
+   },
+   {
+    "id": 158,
+    "title": "LUCIA",
+    "creator": "Lacy",
+    "rights": "repost",
+    "status": "processed",
+    "duration": 12.0,
+    "created_at": "2026-11-24T13:25:32+00:00"
+   },
+   {
+    "id": 157,
+    "title": "why he do jdab like that\ud83d\ude02\ud83d\ude02\ud83d\ude02",
+    "creator": "stableronaldo",
+    "rights": "repost",
+    "status": "processed",
+    "duration": 12.0,
+    "created_at": "2026-11-24T13:25:30+00:00"
+   },
+   {
+    "id": 156,
+    "title": "2",
+    "creator": "KaiCenat",
+    "rights": "repost",
+    "status": "processed",
+    "duration": 30.0,
+    "created_at": "2026-11-24T13:25:28+00:00"
+   },
+   {
+    "id": 155,
+    "title": "gyaaat",
+    "creator": "KaiCenat",
+    "rights": "repost",
+    "status": "processed",
+    "duration": 30.0,
+    "created_at": "2026-11-24T13:25:26+00:00"
+   },
+   {
+    "id": 154,
+    "title": "mandy naked gta6",
+    "creator": "IShowSpeed",
+    "rights": "repost",
+    "status": "processed",
+    "duration": 15.0,
+    "created_at": "2026-11-24T13:25:25+00:00"
+   },
+   {
+    "id": 153,
+    "title": "kai cenat argues with his new girlfriend",
+    "creator": "KaiCenat",
+    "rights": "repost",
+    "status": "processed",
+    "duration": 54.0,
+    "created_at": "2026-11-24T13:25:23+00:00"
+   },
+   {
+    "id": 152,
+    "title": "omg",
+    "creator": "stableronaldo",
+    "rights": "repost",
+    "status": "processed",
+    "duration": 30.0,
+    "created_at": "2026-11-24T13:20:14+00:00"
+   },
+   {
+    "id": 151,
+    "title": "Now we need to find a new Wife",
+    "creator": "TheBurntPeanut",
+    "rights": "repost",
+    "status": "processed",
+    "duration": 19.0,
+    "created_at": "2026-11-24T13:20:12+00:00"
+   },
+   {
+    "id": 150,
+    "title": "Is This Worth My Career!!\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d",
     "creator": "TheBurntPeanut",
     "rights": "repost",
     "status": "processed",
     "duration": 30.0,
-    "created_at": "2026-11-23T13:22:32+00:00"
+    "created_at": "2026-11-24T13:20:10+00:00"
    },
    {
-    "id": 127,
-    "title": "a",
-    "creator": "Lacy",
+    "id": 149,
+    "title": "ANOTHA ONE",
+    "creator": "TheBurntPeanut",
     "rights": "repost",
     "status": "processed",
-    "duration": 32.0,
-    "created_at": "2026-11-23T13:22:30+00:00"
+    "duration": 30.0,
+    "created_at": "2026-11-24T13:20:09+00:00"
    },
    {
-    "id": 126,
-    "title": "xQc finishes GTA 6 after 62 hours and rates it a 9/10",
-    "creator": "xQc",
+    "id": 148,
+    "title": "trolling marlon",
+    "creator": "jasontheween",
     "rights": "repost",
     "status": "processed",
     "duration": 60.0,
-    "created_at": "2026-11-23T13:22:28+00:00"
-   },
-   {
-    "id": 125,
-    "title": "CAUGHT???",
-    "creator": "stableronaldo",
-    "rights": "repost",
-    "status": "processed",
-    "duration": 24.0,
-    "created_at": "2026-11-23T13:22:25+00:00"
-   },
-   {
-    "id": 124,
-    "title": "kyle 3",
-    "creator": "caseoh_",
-    "rights": "repost",
-    "status": "processed",
-    "duration": 60.0,
-    "created_at": "2026-11-23T13:22:23+00:00"
-   },
-   {
-    "id": 123,
-    "title": "xQc on GTA 6 locking players into a relationship",
-    "creator": "xQc",
-    "rights": "repost",
-    "status": "processed",
-    "duration": 30.0,
-    "created_at": "2026-11-23T13:22:19+00:00"
-   },
-   {
-    "id": 122,
-    "title": "niko belic",
-    "creator": "IShowSpeed",
-    "rights": "repost",
-    "status": "processed",
-    "duration": 60.0,
-    "created_at": "2026-11-23T13:22:16+00:00"
-   },
-   {
-    "id": 121,
-    "title": "He lost all of it",
-    "creator": "IShowSpeed",
-    "rights": "repost",
-    "status": "processed",
-    "duration": 22.0,
-    "created_at": "2026-11-23T13:22:14+00:00"
-   },
-   {
-    "id": 120,
-    "title": "KAI WTF",
-    "creator": "KaiCenat",
-    "rights": "repost",
-    "status": "processed",
-    "duration": 12.0,
-    "created_at": "2026-11-23T13:22:12+00:00"
-   },
-   {
-    "id": 119,
-    "title": "Chat explodes | Grand Theft Auto VI | clipped with twitch-tools.panda-core.net",
-    "creator": "KaiCenat",
-    "rights": "repost",
-    "status": "processed",
-    "duration": 30.0,
-    "created_at": "2026-11-23T13:22:11+00:00"
-   },
-   {
-    "id": 118,
-    "title": "WWWW eiii",
-    "creator": "KaiCenat",
-    "rights": "repost",
-    "status": "processed",
-    "duration": 30.0,
-    "created_at": "2026-11-23T13:22:09+00:00"
-   },
-   {
-    "id": 117,
-    "title": "speed finds ALIEN in gta",
-    "creator": "IShowSpeed",
-    "rights": "repost",
-    "status": "processed",
-    "duration": 30.0,
-    "created_at": "2026-11-23T13:22:06+00:00"
-   },
-   {
-    "id": 116,
-    "title": "type shit",
-    "creator": "KaiCenat",
-    "rights": "repost",
-    "status": "processed",
-    "duration": 39.0,
-    "created_at": "2026-11-23T13:22:05+00:00"
+    "created_at": "2026-11-24T13:20:06+00:00"
    }
   ],
   "clips": [
+   {
+    "id": 308,
+    "source_id": 167,
+    "start": 0.0,
+    "end": 29.0,
+    "score": 12649.0,
+    "reasons": "[\"twitch top clip\", \"views:12649\"]",
+    "category": "streamer",
+    "hook": "oh well",
+    "status": "rejected",
+    "created_at": "2026-11-24T13:25:50+00:00"
+   },
+   {
+    "id": 307,
+    "source_id": 166,
+    "start": 0.0,
+    "end": 29.0,
+    "score": 15209.0,
+    "reasons": "[\"twitch top clip\", \"views:15209\"]",
+    "category": "streamer",
+    "hook": "whats he doing",
+    "status": "rejected",
+    "created_at": "2026-11-24T13:25:48+00:00"
+   },
+   {
+    "id": 306,
+    "source_id": 165,
+    "start": 0.0,
+    "end": 30.0,
+    "score": 15851.0,
+    "reasons": "[\"twitch top clip\", \"views:15851\"]",
+    "category": "streamer",
+    "hook": "OOOO",
+    "status": "rejected",
+    "created_at": "2026-11-24T13:25:45+00:00"
+   },
+   {
+    "id": 305,
+    "source_id": 164,
+    "start": 0.0,
+    "end": 60.0,
+    "score": 27217.0,
+    "reasons": "[\"twitch top clip\", \"views:27217\"]",
+    "category": "streamer",
+    "hook": "wtf",
+    "status": "rejected",
+    "created_at": "2026-11-24T13:25:44+00:00"
+   },
+   {
+    "id": 304,
+    "source_id": 163,
+    "start": 0.0,
+    "end": 13.0,
+    "score": 32845.0,
+    "reasons": "[\"twitch top clip\", \"views:32845\"]",
+    "category": "streamer",
+    "hook": "Is this even allowed? LOL",
+    "status": "rejected",
+    "created_at": "2026-11-24T13:25:42+00:00"
+   },
+   {
+    "id": 303,
+    "source_id": 162,
+    "start": 0.0,
+    "end": 17.0,
+    "score": 32863.0,
+    "reasons": "[\"twitch top clip\", \"views:32863\"]",
+    "category": "streamer",
+    "hook": "123",
+    "status": "rejected",
+    "created_at": "2026-11-24T13:25:40+00:00"
+   },
+   {
+    "id": 302,
+    "source_id": 161,
+    "start": 0.0,
+    "end": 54.0,
+    "score": 35695.0,
+    "reasons": "[\"twitch top clip\", \"views:35695\"]",
+    "category": "streamer",
+    "hook": "xQc stole his first car in GTA 6\u2026 it did not go smoothly \ud83d\ude2d",
+    "status": "scheduled",
+    "created_at": "2026-11-24T13:25:38+00:00"
+   },
+   {
+    "id": 301,
+    "source_id": 160,
+    "start": 0.0,
+    "end": 23.0,
+    "score": 38984.0,
+    "reasons": "[\"twitch top clip\", \"views:38984\"]",
+    "category": "streamer",
+    "hook": "OMG",
+    "status": "rejected",
+    "created_at": "2026-11-24T13:25:35+00:00"
+   },
+   {
+    "id": 300,
+    "source_id": 159,
+    "start": 0.0,
+    "end": 17.0,
+    "score": 44070.0,
+    "reasons": "[\"twitch top clip\", \"views:44070\"]",
+    "category": "streamer",
+    "hook": "XQC gets called a f****** P**** right after he said so to an NPC in GTA 6",
+    "status": "rejected",
+    "created_at": "2026-11-24T13:25:33+00:00"
+   },
+   {
+    "id": 299,
+    "source_id": 158,
+    "start": 0.0,
+    "end": 12.0,
+    "score": 84246.0,
+    "reasons": "[\"twitch top clip\", \"views:84246\"]",
+    "category": "streamer",
+    "hook": "LUCIA",
+    "status": "rejected",
+    "created_at": "2026-11-24T13:25:32+00:00"
+   },
+   {
+    "id": 298,
+    "source_id": 157,
+    "start": 0.0,
+    "end": 12.0,
+    "score": 101511.0,
+    "reasons": "[\"twitch top clip\", \"views:101511\"]",
+    "category": "streamer",
+    "hook": "why he do jdab like that\ud83d\ude02\ud83d\ude02\ud83d\ude02",
+    "status": "rejected",
+    "created_at": "2026-11-24T13:25:30+00:00"
+   },
+   {
+    "id": 297,
+    "source_id": 156,
+    "start": 0.0,
+    "end": 30.0,
+    "score": 29322.0,
+    "reasons": "[\"twitch top clip\", \"views:29322\"]",
+    "category": "streamer",
+    "hook": "2",
+    "status": "rejected",
+    "created_at": "2026-11-24T13:25:28+00:00"
+   },
+   {
+    "id": 296,
+    "source_id": 155,
+    "start": 0.0,
+    "end": 30.0,
+    "score": 43270.0,
+    "reasons": "[\"twitch top clip\", \"views:43270\"]",
+    "category": "streamer",
+    "hook": "gyaaat",
+    "status": "rejected",
+    "created_at": "2026-11-24T13:25:26+00:00"
+   },
+   {
+    "id": 295,
+    "source_id": 154,
+    "start": 0.0,
+    "end": 15.0,
+    "score": 48809.0,
+    "reasons": "[\"twitch top clip\", \"views:48809\"]",
+    "category": "streamer",
+    "hook": "mandy naked gta6",
+    "status": "rejected",
+    "created_at": "2026-11-24T13:25:25+00:00"
+   },
+   {
+    "id": 294,
+    "source_id": 153,
+    "start": 0.0,
+    "end": 54.0,
+    "score": 79882.0,
+    "reasons": "[\"twitch top clip\", \"views:79882\"]",
+    "category": "streamer",
+    "hook": "kai cenat argues with his new girlfriend",
+    "status": "rejected",
+    "created_at": "2026-11-24T13:25:23+00:00"
+   },
+   {
+    "id": 293,
+    "source_id": 152,
+    "start": 0.0,
+    "end": 30.0,
+    "score": 1527.0,
+    "reasons": "[\"twitch top clip\", \"views:1527\"]",
+    "category": "streamer",
+    "hook": "omg",
+    "status": "rejected",
+    "created_at": "2026-11-24T13:20:14+00:00"
+   },
+   {
+    "id": 292,
+    "source_id": 151,
+    "start": 0.0,
+    "end": 19.0,
+    "score": 1565.0,
+    "reasons": "[\"twitch top clip\", \"views:1565\"]",
+    "category": "streamer",
+    "hook": "Now we need to find a new Wife",
+    "status": "rejected",
+    "created_at": "2026-11-24T13:20:12+00:00"
+   },
+   {
+    "id": 291,
+    "source_id": 150,
+    "start": 0.0,
+    "end": 30.0,
+    "score": 1641.0,
+    "reasons": "[\"twitch top clip\", \"views:1641\"]",
+    "category": "streamer",
+    "hook": "Is This Worth My Career!!\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d",
+    "status": "rejected",
+    "created_at": "2026-11-24T13:20:10+00:00"
+   },
+   {
+    "id": 290,
+    "source_id": 149,
+    "start": 0.0,
+    "end": 30.0,
+    "score": 1697.0,
+    "reasons": "[\"twitch top clip\", \"views:1697\"]",
+    "category": "streamer",
+    "hook": "ANOTHA ONE",
+    "status": "rejected",
+    "created_at": "2026-11-24T13:20:09+00:00"
+   },
+   {
+    "id": 289,
+    "source_id": 148,
+    "start": 0.0,
+    "end": 60.0,
+    "score": 1708.0,
+    "reasons": "[\"twitch top clip\", \"views:1708\"]",
+    "category": "streamer",
+    "hook": "trolling marlon",
+    "status": "rejected",
+    "created_at": "2026-11-24T13:20:06+00:00"
+   },
+   {
+    "id": 288,
+    "source_id": 147,
+    "start": 0.0,
+    "end": 30.0,
+    "score": 2047.0,
+    "reasons": "[\"twitch top clip\", \"views:2047\"]",
+    "category": "streamer",
+    "hook": "Jynxzi checked on Nickeh30 in GTA 6\u2026 bad idea \ud83d\ude2d",
+    "status": "scheduled",
+    "created_at": "2026-11-24T13:20:04+00:00"
+   },
+   {
+    "id": 287,
+    "source_id": 146,
+    "start": 0.0,
+    "end": 50.0,
+    "score": 2208.0,
+    "reasons": "[\"twitch top clip\", \"views:2208\"]",
+    "category": "streamer",
+    "hook": "pnut meets a psycho",
+    "status": "rejected",
+    "created_at": "2026-11-24T13:20:02+00:00"
+   },
+   {
+    "id": 286,
+    "source_id": 145,
+    "start": 0.0,
+    "end": 43.0,
+    "score": 2400.0,
+    "reasons": "[\"twitch top clip\", \"views:2400\"]",
+    "category": "streamer",
+    "hook": "AHH ALMOST ALMOST",
+    "status": "rejected",
+    "created_at": "2026-11-24T13:19:59+00:00"
+   },
+   {
+    "id": 285,
+    "source_id": 144,
+    "start": 0.0,
+    "end": 13.0,
+    "score": 3129.0,
+    "reasons": "[\"twitch top clip\", \"views:3129\"]",
+    "category": "streamer",
+    "hook": "LUCIA SHAKING A**",
+    "status": "rejected",
+    "created_at": "2026-11-24T13:19:57+00:00"
+   },
+   {
+    "id": 284,
+    "source_id": 143,
+    "start": 0.0,
+    "end": 60.0,
+    "score": 3603.0,
+    "reasons": "[\"twitch top clip\", \"views:3603\"]",
+    "category": "streamer",
+    "hook": "not 100%",
+    "status": "rejected",
+    "created_at": "2026-11-24T13:19:55+00:00"
+   },
+   {
+    "id": 283,
+    "source_id": 142,
+    "start": 0.0,
+    "end": 27.0,
+    "score": 4127.0,
+    "reasons": "[\"twitch top clip\", \"views:4127\"]",
+    "category": "streamer",
+    "hook": "LUCIA IS ACTUALLY TOO STRONG \ud83d\ude2d",
+    "status": "rejected",
+    "created_at": "2026-11-24T13:19:51+00:00"
+   },
+   {
+    "id": 282,
+    "source_id": 141,
+    "start": 0.0,
+    "end": 24.0,
+    "score": 4252.0,
+    "reasons": "[\"twitch top clip\", \"views:4252\"]",
+    "category": "streamer",
+    "hook": "PlaqueBoyMax found out what 'Y to boost' does \ud83d\ude2d",
+    "status": "scheduled",
+    "created_at": "2026-11-24T13:19:49+00:00"
+   },
+   {
+    "id": 281,
+    "source_id": 140,
+    "start": 0.0,
+    "end": 13.0,
+    "score": 7829.0,
+    "reasons": "[\"twitch top clip\", \"views:7829\"]",
+    "category": "streamer",
+    "hook": "Lacy is a freak",
+    "status": "rejected",
+    "created_at": "2026-11-24T13:19:48+00:00"
+   },
+   {
+    "id": 280,
+    "source_id": 139,
+    "start": 0.0,
+    "end": 30.0,
+    "score": 10754.0,
+    "reasons": "[\"twitch top clip\", \"views:10754\"]",
+    "category": "streamer",
+    "hook": "marlon gets cracked",
+    "status": "rejected",
+    "created_at": "2026-11-24T13:19:46+00:00"
+   },
+   {
+    "id": 279,
+    "source_id": 138,
+    "start": 0.0,
+    "end": 30.0,
+    "score": 16528.0,
+    "reasons": "[\"twitch top clip\", \"views:16528\"]",
+    "category": "streamer",
+    "hook": "Chat explodes | Grand Theft Auto VI | clipped with twitch-tools.panda-core.net",
+    "status": "rejected",
+    "created_at": "2026-11-24T13:19:44+00:00"
+   },
+   {
+    "id": 278,
+    "source_id": 137,
+    "start": 0.0,
+    "end": 60.0,
+    "score": 18292.0,
+    "reasons": "[\"twitch top clip\", \"views:18292\"]",
+    "category": "streamer",
+    "hook": "CaseOh's getaway went off the rails fast \ud83d\ude2d",
+    "status": "scheduled",
+    "created_at": "2026-11-24T13:19:42+00:00"
+   },
+   {
+    "id": 277,
+    "source_id": 136,
+    "start": 0.0,
+    "end": 17.0,
+    "score": 20744.0,
+    "reasons": "[\"twitch top clip\", \"views:20744\"]",
+    "category": "streamer",
+    "hook": "tf",
+    "status": "rejected",
+    "created_at": "2026-11-24T13:19:40+00:00"
+   },
    {
     "id": 276,
     "source_id": 135,
@@ -436,400 +820,36 @@
     "hook": "WWWW eiii",
     "status": "rejected",
     "created_at": "2026-11-23T13:22:09+00:00"
-   },
-   {
-    "id": 258,
-    "source_id": 117,
-    "start": 0.0,
-    "end": 30.0,
-    "score": 3246.0,
-    "reasons": "[\"twitch top clip\", \"views:3246\"]",
-    "category": "streamer",
-    "hook": "Speed found an ALIEN in GTA 6 \ud83d\ude2d",
-    "status": "scheduled",
-    "created_at": "2026-11-23T13:22:06+00:00"
-   },
-   {
-    "id": 257,
-    "source_id": 116,
-    "start": 0.0,
-    "end": 39.0,
-    "score": 4100.0,
-    "reasons": "[\"twitch top clip\", \"views:4100\"]",
-    "category": "streamer",
-    "hook": "type shit",
-    "status": "rejected",
-    "created_at": "2026-11-23T13:22:05+00:00"
-   },
-   {
-    "id": 256,
-    "source_id": 115,
-    "start": 0.0,
-    "end": 27.0,
-    "score": 3978.0,
-    "reasons": "[\"twitch top clip\", \"views:3978\"]",
-    "category": "streamer",
-    "hook": "wwwwwwwwwwwwwww",
-    "status": "rejected",
-    "created_at": "2026-11-22T13:15:28+00:00"
-   },
-   {
-    "id": 255,
-    "source_id": 114,
-    "start": 0.0,
-    "end": 60.0,
-    "score": 4021.0,
-    "reasons": "[\"twitch top clip\", \"views:4021\"]",
-    "category": "streamer",
-    "hook": "We like that",
-    "status": "rejected",
-    "created_at": "2026-11-22T13:15:27+00:00"
-   },
-   {
-    "id": 254,
-    "source_id": 113,
-    "start": 0.0,
-    "end": 35.0,
-    "score": 4404.0,
-    "reasons": "[\"twitch top clip\", \"views:4404\"]",
-    "category": "streamer",
-    "hook": "a",
-    "status": "rejected",
-    "created_at": "2026-11-22T13:15:24+00:00"
-   },
-   {
-    "id": 253,
-    "source_id": 112,
-    "start": 0.0,
-    "end": 37.0,
-    "score": 4415.0,
-    "reasons": "[\"twitch top clip\", \"views:4415\"]",
-    "category": "streamer",
-    "hook": "JTW'S REACTION",
-    "status": "rejected",
-    "created_at": "2026-11-22T13:15:22+00:00"
-   },
-   {
-    "id": 252,
-    "source_id": 111,
-    "start": 0.0,
-    "end": 25.0,
-    "score": 6068.0,
-    "reasons": "[\"twitch top clip\", \"views:6068\"]",
-    "category": "streamer",
-    "hook": "Stable Ronaldo got caught red-handed in GTA 6 \ud83d\ude2d",
-    "status": "scheduled",
-    "created_at": "2026-11-22T13:15:20+00:00"
-   },
-   {
-    "id": 251,
-    "source_id": 110,
-    "start": 0.0,
-    "end": 51.0,
-    "score": 6229.0,
-    "reasons": "[\"twitch top clip\", \"views:6229\"]",
-    "category": "streamer",
-    "hook": "CaseOh said 'let's not crash this time'\u2026 \ud83d\ude2d",
-    "status": "scheduled",
-    "created_at": "2026-11-22T13:15:17+00:00"
-   },
-   {
-    "id": 250,
-    "source_id": 109,
-    "start": 0.0,
-    "end": 60.0,
-    "score": 6461.0,
-    "reasons": "[\"twitch top clip\", \"views:6461\"]",
-    "category": "streamer",
-    "hook": "kyle 2",
-    "status": "rejected",
-    "created_at": "2026-11-22T13:15:14+00:00"
-   },
-   {
-    "id": 249,
-    "source_id": 108,
-    "start": 0.0,
-    "end": 30.0,
-    "score": 6858.0,
-    "reasons": "[\"twitch top clip\", \"views:6858\"]",
-    "category": "streamer",
-    "hook": "Peanut went straight for the dog in GTA 6 \ud83d\ude2d",
-    "status": "rejected",
-    "created_at": "2026-11-22T13:15:11+00:00"
-   },
-   {
-    "id": 248,
-    "source_id": 107,
-    "start": 0.0,
-    "end": 48.0,
-    "score": 7536.0,
-    "reasons": "[\"twitch top clip\", \"views:7536\"]",
-    "category": "streamer",
-    "hook": "CaseOh's road rage ended with a beef slap \ud83d\ude2d",
-    "status": "scheduled",
-    "created_at": "2026-11-22T13:15:10+00:00"
-   },
-   {
-    "id": 247,
-    "source_id": 106,
-    "start": 0.0,
-    "end": 60.0,
-    "score": 11085.0,
-    "reasons": "[\"twitch top clip\", \"views:11085\"]",
-    "category": "streamer",
-    "hook": "got caught",
-    "status": "rejected",
-    "created_at": "2026-11-22T13:15:07+00:00"
-   },
-   {
-    "id": 246,
-    "source_id": 105,
-    "start": 0.0,
-    "end": 60.0,
-    "score": 15874.0,
-    "reasons": "[\"twitch top clip\", \"views:15874\"]",
-    "category": "streamer",
-    "hook": "kyle 1",
-    "status": "rejected",
-    "created_at": "2026-11-22T13:15:04+00:00"
-   },
-   {
-    "id": 245,
-    "source_id": 104,
-    "start": 0.0,
-    "end": 12.0,
-    "score": 24183.0,
-    "reasons": "[\"twitch top clip\", \"views:24183\"]",
-    "category": "streamer",
-    "hook": "wtfff",
-    "status": "rejected",
-    "created_at": "2026-11-22T13:15:02+00:00"
-   },
-   {
-    "id": 244,
-    "source_id": 103,
-    "start": 0.0,
-    "end": 40.0,
-    "score": 2295.0,
-    "reasons": "[\"twitch top clip\", \"views:2295\"]",
-    "category": "streamer",
-    "hook": "Kai was NOT ready for this GTA 6 scene",
-    "status": "rejected",
-    "created_at": "2026-11-22T13:15:00+00:00"
-   },
-   {
-    "id": 243,
-    "source_id": 102,
-    "start": 0.0,
-    "end": 60.0,
-    "score": 2594.0,
-    "reasons": "[\"twitch top clip\", \"views:2594\"]",
-    "category": "streamer",
-    "hook": "Kai cenat",
-    "status": "rejected",
-    "created_at": "2026-11-22T13:14:58+00:00"
-   },
-   {
-    "id": 242,
-    "source_id": 101,
-    "start": 0.0,
-    "end": 39.0,
-    "score": 3295.0,
-    "reasons": "[\"twitch top clip\", \"views:3295\"]",
-    "category": "streamer",
-    "hook": "on another levld",
-    "status": "rejected",
-    "created_at": "2026-11-22T13:14:54+00:00"
-   },
-   {
-    "id": 241,
-    "source_id": 100,
-    "start": 0.0,
-    "end": 30.0,
-    "score": 3424.0,
-    "reasons": "[\"twitch top clip\", \"views:3424\"]",
-    "category": "streamer",
-    "hook": "KAI GOT MOTION \ud83e\udd2a",
-    "status": "rejected",
-    "created_at": "2026-11-22T13:14:52+00:00"
-   },
-   {
-    "id": 240,
-    "source_id": 99,
-    "start": 0.0,
-    "end": 26.0,
-    "score": 8223.0,
-    "reasons": "[\"twitch top clip\", \"views:8223\"]",
-    "category": "streamer",
-    "hook": "BIG BIg",
-    "status": "rejected",
-    "created_at": "2026-11-22T13:14:50+00:00"
-   },
-   {
-    "id": 239,
-    "source_id": 98,
-    "start": 0.0,
-    "end": 30.0,
-    "score": 10656.0,
-    "reasons": "[\"twitch top clip\", \"views:10656\"]",
-    "category": "streamer",
-    "hook": "kkkkkkkkkkkkk",
-    "status": "rejected",
-    "created_at": "2026-11-22T13:14:48+00:00"
-   },
-   {
-    "id": 238,
-    "source_id": 97,
-    "start": 0.0,
-    "end": 18.0,
-    "score": 18148.0,
-    "reasons": "[\"twitch top clip\", \"views:18148\"]",
-    "category": "streamer",
-    "hook": "speed gta6",
-    "status": "rejected",
-    "created_at": "2026-11-22T13:14:46+00:00"
-   },
-   {
-    "id": 237,
-    "source_id": 96,
-    "start": 0.0,
-    "end": 22.0,
-    "score": 21380.0,
-    "reasons": "[\"twitch top clip\", \"views:21380\"]",
-    "category": "streamer",
-    "hook": "changing clothes",
-    "status": "rejected",
-    "created_at": "2026-11-22T13:14:45+00:00"
-   },
-   {
-    "id": 236,
-    "source_id": 95,
-    "start": 0.0,
-    "end": 29.966,
-    "score": 81.0,
-    "reasons": "[\"OpusClip AI pick\"]",
-    "category": "hype",
-    "hook": "The Party Was Just Getting Started",
-    "status": "rejected",
-    "created_at": "2026-11-21T16:40:33+00:00"
-   },
-   {
-    "id": 235,
-    "source_id": 94,
-    "start": 0.36,
-    "end": 53.0,
-    "score": 88.0,
-    "reasons": "[\"OpusClip AI pick\"]",
-    "category": "hype",
-    "hook": "The Missing Statue and the Mysterious Gift",
-    "status": "rejected",
-    "created_at": "2026-11-21T16:39:30+00:00"
-   },
-   {
-    "id": 234,
-    "source_id": 93,
-    "start": 0.36,
-    "end": 29.966,
-    "score": 79.0,
-    "reasons": "[\"OpusClip AI pick\"]",
-    "category": "hype",
-    "hook": "\u201cSlow Down!\u201d An Unexpected Street Encounter",
-    "status": "rejected",
-    "created_at": "2026-11-21T16:39:29+00:00"
-   },
-   {
-    "id": 233,
-    "source_id": 92,
-    "start": 2.985,
-    "end": 29.24,
-    "score": 85.0,
-    "reasons": "[\"OpusClip AI pick\"]",
-    "category": "streamer",
-    "hook": "Kai Cenat's GTA 6 foot chase turned into pure chaos \ud83d\ude2d",
-    "status": "scheduled",
-    "created_at": "2026-11-21T16:39:27+00:00"
-   },
-   {
-    "id": 232,
-    "source_id": 91,
-    "start": 0.0,
-    "end": 12.0,
-    "score": 79.0,
-    "reasons": "[\"OpusClip AI pick\"]",
-    "category": "hype",
-    "hook": "He Just Announced the Giveaway Winner\u2014Congrats, Christian!",
-    "status": "rejected",
-    "created_at": "2026-11-21T16:39:24+00:00"
-   },
-   {
-    "id": 231,
-    "source_id": 90,
-    "start": 18.82,
-    "end": 48.32,
-    "score": 99.0,
-    "reasons": "[\"OpusClip AI pick\"]",
-    "category": "hype",
-    "hook": "A Risky Car Deal Turns Into a Suspicious Roleplay",
-    "status": "rejected",
-    "created_at": "2026-11-21T16:39:23+00:00"
-   },
-   {
-    "id": 230,
-    "source_id": 89,
-    "start": 0.34,
-    "end": 29.62,
-    "score": 77.0,
-    "reasons": "[\"OpusClip AI pick\"]",
-    "category": "hype",
-    "hook": "A Private Conversation Takes a Wild Turn",
-    "status": "rejected",
-    "created_at": "2026-11-21T16:39:20+00:00"
-   },
-   {
-    "id": 229,
-    "source_id": 88,
-    "start": 2.985,
-    "end": 23.24,
-    "score": 83.0,
-    "reasons": "[\"OpusClip AI pick\"]",
-    "category": "streamer",
-    "hook": "Speed ran into his first fight in GTA 6 \ud83d\ude2d",
-    "status": "scheduled",
-    "created_at": "2026-11-21T16:39:19+00:00"
-   },
-   {
-    "id": 228,
-    "source_id": 87,
-    "start": 0.0,
-    "end": 29.983,
-    "score": 90.0,
-    "reasons": "[\"OpusClip AI pick\"]",
-    "category": "hype",
-    "hook": "A Coastal Highway Standoff Ends in Tragedy",
-    "status": "rejected",
-    "created_at": "2026-11-21T16:39:17+00:00"
-   },
-   {
-    "id": 227,
-    "source_id": 86,
-    "start": 0.2,
-    "end": 15.74,
-    "score": 80.0,
-    "reasons": "[\"OpusClip AI pick\"]",
-    "category": "streamer",
-    "hook": "Speed stopped everything to save a chameleon in GTA 6 \ud83d\ude2d",
-    "status": "scheduled",
-    "created_at": "2026-11-21T16:38:12+00:00"
    }
   ],
   "counts": {
    "held": 56,
-   "rejected": 182,
-   "scheduled": 38
+   "rejected": 210,
+   "scheduled": 42
   }
  },
  "growth": {
   "top": [
+   {
+    "post_id": 168,
+    "platform": "tiktok",
+    "due_at": "2026-11-24T16:30:00Z",
+    "sent_at": "2026-11-24T16:32:17.045Z",
+    "external_link": "https://www.tiktok.com/@wasteddailyclips8/video/7711776367876115742?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
+    "clip_id": 282,
+    "category": "streamer",
+    "hook": "PlaqueBoyMax found out what 'Y to boost' does \ud83d\ude2d",
+    "length": 24.0,
+    "views": 1004.0,
+    "reach": 0.0,
+    "likes": null,
+    "comments": 0.0,
+    "shares": 1.0,
+    "saves": null,
+    "follows": null,
+    "avg_watch_sec": 9.31,
+    "hours_after": 20.75900756861111
+   },
    {
     "post_id": 20,
     "platform": "tiktok",
@@ -855,40 +875,40 @@
     "platform": "tiktok",
     "due_at": "2026-11-23T03:00:00Z",
     "sent_at": "2026-11-23T03:01:21.295Z",
-    "external_link": "https://tiktok.com/@wasteddailyclips8/video/7711196396237425933",
+    "external_link": "https://www.tiktok.com/@wasteddailyclips8/video/7711196396237425933?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
     "clip_id": 206,
     "category": "streamer",
     "hook": "Jynxzi got jump scared so hard in GTA 6 \ud83d\ude2d",
     "length": 29.855,
-    "views": 376.0,
-    "reach": 0.0,
+    "views": 486.0,
+    "reach": 420.0,
     "likes": null,
     "comments": 0.0,
     "shares": 1.0,
     "saves": null,
     "follows": null,
-    "avg_watch_sec": 15.19,
-    "hours_after": 34.30126662666667
+    "avg_watch_sec": 14.58,
+    "hours_after": 58.27449406666667
    },
    {
     "post_id": 135,
     "platform": "tiktok",
     "due_at": "2026-11-22T19:00:00Z",
     "sent_at": "2026-11-22T19:02:59.501Z",
-    "external_link": "https://tiktok.com/@wasteddailyclips8/video/7711072783047953677",
+    "external_link": "https://www.tiktok.com/@wasteddailyclips8/video/7711072783047953677?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
     "clip_id": 227,
     "category": "streamer",
     "hook": "Speed stopped everything to save a chameleon in GTA 6 \ud83d\ude2d",
     "length": 15.540000000000001,
-    "views": 344.0,
-    "reach": 0.0,
+    "views": 395.0,
+    "reach": 365.0,
     "likes": null,
     "comments": 0.0,
     "shares": 0.0,
     "saves": null,
     "follows": null,
-    "avg_watch_sec": 7.48,
-    "hours_after": 42.27398723555556
+    "avg_watch_sec": 7.52,
+    "hours_after": 66.24721466944445
    },
    {
     "post_id": 51,
@@ -947,8 +967,28 @@
     "shares": 1.0,
     "saves": 0.0,
     "follows": null,
-    "avg_watch_sec": 17.11,
-    "hours_after": 34.29565578666667
+    "avg_watch_sec": 17.03,
+    "hours_after": 58.26888322277778
+   },
+   {
+    "post_id": 123,
+    "platform": "tiktok",
+    "due_at": "2026-11-22T00:30:00Z",
+    "sent_at": "2026-11-22T00:30:59.072Z",
+    "external_link": "https://www.tiktok.com/@wasteddailyclips8/video/7710786552938466574?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
+    "clip_id": 198,
+    "category": "streamer",
+    "hook": "CaseOh crash-landed a plane at the dock\u2026 somehow everyone survived \ud83d\ude2d",
+    "length": 35.0,
+    "views": 194.0,
+    "reach": 179.0,
+    "likes": null,
+    "comments": 0.0,
+    "shares": 0.0,
+    "saves": null,
+    "follows": null,
+    "avg_watch_sec": 10.62,
+    "hours_after": 84.78066723388888
    },
    {
     "post_id": 2,
@@ -971,26 +1011,6 @@
     "hours_after": 60.77957052694445
    },
    {
-    "post_id": 123,
-    "platform": "tiktok",
-    "due_at": "2026-11-22T00:30:00Z",
-    "sent_at": "2026-11-22T00:30:59.072Z",
-    "external_link": "https://tiktok.com/@wasteddailyclips8/video/7710786552938466574",
-    "clip_id": 198,
-    "category": "streamer",
-    "hook": "CaseOh crash-landed a plane at the dock\u2026 somehow everyone survived \ud83d\ude2d",
-    "length": 35.0,
-    "views": 176.0,
-    "reach": 0.0,
-    "likes": null,
-    "comments": 0.0,
-    "shares": 0.0,
-    "saves": null,
-    "follows": null,
-    "avg_watch_sec": 10.07,
-    "hours_after": 60.807439834722224
-   },
-   {
     "post_id": 71,
     "platform": "tiktok",
     "due_at": "2026-11-20T14:00:00Z",
@@ -1009,33 +1029,12 @@
     "follows": null,
     "avg_watch_sec": 6.95,
     "hours_after": 47.14697893833333
-   },
-   {
-    "post_id": 137,
-    "platform": "instagram",
-    "due_at": "2026-11-22T22:00:00Z",
-    "sent_at": "2026-11-22T22:01:44.814Z",
-    "external_link": "https://www.instagram.com/reel/DgD1FCiiD1M/",
-    "clip_id": 205,
-    "category": "streamer",
-    "hook": "xQc just wanted to put his coffee down \ud83d\ude2d",
-    "length": 15.72,
-    "views": 146.0,
-    "reach": 112.0,
-    "likes": null,
-    "comments": 0.0,
-    "shares": 0.0,
-    "saves": 0.0,
-    "follows": null,
-    "avg_watch_sec": 9.52,
-    "hours_after": 39.29473361805556
    }
   ],
   "recommendations": [
-   "Double down on 'rp' (median 409 views vs overall 6).",
-   "Cut or rework 'streamer' (median 2 views).",
-   "Retention: \u226415s clips keep 59% watched vs 25% for longer clips. Trim harder.",
-   "Best posting hour so far: 22:00 ET. Test moving a weak slot there."
+   "Double down on 'rp' (median 409 views vs overall 9).",
+   "Retention: \u226415s clips keep 59% watched vs 24% for longer clips. Trim harder.",
+   "Best posting hour so far: 11:00 ET. Test moving a weak slot there."
   ]
  },
  "money": {
@@ -1055,6 +1054,114 @@
  },
  "automation": {
   "events": [
+   {
+    "at": "2026-11-25T13:17:49+00:00",
+    "level": "info",
+    "agent": "metrics",
+    "message": "Pulled metrics for 50 post(s)"
+   },
+   {
+    "at": "2026-11-25T13:17:48+00:00",
+    "level": "warn",
+    "agent": "publish",
+    "message": "Nothing to queue (no approved clips with a public video URL)"
+   },
+   {
+    "at": "2026-11-24T13:28:11+00:00",
+    "level": "info",
+    "agent": "publish",
+    "message": "Queued 3 post(s) in mode=auto"
+   },
+   {
+    "at": "2026-11-24T13:28:08+00:00",
+    "level": "info",
+    "agent": "publish",
+    "message": "GTA 6 first: released slots from clips [] for 1 waiting GTA 6 clip(s)"
+   },
+   {
+    "at": "2026-11-24T13:28:02+00:00",
+    "level": "info",
+    "agent": "house",
+    "message": "House-format renders: [302]"
+   },
+   {
+    "at": "2026-11-24T13:26:12+00:00",
+    "level": "info",
+    "agent": "editor",
+    "message": "Rejected clips [294, 295, 296, 297, 298, 299, 300, 301, 303, 304, 305, 306, 307, 308]"
+   },
+   {
+    "at": "2026-11-24T13:26:12+00:00",
+    "level": "info",
+    "agent": "approval",
+    "message": "Approved clips [302]"
+   },
+   {
+    "at": "2026-11-24T13:26:12+00:00",
+    "level": "info",
+    "agent": "editor",
+    "message": "Clip 302 hook -> xQc stole his first car in GTA 6\u2026 it did not go smoothly \ud83d\ude2d"
+   },
+   {
+    "at": "2026-11-24T13:25:50+00:00",
+    "level": "info",
+    "agent": "twitch",
+    "message": "Downloaded 15 Twitch clip(s) for review (no OpusClip credits)"
+   },
+   {
+    "at": "2026-11-24T13:25:06+00:00",
+    "level": "info",
+    "agent": "publish",
+    "message": "Queued 9 post(s) in mode=auto"
+   },
+   {
+    "at": "2026-11-24T13:24:57+00:00",
+    "level": "info",
+    "agent": "publish",
+    "message": "GTA 6 first: released slots from clips [] for 3 waiting GTA 6 clip(s)"
+   },
+   {
+    "at": "2026-11-24T13:24:46+00:00",
+    "level": "info",
+    "agent": "house",
+    "message": "House-format renders: [278, 282, 288]"
+   },
+   {
+    "at": "2026-11-24T13:20:51+00:00",
+    "level": "info",
+    "agent": "editor",
+    "message": "Rejected clips [277, 279, 280, 281, 283, 284, 285, 286, 287, 289, 290, 291, 292, 293]"
+   },
+   {
+    "at": "2026-11-24T13:20:51+00:00",
+    "level": "info",
+    "agent": "approval",
+    "message": "Approved clips [278, 282, 288]"
+   },
+   {
+    "at": "2026-11-24T13:20:50+00:00",
+    "level": "info",
+    "agent": "editor",
+    "message": "Clip 288 hook -> Jynxzi checked on Nickeh30 in GTA 6\u2026 bad idea \ud83d\ude2d"
+   },
+   {
+    "at": "2026-11-24T13:20:50+00:00",
+    "level": "info",
+    "agent": "editor",
+    "message": "Clip 282 hook -> PlaqueBoyMax found out what 'Y to boost' does \ud83d\ude2d"
+   },
+   {
+    "at": "2026-11-24T13:20:50+00:00",
+    "level": "info",
+    "agent": "editor",
+    "message": "Clip 278 hook -> CaseOh's getaway went off the rails fast \ud83d\ude2d"
+   },
+   {
+    "at": "2026-11-24T13:20:14+00:00",
+    "level": "info",
+    "agent": "twitch",
+    "message": "Downloaded 17 Twitch clip(s) for review (no OpusClip credits)"
+   },
    {
     "at": "2026-11-24T13:19:25+00:00",
     "level": "info",
@@ -1186,114 +1293,6 @@
     "level": "warn",
     "agent": "house",
     "message": "Fit submit failed for clip 197: 402 Client Error: Payment Required for url: https://api.opus.pro/api/clip-projects"
-   },
-   {
-    "at": "2026-11-22T13:16:35+00:00",
-    "level": "warn",
-    "agent": "house",
-    "message": "Fit submit failed for clip 171: 402 Client Error: Payment Required for url: https://api.opus.pro/api/clip-projects"
-   },
-   {
-    "at": "2026-11-22T13:16:29+00:00",
-    "level": "warn",
-    "agent": "house",
-    "message": "Fit submit failed for clip 170: 402 Client Error: Payment Required for url: https://api.opus.pro/api/clip-projects"
-   },
-   {
-    "at": "2026-11-22T13:16:21+00:00",
-    "level": "warn",
-    "agent": "house",
-    "message": "Fit submit failed for clip 143: 402 Client Error: Payment Required for url: https://api.opus.pro/api/clip-projects"
-   },
-   {
-    "at": "2026-11-22T13:16:19+00:00",
-    "level": "warn",
-    "agent": "house",
-    "message": "Fit submit failed for clip 142: 402 Client Error: Payment Required for url: https://api.opus.pro/api/clip-projects"
-   },
-   {
-    "at": "2026-11-22T13:16:18+00:00",
-    "level": "warn",
-    "agent": "house",
-    "message": "Fit submit failed for clip 116: 402 Client Error: Payment Required for url: https://api.opus.pro/api/clip-projects"
-   },
-   {
-    "at": "2026-11-22T13:16:16+00:00",
-    "level": "info",
-    "agent": "editor",
-    "message": "Rejected clips [237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 250, 253, 254, 255, 256]"
-   },
-   {
-    "at": "2026-11-22T13:16:16+00:00",
-    "level": "info",
-    "agent": "approval",
-    "message": "Approved clips [248, 249, 251, 252]"
-   },
-   {
-    "at": "2026-11-22T13:16:16+00:00",
-    "level": "info",
-    "agent": "editor",
-    "message": "Clip 252 hook -> Stable Ronaldo got caught red-handed in GTA 6 \ud83d\ude2d"
-   },
-   {
-    "at": "2026-11-22T13:16:16+00:00",
-    "level": "info",
-    "agent": "editor",
-    "message": "Clip 251 hook -> CaseOh said 'let's not crash this time'\u2026 \ud83d\ude2d"
-   },
-   {
-    "at": "2026-11-22T13:16:15+00:00",
-    "level": "info",
-    "agent": "editor",
-    "message": "Clip 249 hook -> Peanut went straight for the dog in GTA 6 \ud83d\ude2d"
-   },
-   {
-    "at": "2026-11-22T13:16:15+00:00",
-    "level": "info",
-    "agent": "editor",
-    "message": "Clip 248 hook -> CaseOh's road rage ended with a beef slap \ud83d\ude2d"
-   },
-   {
-    "at": "2026-11-22T13:15:28+00:00",
-    "level": "info",
-    "agent": "twitch",
-    "message": "Downloaded 20 Twitch clip(s) for review (no OpusClip credits)"
-   },
-   {
-    "at": "2026-11-22T13:14:30+00:00",
-    "level": "info",
-    "agent": "metrics",
-    "message": "Pulled metrics for 47 post(s)"
-   },
-   {
-    "at": "2026-11-22T13:14:30+00:00",
-    "level": "info",
-    "agent": "publish",
-    "message": "Queued 18 post(s) in mode=auto"
-   },
-   {
-    "at": "2026-11-22T13:14:18+00:00",
-    "level": "info",
-    "agent": "opus",
-    "message": "Refreshed export URLs for 6/6 approved clip(s)"
-   },
-   {
-    "at": "2026-11-21T22:09:33+00:00",
-    "level": "info",
-    "agent": "publish",
-    "message": "Queued 3 post(s) in mode=auto"
-   },
-   {
-    "at": "2026-11-21T22:09:12+00:00",
-    "level": "info",
-    "agent": "house",
-    "message": "House-format renders: [200, 204, 205, 206, 221, 227, 229, 233]"
-   },
-   {
-    "at": "2026-11-21T22:01:09+00:00",
-    "level": "info",
-    "agent": "house",
-    "message": "Clip 199 rejected: no stable facecam for the split layout"
    }
   ],
   "errors": []
