@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-25T13:17:49+00:00",
+ "generated_at": "2026-11-26T13:15:10+00:00",
  "publish_mode": "auto",
  "media_hosting": false,
  "overview": {
-  "total_views": 6926.0,
-  "published": 126,
+  "total_views": 7066.0,
+  "published": 135,
   "followers_gained": 0
  },
  "channels": [
@@ -39,6 +39,123 @@
  ],
  "factory": {
   "sources": [
+   {
+    "id": 180,
+    "title": "xQc criticizes GTA 6's story pacing: \"One good big cinematic event every eight hours of play\"",
+    "creator": "xQc",
+    "rights": "repost",
+    "status": "processed",
+    "duration": 55.0,
+    "created_at": "2026-11-25T13:18:33+00:00"
+   },
+   {
+    "id": 179,
+    "title": "AI is Good",
+    "creator": "zackrawrr",
+    "rights": "repost",
+    "status": "processed",
+    "duration": 13.0,
+    "created_at": "2026-11-25T13:18:30+00:00"
+   },
+   {
+    "id": 178,
+    "title": "xQc's first GTA 6 Cinematic \"Ending\"",
+    "creator": "xQc",
+    "rights": "repost",
+    "status": "processed",
+    "duration": 41.0,
+    "created_at": "2026-11-25T13:18:28+00:00"
+   },
+   {
+    "id": 177,
+    "title": "traffic",
+    "creator": "caseoh_",
+    "rights": "repost",
+    "status": "processed",
+    "duration": 60.0,
+    "created_at": "2026-11-25T13:18:26+00:00"
+   },
+   {
+    "id": 176,
+    "title": "sad incident",
+    "creator": "caseoh_",
+    "rights": "repost",
+    "status": "processed",
+    "duration": 17.0,
+    "created_at": "2026-11-25T13:18:23+00:00"
+   },
+   {
+    "id": 175,
+    "title": "xQc thinks GTA 6's world won't be matched for decades",
+    "creator": "xQc",
+    "rights": "repost",
+    "status": "processed",
+    "duration": 56.0,
+    "created_at": "2026-11-25T13:18:21+00:00"
+   },
+   {
+    "id": 174,
+    "title": "slow drive",
+    "creator": "caseoh_",
+    "rights": "repost",
+    "status": "processed",
+    "duration": 60.0,
+    "created_at": "2026-11-25T13:18:18+00:00"
+   },
+   {
+    "id": 173,
+    "title": "is it",
+    "creator": "caseoh_",
+    "rights": "repost",
+    "status": "processed",
+    "duration": 37.0,
+    "created_at": "2026-11-25T13:18:13+00:00"
+   },
+   {
+    "id": 172,
+    "title": "Casoh's soft locked from completing the game by his chat and is now struggling to make money",
+    "creator": "caseoh_",
+    "rights": "repost",
+    "status": "processed",
+    "duration": 60.0,
+    "created_at": "2026-11-25T13:18:11+00:00"
+   },
+   {
+    "id": 171,
+    "title": "slight scratch",
+    "creator": "caseoh_",
+    "rights": "repost",
+    "status": "processed",
+    "duration": 60.0,
+    "created_at": "2026-11-25T13:18:08+00:00"
+   },
+   {
+    "id": 170,
+    "title": "nice scooter",
+    "creator": "caseoh_",
+    "rights": "repost",
+    "status": "processed",
+    "duration": 30.0,
+    "created_at": "2026-11-25T13:18:06+00:00"
+   },
+   {
+    "id": 169,
+    "title": "ron and marlon?",
+    "creator": "KaiCenat",
+    "rights": "repost",
+    "status": "processed",
+    "duration": 40.0,
+    "created_at": "2026-11-25T13:18:03+00:00"
+   },
+   {
+    "id": 168,
+    "title": "lol",
+    "creator": "KaiCenat",
+    "rights": "repost",
+    "status": "processed",
+    "duration": 19.0,
+    "created_at": "2026-11-25T13:18:01+00:00"
+   },
    {
     "id": 167,
     "title": "oh well",
@@ -101,126 +218,165 @@
     "status": "processed",
     "duration": 54.0,
     "created_at": "2026-11-24T13:25:38+00:00"
-   },
-   {
-    "id": 160,
-    "title": "OMG",
-    "creator": "Lacy",
-    "rights": "repost",
-    "status": "processed",
-    "duration": 23.0,
-    "created_at": "2026-11-24T13:25:35+00:00"
-   },
-   {
-    "id": 159,
-    "title": "XQC gets called a f****** P**** right after he said so to an NPC in GTA 6",
-    "creator": "xQc",
-    "rights": "repost",
-    "status": "processed",
-    "duration": 17.0,
-    "created_at": "2026-11-24T13:25:33+00:00"
-   },
-   {
-    "id": 158,
-    "title": "LUCIA",
-    "creator": "Lacy",
-    "rights": "repost",
-    "status": "processed",
-    "duration": 12.0,
-    "created_at": "2026-11-24T13:25:32+00:00"
-   },
-   {
-    "id": 157,
-    "title": "why he do jdab like that\ud83d\ude02\ud83d\ude02\ud83d\ude02",
-    "creator": "stableronaldo",
-    "rights": "repost",
-    "status": "processed",
-    "duration": 12.0,
-    "created_at": "2026-11-24T13:25:30+00:00"
-   },
-   {
-    "id": 156,
-    "title": "2",
-    "creator": "KaiCenat",
-    "rights": "repost",
-    "status": "processed",
-    "duration": 30.0,
-    "created_at": "2026-11-24T13:25:28+00:00"
-   },
-   {
-    "id": 155,
-    "title": "gyaaat",
-    "creator": "KaiCenat",
-    "rights": "repost",
-    "status": "processed",
-    "duration": 30.0,
-    "created_at": "2026-11-24T13:25:26+00:00"
-   },
-   {
-    "id": 154,
-    "title": "mandy naked gta6",
-    "creator": "IShowSpeed",
-    "rights": "repost",
-    "status": "processed",
-    "duration": 15.0,
-    "created_at": "2026-11-24T13:25:25+00:00"
-   },
-   {
-    "id": 153,
-    "title": "kai cenat argues with his new girlfriend",
-    "creator": "KaiCenat",
-    "rights": "repost",
-    "status": "processed",
-    "duration": 54.0,
-    "created_at": "2026-11-24T13:25:23+00:00"
-   },
-   {
-    "id": 152,
-    "title": "omg",
-    "creator": "stableronaldo",
-    "rights": "repost",
-    "status": "processed",
-    "duration": 30.0,
-    "created_at": "2026-11-24T13:20:14+00:00"
-   },
-   {
-    "id": 151,
-    "title": "Now we need to find a new Wife",
-    "creator": "TheBurntPeanut",
-    "rights": "repost",
-    "status": "processed",
-    "duration": 19.0,
-    "created_at": "2026-11-24T13:20:12+00:00"
-   },
-   {
-    "id": 150,
-    "title": "Is This Worth My Career!!\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d",
-    "creator": "TheBurntPeanut",
-    "rights": "repost",
-    "status": "processed",
-    "duration": 30.0,
-    "created_at": "2026-11-24T13:20:10+00:00"
-   },
-   {
-    "id": 149,
-    "title": "ANOTHA ONE",
-    "creator": "TheBurntPeanut",
-    "rights": "repost",
-    "status": "processed",
-    "duration": 30.0,
-    "created_at": "2026-11-24T13:20:09+00:00"
-   },
-   {
-    "id": 148,
-    "title": "trolling marlon",
-    "creator": "jasontheween",
-    "rights": "repost",
-    "status": "processed",
-    "duration": 60.0,
-    "created_at": "2026-11-24T13:20:06+00:00"
    }
   ],
   "clips": [
+   {
+    "id": 321,
+    "source_id": 180,
+    "start": 0.0,
+    "end": 55.0,
+    "score": 1510.0,
+    "reasons": "[\"twitch top clip\", \"views:1510\"]",
+    "category": "streamer",
+    "hook": "xQc criticizes GTA 6's story pacing: \"One good big cinematic event every eight hours of play\"",
+    "status": "rejected",
+    "created_at": "2026-11-25T13:18:33+00:00"
+   },
+   {
+    "id": 320,
+    "source_id": 179,
+    "start": 0.0,
+    "end": 13.0,
+    "score": 1585.0,
+    "reasons": "[\"twitch top clip\", \"views:1585\"]",
+    "category": "streamer",
+    "hook": "AI is Good",
+    "status": "rejected",
+    "created_at": "2026-11-25T13:18:30+00:00"
+   },
+   {
+    "id": 319,
+    "source_id": 178,
+    "start": 0.0,
+    "end": 41.0,
+    "score": 2094.0,
+    "reasons": "[\"twitch top clip\", \"views:2094\"]",
+    "category": "streamer",
+    "hook": "xQc's first GTA 6 Cinematic \"Ending\"",
+    "status": "rejected",
+    "created_at": "2026-11-25T13:18:28+00:00"
+   },
+   {
+    "id": 318,
+    "source_id": 177,
+    "start": 0.0,
+    "end": 60.0,
+    "score": 2588.0,
+    "reasons": "[\"twitch top clip\", \"views:2588\"]",
+    "category": "streamer",
+    "hook": "traffic",
+    "status": "rejected",
+    "created_at": "2026-11-25T13:18:26+00:00"
+   },
+   {
+    "id": 317,
+    "source_id": 176,
+    "start": 0.0,
+    "end": 17.0,
+    "score": 2997.0,
+    "reasons": "[\"twitch top clip\", \"views:2997\"]",
+    "category": "streamer",
+    "hook": "sad incident",
+    "status": "rejected",
+    "created_at": "2026-11-25T13:18:23+00:00"
+   },
+   {
+    "id": 316,
+    "source_id": 175,
+    "start": 0.0,
+    "end": 56.0,
+    "score": 3262.0,
+    "reasons": "[\"twitch top clip\", \"views:3262\"]",
+    "category": "streamer",
+    "hook": "xQc thinks GTA 6's world won't be matched for decades",
+    "status": "rejected",
+    "created_at": "2026-11-25T13:18:21+00:00"
+   },
+   {
+    "id": 315,
+    "source_id": 174,
+    "start": 0.0,
+    "end": 60.0,
+    "score": 3921.0,
+    "reasons": "[\"twitch top clip\", \"views:3921\"]",
+    "category": "streamer",
+    "hook": "CaseOh's 'slow drive' in a cement truck \ud83d\ude2d",
+    "status": "scheduled",
+    "created_at": "2026-11-25T13:18:18+00:00"
+   },
+   {
+    "id": 314,
+    "source_id": 173,
+    "start": 0.0,
+    "end": 37.0,
+    "score": 6396.0,
+    "reasons": "[\"twitch top clip\", \"views:6396\"]",
+    "category": "streamer",
+    "hook": "is it",
+    "status": "rejected",
+    "created_at": "2026-11-25T13:18:13+00:00"
+   },
+   {
+    "id": 313,
+    "source_id": 172,
+    "start": 0.0,
+    "end": 60.0,
+    "score": 7400.0,
+    "reasons": "[\"twitch top clip\", \"views:7400\"]",
+    "category": "streamer",
+    "hook": "CaseOh's chat soft-locked his GTA 6 game\u2026 now he's broke \ud83d\ude2d",
+    "status": "rejected",
+    "created_at": "2026-11-25T13:18:11+00:00"
+   },
+   {
+    "id": 312,
+    "source_id": 171,
+    "start": 0.0,
+    "end": 60.0,
+    "score": 9511.0,
+    "reasons": "[\"twitch top clip\", \"views:9511\"]",
+    "category": "streamer",
+    "hook": "CaseOh called this 'a slight scratch' \ud83d\ude2d",
+    "status": "rejected",
+    "created_at": "2026-11-25T13:18:08+00:00"
+   },
+   {
+    "id": 311,
+    "source_id": 170,
+    "start": 0.0,
+    "end": 30.0,
+    "score": 10786.0,
+    "reasons": "[\"twitch top clip\", \"views:10786\"]",
+    "category": "streamer",
+    "hook": "CaseOh took the luxury car for a 'careful' drive \ud83d\ude2d",
+    "status": "scheduled",
+    "created_at": "2026-11-25T13:18:06+00:00"
+   },
+   {
+    "id": 310,
+    "source_id": 169,
+    "start": 0.0,
+    "end": 40.0,
+    "score": 2288.0,
+    "reasons": "[\"twitch top clip\", \"views:2288\"]",
+    "category": "streamer",
+    "hook": "ron and marlon?",
+    "status": "rejected",
+    "created_at": "2026-11-25T13:18:03+00:00"
+   },
+   {
+    "id": 309,
+    "source_id": 168,
+    "start": 0.0,
+    "end": 19.0,
+    "score": 10917.0,
+    "reasons": "[\"twitch top clip\", \"views:10917\"]",
+    "category": "streamer",
+    "hook": "Kai Cenat crashed into the cops within seconds \ud83d\ude2d",
+    "status": "scheduled",
+    "created_at": "2026-11-25T13:18:01+00:00"
+   },
    {
     "id": 308,
     "source_id": 167,
@@ -664,168 +820,12 @@
     "hook": "wwwwww",
     "status": "rejected",
     "created_at": "2026-11-23T13:22:39+00:00"
-   },
-   {
-    "id": 271,
-    "source_id": 130,
-    "start": 0.0,
-    "end": 60.0,
-    "score": 3276.0,
-    "reasons": "[\"twitch top clip\", \"views:3276\"]",
-    "category": "streamer",
-    "hook": "xQc got the Bonnie and Clyde Ending in GTA 6",
-    "status": "rejected",
-    "created_at": "2026-11-23T13:22:37+00:00"
-   },
-   {
-    "id": 270,
-    "source_id": 129,
-    "start": 0.0,
-    "end": 52.0,
-    "score": 3681.0,
-    "reasons": "[\"twitch top clip\", \"views:3681\"]",
-    "category": "streamer",
-    "hook": "a",
-    "status": "rejected",
-    "created_at": "2026-11-23T13:22:35+00:00"
-   },
-   {
-    "id": 269,
-    "source_id": 128,
-    "start": 0.0,
-    "end": 30.0,
-    "score": 4796.0,
-    "reasons": "[\"twitch top clip\", \"views:4796\"]",
-    "category": "streamer",
-    "hook": "Peanut Escalates a Situation",
-    "status": "rejected",
-    "created_at": "2026-11-23T13:22:32+00:00"
-   },
-   {
-    "id": 268,
-    "source_id": 127,
-    "start": 0.0,
-    "end": 32.0,
-    "score": 5146.0,
-    "reasons": "[\"twitch top clip\", \"views:5146\"]",
-    "category": "streamer",
-    "hook": "a",
-    "status": "rejected",
-    "created_at": "2026-11-23T13:22:30+00:00"
-   },
-   {
-    "id": 267,
-    "source_id": 126,
-    "start": 0.0,
-    "end": 60.0,
-    "score": 5898.0,
-    "reasons": "[\"twitch top clip\", \"views:5898\"]",
-    "category": "streamer",
-    "hook": "xQc finishes GTA 6 after 62 hours and rates it a 9/10",
-    "status": "rejected",
-    "created_at": "2026-11-23T13:22:28+00:00"
-   },
-   {
-    "id": 266,
-    "source_id": 125,
-    "start": 0.0,
-    "end": 24.0,
-    "score": 6471.0,
-    "reasons": "[\"twitch top clip\", \"views:6471\"]",
-    "category": "streamer",
-    "hook": "CAUGHT???",
-    "status": "rejected",
-    "created_at": "2026-11-23T13:22:25+00:00"
-   },
-   {
-    "id": 265,
-    "source_id": 124,
-    "start": 0.0,
-    "end": 60.0,
-    "score": 7291.0,
-    "reasons": "[\"twitch top clip\", \"views:7291\"]",
-    "category": "streamer",
-    "hook": "kyle 3",
-    "status": "rejected",
-    "created_at": "2026-11-23T13:22:23+00:00"
-   },
-   {
-    "id": 264,
-    "source_id": 123,
-    "start": 0.0,
-    "end": 30.0,
-    "score": 7686.0,
-    "reasons": "[\"twitch top clip\", \"views:7686\"]",
-    "category": "streamer",
-    "hook": "xQc thinks GTA 6 locks you into a relationship \ud83d\ude2d",
-    "status": "rejected",
-    "created_at": "2026-11-23T13:22:19+00:00"
-   },
-   {
-    "id": 263,
-    "source_id": 122,
-    "start": 0.0,
-    "end": 60.0,
-    "score": 1867.0,
-    "reasons": "[\"twitch top clip\", \"views:1867\"]",
-    "category": "streamer",
-    "hook": "niko belic",
-    "status": "rejected",
-    "created_at": "2026-11-23T13:22:16+00:00"
-   },
-   {
-    "id": 262,
-    "source_id": 121,
-    "start": 0.0,
-    "end": 22.0,
-    "score": 1915.0,
-    "reasons": "[\"twitch top clip\", \"views:1915\"]",
-    "category": "streamer",
-    "hook": "He lost all of it",
-    "status": "rejected",
-    "created_at": "2026-11-23T13:22:14+00:00"
-   },
-   {
-    "id": 261,
-    "source_id": 120,
-    "start": 0.0,
-    "end": 12.0,
-    "score": 2130.0,
-    "reasons": "[\"twitch top clip\", \"views:2130\"]",
-    "category": "streamer",
-    "hook": "KAI WTF",
-    "status": "rejected",
-    "created_at": "2026-11-23T13:22:12+00:00"
-   },
-   {
-    "id": 260,
-    "source_id": 119,
-    "start": 0.0,
-    "end": 30.0,
-    "score": 2186.0,
-    "reasons": "[\"twitch top clip\", \"views:2186\"]",
-    "category": "streamer",
-    "hook": "Chat explodes | Grand Theft Auto VI | clipped with twitch-tools.panda-core.net",
-    "status": "rejected",
-    "created_at": "2026-11-23T13:22:11+00:00"
-   },
-   {
-    "id": 259,
-    "source_id": 118,
-    "start": 0.0,
-    "end": 30.0,
-    "score": 2239.0,
-    "reasons": "[\"twitch top clip\", \"views:2239\"]",
-    "category": "streamer",
-    "hook": "WWWW eiii",
-    "status": "rejected",
-    "created_at": "2026-11-23T13:22:09+00:00"
    }
   ],
   "counts": {
    "held": 56,
-   "rejected": 210,
-   "scheduled": 42
+   "rejected": 220,
+   "scheduled": 45
   }
  },
  "growth": {
@@ -840,15 +840,15 @@
     "category": "streamer",
     "hook": "PlaqueBoyMax found out what 'Y to boost' does \ud83d\ude2d",
     "length": 24.0,
-    "views": 1004.0,
+    "views": 1020.0,
     "reach": 0.0,
     "likes": null,
     "comments": 0.0,
     "shares": 1.0,
     "saves": null,
     "follows": null,
-    "avg_watch_sec": 9.31,
-    "hours_after": 20.75900756861111
+    "avg_watch_sec": 9.33,
+    "hours_after": 44.714600107222225
    },
    {
     "post_id": 20,
@@ -880,15 +880,15 @@
     "category": "streamer",
     "hook": "Jynxzi got jump scared so hard in GTA 6 \ud83d\ude2d",
     "length": 29.855,
-    "views": 486.0,
+    "views": 487.0,
     "reach": 420.0,
     "likes": null,
     "comments": 0.0,
     "shares": 1.0,
     "saves": null,
     "follows": null,
-    "avg_watch_sec": 14.58,
-    "hours_after": 58.27449406666667
+    "avg_watch_sec": 14.55,
+    "hours_after": 82.23008641527778
    },
    {
     "post_id": 135,
@@ -900,7 +900,7 @@
     "category": "streamer",
     "hook": "Speed stopped everything to save a chameleon in GTA 6 \ud83d\ude2d",
     "length": 15.540000000000001,
-    "views": 395.0,
+    "views": 398.0,
     "reach": 365.0,
     "likes": null,
     "comments": 0.0,
@@ -908,7 +908,7 @@
     "saves": null,
     "follows": null,
     "avg_watch_sec": 7.52,
-    "hours_after": 66.24721466944445
+    "hours_after": 90.20280703416667
    },
    {
     "post_id": 51,
@@ -968,7 +968,7 @@
     "saves": 0.0,
     "follows": null,
     "avg_watch_sec": 17.03,
-    "hours_after": 58.26888322277778
+    "hours_after": 82.22447557444445
    },
    {
     "post_id": 123,
@@ -1032,9 +1032,10 @@
    }
   ],
   "recommendations": [
-   "Double down on 'rp' (median 409 views vs overall 9).",
+   "Double down on 'rp' (median 409 views vs overall 8).",
+   "Cut or rework 'streamer' (median 4 views).",
    "Retention: \u226415s clips keep 59% watched vs 24% for longer clips. Trim harder.",
-   "Best posting hour so far: 11:00 ET. Test moving a weak slot there."
+   "Best posting hour so far: 22:00 ET. Test moving a weak slot there."
   ]
  },
  "money": {
@@ -1054,6 +1055,120 @@
  },
  "automation": {
   "events": [
+   {
+    "at": "2026-11-26T13:15:09+00:00",
+    "level": "info",
+    "agent": "metrics",
+    "message": "Pulled metrics for 50 post(s)"
+   },
+   {
+    "at": "2026-11-26T13:15:08+00:00",
+    "level": "warn",
+    "agent": "publish",
+    "message": "Nothing to queue (no approved clips with a public video URL)"
+   },
+   {
+    "at": "2026-11-25T13:32:17+00:00",
+    "level": "info",
+    "agent": "publish",
+    "message": "Queued 9 post(s) in mode=auto"
+   },
+   {
+    "at": "2026-11-25T13:32:08+00:00",
+    "level": "info",
+    "agent": "publish",
+    "message": "GTA 6 first: released slots from clips [] for 3 waiting GTA 6 clip(s)"
+   },
+   {
+    "at": "2026-11-25T13:32:08+00:00",
+    "level": "info",
+    "agent": "editor",
+    "message": "Rejected clips [312, 313]"
+   },
+   {
+    "at": "2026-11-25T13:31:54+00:00",
+    "level": "info",
+    "agent": "house",
+    "message": "House-format renders: [311, 312, 313, 315]"
+   },
+   {
+    "at": "2026-11-25T13:21:28+00:00",
+    "level": "info",
+    "agent": "house",
+    "message": "House-format renders: [309]"
+   },
+   {
+    "at": "2026-11-25T13:21:28+00:00",
+    "level": "info",
+    "agent": "house",
+    "message": "Clip 315 rejected: no stable facecam for the split layout"
+   },
+   {
+    "at": "2026-11-25T13:21:14+00:00",
+    "level": "info",
+    "agent": "house",
+    "message": "Clip 313 rejected: no stable facecam for the split layout"
+   },
+   {
+    "at": "2026-11-25T13:21:03+00:00",
+    "level": "info",
+    "agent": "house",
+    "message": "Clip 312 rejected: no stable facecam for the split layout"
+   },
+   {
+    "at": "2026-11-25T13:20:48+00:00",
+    "level": "info",
+    "agent": "house",
+    "message": "Clip 311 rejected: no stable facecam for the split layout"
+   },
+   {
+    "at": "2026-11-25T13:19:14+00:00",
+    "level": "info",
+    "agent": "editor",
+    "message": "Rejected clips [310, 314, 316, 317, 318, 319, 320, 321]"
+   },
+   {
+    "at": "2026-11-25T13:19:14+00:00",
+    "level": "info",
+    "agent": "approval",
+    "message": "Approved clips [309, 311, 312, 313, 315]"
+   },
+   {
+    "at": "2026-11-25T13:19:13+00:00",
+    "level": "info",
+    "agent": "editor",
+    "message": "Clip 315 hook -> CaseOh's 'slow drive' in a cement truck \ud83d\ude2d"
+   },
+   {
+    "at": "2026-11-25T13:19:13+00:00",
+    "level": "info",
+    "agent": "editor",
+    "message": "Clip 313 hook -> CaseOh's chat soft-locked his GTA 6 game\u2026 now he's broke \ud83d\ude2d"
+   },
+   {
+    "at": "2026-11-25T13:19:13+00:00",
+    "level": "info",
+    "agent": "editor",
+    "message": "Clip 312 hook -> CaseOh called this 'a slight scratch' \ud83d\ude2d"
+   },
+   {
+    "at": "2026-11-25T13:19:13+00:00",
+    "level": "info",
+    "agent": "editor",
+    "message": "Clip 311 hook -> CaseOh took the luxury car for a 'careful' drive \ud83d\ude2d"
+   },
+   {
+    "at": "2026-11-25T13:19:13+00:00",
+    "level": "info",
+    "agent": "editor",
+    "message": "Clip 309 hook -> Kai Cenat crashed into the cops within seconds \ud83d\ude2d"
+   },
+   {
+    "at": "2026-11-25T13:18:33+00:00",
+    "level": "info",
+    "agent": "twitch",
+    "message": "Downloaded 13 Twitch clip(s) for review (no OpusClip credits)"
+   },
    {
     "at": "2026-11-25T13:17:49+00:00",
     "level": "info",
@@ -1179,120 +1294,6 @@
     "level": "info",
     "agent": "publish",
     "message": "Queued 3 post(s) in mode=auto"
-   },
-   {
-    "at": "2026-11-23T13:26:37+00:00",
-    "level": "info",
-    "agent": "publish",
-    "message": "GTA 6 first: released slots from clips [] for 1 waiting GTA 6 clip(s)"
-   },
-   {
-    "at": "2026-11-23T13:26:37+00:00",
-    "level": "info",
-    "agent": "house",
-    "message": "House-format renders: [264]"
-   },
-   {
-    "at": "2026-11-23T13:25:04+00:00",
-    "level": "info",
-    "agent": "publish",
-    "message": "Queued 3 post(s) in mode=auto"
-   },
-   {
-    "at": "2026-11-23T13:25:00+00:00",
-    "level": "info",
-    "agent": "publish",
-    "message": "GTA 6 first: released slots from clips [] for 1 waiting GTA 6 clip(s)"
-   },
-   {
-    "at": "2026-11-23T13:24:59+00:00",
-    "level": "info",
-    "agent": "house",
-    "message": "House-format renders: [258]"
-   },
-   {
-    "at": "2026-11-23T13:24:59+00:00",
-    "level": "warn",
-    "agent": "house",
-    "message": "Free Twitch render failed for clip 264: boolean index did not match indexed array along axis 0; size of axis is 0 but size of corresponding boolean axis is 1"
-   },
-   {
-    "at": "2026-11-23T13:23:29+00:00",
-    "level": "info",
-    "agent": "editor",
-    "message": "Rejected clips [257, 259, 260, 261, 262, 263, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276]"
-   },
-   {
-    "at": "2026-11-23T13:23:29+00:00",
-    "level": "info",
-    "agent": "approval",
-    "message": "Approved clips [258, 264]"
-   },
-   {
-    "at": "2026-11-23T13:23:28+00:00",
-    "level": "info",
-    "agent": "editor",
-    "message": "Clip 264 hook -> xQc thinks GTA 6 locks you into a relationship \ud83d\ude2d"
-   },
-   {
-    "at": "2026-11-23T13:23:28+00:00",
-    "level": "info",
-    "agent": "editor",
-    "message": "Clip 258 hook -> Speed found an ALIEN in GTA 6 \ud83d\ude2d"
-   },
-   {
-    "at": "2026-11-23T13:22:47+00:00",
-    "level": "info",
-    "agent": "twitch",
-    "message": "Downloaded 20 Twitch clip(s) for review (no OpusClip credits)"
-   },
-   {
-    "at": "2026-11-23T13:21:50+00:00",
-    "level": "info",
-    "agent": "metrics",
-    "message": "Pulled metrics for 47 post(s)"
-   },
-   {
-    "at": "2026-11-23T13:21:49+00:00",
-    "level": "info",
-    "agent": "publish",
-    "message": "Queued 12 post(s) in mode=auto"
-   },
-   {
-    "at": "2026-11-23T07:20:59+00:00",
-    "level": "info",
-    "agent": "metrics",
-    "message": "Pulled metrics for 47 post(s)"
-   },
-   {
-    "at": "2026-11-22T13:22:52+00:00",
-    "level": "info",
-    "agent": "publish",
-    "message": "Queued 0 post(s) in mode=auto"
-   },
-   {
-    "at": "2026-11-22T13:22:52+00:00",
-    "level": "info",
-    "agent": "publish",
-    "message": "GTA 6 first: released slots from clips [] for 4 waiting GTA 6 clip(s)"
-   },
-   {
-    "at": "2026-11-22T13:22:38+00:00",
-    "level": "info",
-    "agent": "house",
-    "message": "House-format renders: [248, 251, 252]"
-   },
-   {
-    "at": "2026-11-22T13:19:09+00:00",
-    "level": "info",
-    "agent": "house",
-    "message": "Clip 249 rejected: no stable facecam for the split layout"
-   },
-   {
-    "at": "2026-11-22T13:16:37+00:00",
-    "level": "warn",
-    "agent": "house",
-    "message": "Fit submit failed for clip 197: 402 Client Error: Payment Required for url: https://api.opus.pro/api/clip-projects"
    }
   ],
   "errors": []

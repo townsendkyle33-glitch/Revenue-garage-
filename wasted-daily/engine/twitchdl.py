@@ -26,9 +26,9 @@ def local_path(url):
     return DL / (url.rstrip("/").split("/")[-1].split("?")[0][:80] + ".mp4")
 
 
-def fetch(con, logins=None, days=3, limit=20, min_sec=12):
+def fetch(con, logins=None, days=3, limit=20, min_sec=12, min_views=1500, per_user=8):
     used = {r["rights_proof"] for r in con.execute("SELECT rights_proof FROM sources")}
-    cands = [v for v in twitch.gta_clips(logins=logins or twitch.STREAMERS, days=days, per_user=8, min_views=1500)
+    cands = [v for v in twitch.gta_clips(logins=logins or twitch.STREAMERS, days=days, per_user=per_user, min_views=min_views)
              if v["url"] not in used and int(v["duration"][:-1]) >= min_sec
              and not any(b in v["title"].lower() for b in SKIP)]
     pri = {"ishowspeed": 0, "kaicenat": 0}                        # owner: Speed + Kai first
@@ -88,9 +88,10 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--logins"); ap.add_argument("--days", type=int, default=3); ap.add_argument("--max", type=int, default=20)
     ap.add_argument("--sheet", default="/tmp/twitch_review.jpg")
+    ap.add_argument("--min-views", type=int, default=1500); ap.add_argument("--per-user", type=int, default=8)
     a = ap.parse_args()
     con = db.connect()
-    made = fetch(con, a.logins.split(",") if a.logins else None, a.days, a.max)
+    made = fetch(con, a.logins.split(",") if a.logins else None, a.days, a.max, min_views=a.min_views, per_user=a.per_user)
     for cid, v in made:
         print(f"#{cid} {v['name']} | {v['views']} views | {v['duration']} | {v['title']}")
     print("sheet:", sheet(made, a.sheet))
