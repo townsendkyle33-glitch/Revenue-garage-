@@ -17,11 +17,11 @@
  },
  {
   "stage": "scheduled",
-  "clips": 45
+  "clips": 50
  },
  {
   "stage": "published",
-  "clips": 135
+  "clips": 147
  },
  {
   "stage": "failed",
