@@ -1,5 +1,65 @@
 [
  {
+  "at": "2026-11-28T13:14:13+00:00",
+  "kind": "info",
+  "agent": "metrics",
+  "message": "Pulled metrics for 50 post(s)"
+ },
+ {
+  "at": "2026-11-28T13:14:12+00:00",
+  "kind": "warn",
+  "agent": "publish",
+  "message": "Nothing to queue (no approved clips with a public video URL)"
+ },
+ {
+  "at": "2026-11-27T13:20:29+00:00",
+  "kind": "info",
+  "agent": "publish",
+  "message": "Queued 6 post(s) in mode=auto"
+ },
+ {
+  "at": "2026-11-27T13:20:23+00:00",
+  "kind": "info",
+  "agent": "publish",
+  "message": "GTA 6 first: released slots from clips [] for 2 waiting GTA 6 clip(s)"
+ },
+ {
+  "at": "2026-11-27T13:20:16+00:00",
+  "kind": "info",
+  "agent": "house",
+  "message": "House-format renders: [347, 348]"
+ },
+ {
+  "at": "2026-11-27T13:16:15+00:00",
+  "kind": "info",
+  "agent": "editor",
+  "message": "Rejected clips [349, 350, 351, 352, 353, 354, 355]"
+ },
+ {
+  "at": "2026-11-27T13:16:15+00:00",
+  "kind": "info",
+  "agent": "approval",
+  "message": "Approved clips [347, 348]"
+ },
+ {
+  "at": "2026-11-27T13:16:15+00:00",
+  "kind": "info",
+  "agent": "editor",
+  "message": "Clip 348 hook -> CaseOh tried a wheelie\u2026 it ended exactly how you think \ud83d\ude2d"
+ },
+ {
+  "at": "2026-11-27T13:16:15+00:00",
+  "kind": "info",
+  "agent": "editor",
+  "message": "Clip 347 hook -> CaseOh's ride got heated real quick \ud83d\ude2d"
+ },
+ {
+  "at": "2026-11-27T13:15:55+00:00",
+  "kind": "info",
+  "agent": "twitch",
+  "message": "Downloaded 9 Twitch clip(s) for review (no OpusClip credits)"
+ },
+ {
   "at": "2026-11-27T13:15:24+00:00",
   "kind": "info",
   "agent": "metrics",
@@ -180,97 +240,43 @@
   "message": "Clip 312 hook -> CaseOh called this 'a slight scratch' \ud83d\ude2d"
  },
  {
-  "at": "2026-11-25T13:19:13+00:00",
-  "kind": "info",
-  "agent": "editor",
-  "message": "Clip 311 hook -> CaseOh took the luxury car for a 'careful' drive \ud83d\ude2d"
- },
- {
-  "at": "2026-11-25T13:19:13+00:00",
-  "kind": "info",
-  "agent": "editor",
-  "message": "Clip 309 hook -> Kai Cenat crashed into the cops within seconds \ud83d\ude2d"
- },
- {
-  "at": "2026-11-25T13:18:33+00:00",
-  "kind": "info",
-  "agent": "twitch",
-  "message": "Downloaded 13 Twitch clip(s) for review (no OpusClip credits)"
- },
- {
-  "at": "2026-11-25T13:17:49+00:00",
-  "kind": "info",
-  "agent": "metrics",
-  "message": "Pulled metrics for 50 post(s)"
- },
- {
-  "at": "2026-11-25T13:17:48+00:00",
-  "kind": "warn",
-  "agent": "publish",
-  "message": "Nothing to queue (no approved clips with a public video URL)"
- },
- {
-  "at": "2026-11-24T13:28:11+00:00",
-  "kind": "info",
-  "agent": "publish",
-  "message": "Queued 3 post(s) in mode=auto"
- },
- {
-  "at": "2026-11-24T13:28:08+00:00",
-  "kind": "info",
-  "agent": "publish",
-  "message": "GTA 6 first: released slots from clips [] for 1 waiting GTA 6 clip(s)"
- },
- {
-  "at": "2026-11-24T13:28:02+00:00",
-  "kind": "info",
-  "agent": "house",
-  "message": "House-format renders: [302]"
- },
- {
-  "at": "2026-11-24T13:26:12+00:00",
-  "kind": "info",
-  "agent": "editor",
-  "message": "Rejected clips [294, 295, 296, 297, 298, 299, 300, 301, 303, 304, 305, 306, 307, 308]"
- },
- {
-  "at": "2026-11-24T13:26:12+00:00",
-  "kind": "info",
-  "agent": "approval",
-  "message": "Approved clips [302]"
- },
- {
-  "at": "2026-11-27T13:15:25+00:00",
+  "at": "2026-11-28T13:14:13+00:00",
   "kind": "recommendation",
   "agent": "growth",
-  "message": "Double down on 'rp' (median 409 views vs overall 12)."
+  "message": "Double down on 'rp' (median 409 views vs overall 27)."
  },
  {
-  "at": "2026-11-27T13:15:25+00:00",
+  "at": "2026-11-28T13:14:13+00:00",
+  "kind": "recommendation",
+  "agent": "growth",
+  "message": "Cut or rework 'gta6' (median 8 views)."
+ },
+ {
+  "at": "2026-11-28T13:14:13+00:00",
   "kind": "recommendation",
   "agent": "growth",
   "message": "Retention: \u226415s clips keep 59% watched vs 25% for longer clips. Trim harder."
  },
  {
-  "at": "2026-11-27T13:15:25+00:00",
+  "at": "2026-11-28T13:14:13+00:00",
   "kind": "recommendation",
   "agent": "growth",
   "message": "Best posting hour so far: 22:00 ET. Test moving a weak slot there."
  },
  {
-  "at": "2026-11-27T13:15:25+00:00",
+  "at": "2026-11-28T13:14:13+00:00",
   "kind": "blocker",
   "agent": "setup",
   "message": "No public video hosting yet, so Buffer can't fetch clips. Needs a storage choice (see ARCHITECTURE.md)."
  },
  {
-  "at": "2026-11-27T13:15:25+00:00",
+  "at": "2026-11-28T13:14:13+00:00",
   "kind": "blocker",
   "agent": "setup",
   "message": "No owned or licensed GTA footage yet. Record gameplay or sign up creators before real clips can be made."
  },
  {
-  "at": "2026-11-27T13:15:25+00:00",
+  "at": "2026-11-28T13:14:13+00:00",
   "kind": "blocker",
   "agent": "setup",
   "message": "YouTube, Facebook and Threads not connected (Buffer free plan allows 3 channels)."

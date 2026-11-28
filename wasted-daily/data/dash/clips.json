@@ -1,5 +1,86 @@
 [
  {
+  "clip": 355,
+  "hook": "just get job",
+  "category": "streamer",
+  "score": 812.0,
+  "length_sec": 60.0,
+  "why": "twitch top clip, views:812",
+  "status": "rejected"
+ },
+ {
+  "clip": 354,
+  "hook": "ninja junk",
+  "category": "streamer",
+  "score": 884.0,
+  "length_sec": 24.0,
+  "why": "twitch top clip, views:884",
+  "status": "rejected"
+ },
+ {
+  "clip": 353,
+  "hook": "LMFAOOOOO",
+  "category": "streamer",
+  "score": 1050.0,
+  "length_sec": 30.0,
+  "why": "twitch top clip, views:1050",
+  "status": "rejected"
+ },
+ {
+  "clip": 352,
+  "hook": "OMG STRAIGHT CHEEKS ACTION LMAO",
+  "category": "streamer",
+  "score": 1434.0,
+  "length_sec": 60.0,
+  "why": "twitch top clip, views:1434",
+  "status": "rejected"
+ },
+ {
+  "clip": 351,
+  "hook": "Did Lucia Get In?",
+  "category": "streamer",
+  "score": 1544.0,
+  "length_sec": 22.0,
+  "why": "twitch top clip, views:1544",
+  "status": "rejected"
+ },
+ {
+  "clip": 350,
+  "hook": "baaaaaaaah",
+  "category": "streamer",
+  "score": 1571.0,
+  "length_sec": 18.0,
+  "why": "twitch top clip, views:1571",
+  "status": "rejected"
+ },
+ {
+  "clip": 349,
+  "hook": "That's a whole lot of ASS!!!!",
+  "category": "streamer",
+  "score": 1659.0,
+  "length_sec": 15.0,
+  "why": "twitch top clip, views:1659",
+  "status": "rejected"
+ },
+ {
+  "clip": 348,
+  "hook": "CaseOh tried a wheelie\u2026 it ended exactly how you think \ud83d\ude2d",
+  "category": "streamer",
+  "score": 2219.0,
+  "length_sec": 60.0,
+  "why": "twitch top clip, views:2219",
+  "status": "scheduled"
+ },
+ {
+  "clip": 347,
+  "hook": "CaseOh's ride got heated real quick \ud83d\ude2d",
+  "category": "streamer",
+  "score": 2847.0,
+  "length_sec": 60.0,
+  "why": "twitch top clip, views:2847",
+  "status": "scheduled"
+ },
+ {
   "clip": 346,
   "hook": "Peanut scared",
   "category": "streamer",
@@ -366,87 +447,6 @@
   "score": 15851.0,
   "length_sec": 30.0,
   "why": "twitch top clip, views:15851",
-  "status": "rejected"
- },
- {
-  "clip": 305,
-  "hook": "wtf",
-  "category": "streamer",
-  "score": 27217.0,
-  "length_sec": 60.0,
-  "why": "twitch top clip, views:27217",
-  "status": "rejected"
- },
- {
-  "clip": 304,
-  "hook": "Is this even allowed? LOL",
-  "category": "streamer",
-  "score": 32845.0,
-  "length_sec": 13.0,
-  "why": "twitch top clip, views:32845",
-  "status": "rejected"
- },
- {
-  "clip": 303,
-  "hook": "123",
-  "category": "streamer",
-  "score": 32863.0,
-  "length_sec": 17.0,
-  "why": "twitch top clip, views:32863",
-  "status": "rejected"
- },
- {
-  "clip": 302,
-  "hook": "xQc stole his first car in GTA 6\u2026 it did not go smoothly \ud83d\ude2d",
-  "category": "streamer",
-  "score": 35695.0,
-  "length_sec": 54.0,
-  "why": "twitch top clip, views:35695",
-  "status": "scheduled"
- },
- {
-  "clip": 301,
-  "hook": "OMG",
-  "category": "streamer",
-  "score": 38984.0,
-  "length_sec": 23.0,
-  "why": "twitch top clip, views:38984",
-  "status": "rejected"
- },
- {
-  "clip": 300,
-  "hook": "XQC gets called a f****** P**** right after he said so to an NPC in GTA 6",
-  "category": "streamer",
-  "score": 44070.0,
-  "length_sec": 17.0,
-  "why": "twitch top clip, views:44070",
-  "status": "rejected"
- },
- {
-  "clip": 299,
-  "hook": "LUCIA",
-  "category": "streamer",
-  "score": 84246.0,
-  "length_sec": 12.0,
-  "why": "twitch top clip, views:84246",
-  "status": "rejected"
- },
- {
-  "clip": 298,
-  "hook": "why he do jdab like that\ud83d\ude02\ud83d\ude02\ud83d\ude02",
-  "category": "streamer",
-  "score": 101511.0,
-  "length_sec": 12.0,
-  "why": "twitch top clip, views:101511",
-  "status": "rejected"
- },
- {
-  "clip": 297,
-  "hook": "2",
-  "category": "streamer",
-  "score": 29322.0,
-  "length_sec": 30.0,
-  "why": "twitch top clip, views:29322",
   "status": "rejected"
  }
 ]
